@@ -1,0 +1,27 @@
+{
+  "name": "feedbackfruits-knowledge-text-annotator",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Joost Verdoorn",
+  "license": "MIT",
+  "dependencies": {
+    "@joegesualdo/get-youtube-subtitles-node": "0.0.13",
+    "cayley": "^0.2.1",
+    "dotenv": "^2.0.0",
+    "googleapis": "^18.0.0",
+    "memux": "^0.2.0",
+    "node-fetch": "^1.6.3",
+    "p-queue": "^0.2.0",
+    "pm2": "^2.1.5",
+    "rxjs": "^5.0.0-rc.4"
+  },
+  "babel": {
+    "presets": [
+      "stage-0"
+    ]
+  }
+}
