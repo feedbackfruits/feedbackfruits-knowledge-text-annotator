@@ -37,7 +37,7 @@ source.flatMap(({ action: { type, quad: { subject, predicate, object } }, progre
         'Content-Type': 'application/json',
         Accept: 'application/json',
       },
-      body: JSON.stringify({ text: object })
+      body: JSON.stringify({ text: object.replace(/[^\w]/g, ' ').trim() })
     }).then(response => response.text()).then(text => {
       let data;
 
@@ -45,6 +45,7 @@ source.flatMap(({ action: { type, quad: { subject, predicate, object } }, progre
         data = JSON.parse(text);
       } catch(error) {
         console.error(error, object);
+        throw error;
       }
 
       return Promise.all(data.map(e => {
