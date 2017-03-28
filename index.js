@@ -21,14 +21,16 @@ const { source, sink, send } = memux({
 });
 
 const queue = new PQueue({
-  concurrency: 4
+  concurrency: 8
 });
 
 const regex = /^https:\/\/en\.wikipedia\.org\/wiki\/(.*)$/
+const done = {};
 
 source.flatMap(({ action: { type, quad: { subject, predicate, object } }, progress }) => {
   if (predicate !== '<http://schema.org/text>') return Promise.resolve(progress);
   if (object.trim().length === 0) return Promise.resolve(progress);
+  if (object in done) return Promise.resolve(progress);
 
   return queue.add(() => {
     return fetch(EXTRACTOR_URL, {
@@ -44,7 +46,6 @@ source.flatMap(({ action: { type, quad: { subject, predicate, object } }, progre
       try {
         data = JSON.parse(text);
       } catch(error) {
-        console.error(error, object);
         throw error;
       }
 
@@ -57,7 +58,7 @@ source.flatMap(({ action: { type, quad: { subject, predicate, object } }, progre
           object: `<http://dbpedia.org/resource/${id}>`
         };
 
-        return send({ type: 'write', quad });
+        return send({ type: 'write', quad }).then(() => done[object] = true);
       }));
     });
   }).then(() => progress);
