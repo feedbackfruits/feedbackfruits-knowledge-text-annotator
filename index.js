@@ -1,13 +1,13 @@
 require('dotenv').load({ silent: true });
 
 const {
-  NAME = 'feedbackfruits-knowledge-text-annotator',
+  NAME = 'feedbackfruits-knowledge-text-annotator-v3',
   KAFKA_ADDRESS = 'tcp://kafka:9092',
   INPUT_TOPIC = 'quad_updates',
   OUTPUT_TOPIC = 'quad_update_requests',
 } = process.env;
 
-const EXTRACTOR_URL = 'https://feedbackfruits-entities.herokuapp.com/text/';
+const EXTRACTOR_URL = 'https://staging-fbf-entities.herokuapp.com/concepts/';
 
 const memux = require('memux');
 const PQueue = require('p-queue');
@@ -21,7 +21,7 @@ const { source, sink, send } = memux({
 });
 
 const queue = new PQueue({
-  concurrency: 8
+  concurrency: 16
 });
 
 const regex = /^https:\/\/en\.wikipedia\.org\/wiki\/(.*)$/
@@ -44,12 +44,14 @@ source.flatMap(({ action: { type, quad: { subject, predicate, object } }, progre
       let data;
 
       try {
-        data = JSON.parse(text);
+        data = (text == '' || !text) ? { concepts: [] } : JSON.parse(text);
       } catch(error) {
+        console.log("TEXT:", text);
         throw error;
       }
 
-      return Promise.all(data.map(e => {
+      console.log('DATA: ', data);
+      return Promise.all(data.concepts.map(e => {
         const match = e.link.match(regex);
         const id = match[1];
         const quad = {
@@ -59,7 +61,10 @@ source.flatMap(({ action: { type, quad: { subject, predicate, object } }, progre
         };
 
         return send({ type: 'write', quad }).then(() => done[object] = true);
-      }));
+      })).catch(err => {
+        console.error(err);
+        throw err;
+      });
     });
   }).then(() => progress);
 }).subscribe(sink);
