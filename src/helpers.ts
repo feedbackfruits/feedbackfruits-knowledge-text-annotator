@@ -54,7 +54,18 @@ export async function textToConcepts(text): Promise<string[]> {
     body: JSON.stringify({ text })
   });
 
-  const entities: { concepts: Entity[] } = await response.json();
+  const resText = await response.text();
+  let entities: { concepts: Entity[] };
+
+  try {
+    entities = (resText == '' || !resText) ? { concepts: [] } : JSON.parse(resText);
+  } catch(error) {
+    console.log("TEXT:", resText);
+    throw error;
+  }
+
+  console.log('DATA: ', entities);
+
   // console.log('Receive entities:', entities);
   return parseEntities(entities.concepts);
 }
