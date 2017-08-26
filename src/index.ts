@@ -5,8 +5,8 @@ import * as Config from './config';
 import { textToConcepts, isOperableDoc } from './helpers';
 
 async function annotate(doc: Doc): Promise<Doc> {
-  // console.log(`Annotating ${doc['@id']} with concepts`);
-  const concepts = await textToConcepts(doc[Helpers.decodeIRI(Context.text)]);
+  console.log(`Annotating ${doc['@id']} with concepts`);
+  const concepts = await textToConcepts([].concat(doc[Helpers.decodeIRI(Context.text)])[0]);
   // console.log('Converted text to concepts:', concepts);
   if (concepts.length === 0) return doc;
   return {
@@ -19,7 +19,7 @@ export type SendFn = (operation: Operation<Doc>) => Promise<void>;
 
 export default async function init({ name }) {
   const receive = (send: SendFn) => async (operation: Operation<Doc>) => {
-    // console.log('Received operation:', operation);
+    console.log('Received operation:', operation);
     const { action, data: doc } = operation;
     if (!(action === 'write') || !isOperableDoc(doc)) return;
 

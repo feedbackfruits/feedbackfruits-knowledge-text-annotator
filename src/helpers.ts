@@ -51,7 +51,7 @@ export async function textToConcepts(text): Promise<string[]> {
       'Content-Type': 'application/json',
       Accept: 'application/json',
     },
-    body: JSON.stringify({ text })
+    body: JSON.stringify({ text: text.replace(/[^\w]/g, ' ').trim() })
   });
 
   const resText = await response.text();
