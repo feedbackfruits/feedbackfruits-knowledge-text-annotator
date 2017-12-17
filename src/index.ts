@@ -6,12 +6,12 @@ import { textToConcepts, isOperableDoc } from './helpers';
 
 async function annotate(doc: Doc): Promise<Doc> {
   console.log(`Annotating ${doc['@id']} with concepts`);
-  const concepts = await textToConcepts([].concat(doc[Helpers.decodeIRI(Context.text)])[0]);
+  const concepts = await textToConcepts([].concat(doc[Helpers.decodeIRI(Context.graph.schema.text)])[0]);
   // console.log('Converted text to concepts:', concepts);
   if (concepts.length === 0) return doc;
   return {
     ...doc,
-    [Helpers.decodeIRI(Context.about)]: concepts
+    [Helpers.decodeIRI(Context.graph.schema.about)]: concepts
   };
 }
 
