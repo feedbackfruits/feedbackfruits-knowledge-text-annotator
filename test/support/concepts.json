@@ -1,0 +1,42 @@
+[
+  {
+    "dbpedia_resource": "http://dbpedia.org/resource/Fraction_(mathematics)",
+    "relevance": 0.979609,
+    "text": "Fraction"
+  },
+  {
+    "dbpedia_resource": "http://dbpedia.org/resource/Divisor",
+    "relevance": 0.939714,
+    "text": "Divisor"
+  },
+  {
+    "dbpedia_resource": "http://dbpedia.org/resource/Elementary_arithmetic",
+    "relevance": 0.896297,
+    "text": "Elementary arithmetic"
+  },
+  {
+    "dbpedia_resource": "http://dbpedia.org/resource/Division_(mathematics)",
+    "relevance": 0.872582,
+    "text": "Division"
+  },
+  {
+    "dbpedia_resource": "http://dbpedia.org/resource/Greatest_common_divisor",
+    "relevance": 0.696193,
+    "text": "Greatest common divisor"
+  },
+  {
+    "dbpedia_resource": "http://dbpedia.org/resource/Integer",
+    "relevance": 0.611651,
+    "text": "Integer"
+  },
+  {
+    "text": "Number",
+    "relevance": 0.568961,
+    "dbpedia_resource": "http://dbpedia.org/resource/Number"
+  },
+  {
+    "text": "Mathematics in medieval Islam",
+    "relevance": 0.52889,
+    "dbpedia_resource": "http://dbpedia.org/resource/Mathematics_in_medieval_Islam"
+  }
+]
