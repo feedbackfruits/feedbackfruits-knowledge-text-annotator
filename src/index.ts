@@ -2,16 +2,27 @@ import { Operation } from 'memux';
 import { Doc, Annotator, Helpers, Config as _Config } from 'feedbackfruits-knowledge-engine';
 import * as Context from 'feedbackfruits-knowledge-context';
 import * as Config from './config';
-import { textToConcepts, isOperableDoc } from './helpers';
+import { docToText, getConcepts, getNamedEntities, conceptsToTags, namedEntitiesToAnnotations, isOperableDoc } from './helpers';
 
 async function annotate(doc: Doc): Promise<Doc> {
   console.log(`Annotating ${doc['@id']} with concepts`);
-  const concepts = await textToConcepts([].concat(doc[Helpers.decodeIRI(Context.graph.schema.text)])[0]);
-  // console.log('Converted text to concepts:', concepts);
+  const text = docToText(doc);
+
+  const concepts = await getConcepts(text);
   if (concepts.length === 0) return doc;
-  return {
+  console.log('Converted text to concepts:', concepts);
+
+  const namedEntities = await getNamedEntities(text, concepts);
+  console.log('Named entities found:', namedEntities);
+
+  const tags = conceptsToTags(concepts, doc['@id']);
+  const annotations = namedEntitiesToAnnotations(namedEntities, doc['@id']);
+  console.log('Returning annotated doc.');
+
+  return <Doc>{
     ...doc,
-    [Helpers.decodeIRI(Context.graph.schema.about)]: concepts
+    [Context.graph.$.tag]: tags,
+    [Context.graph.$.annotation]: annotations,
   };
 }
 
@@ -24,7 +35,10 @@ export default async function init({ name }) {
     if (!(action === 'write') || !isOperableDoc(doc)) return;
 
     const annotatedDoc = await annotate(doc);
-    if (isOperableDoc(annotatedDoc)) return;
+    if (isOperableDoc(annotatedDoc)) {
+      console.error('Doc still operable after annotation. Something went wrong?');
+      return;
+    }
 
     return send({ action: 'write', key: annotatedDoc['@id'], data: annotatedDoc });
   }

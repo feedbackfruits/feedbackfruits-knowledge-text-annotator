@@ -5,9 +5,12 @@ const {
   KAFKA_ADDRESS = 'tcp://kafka:9092',
   INPUT_TOPIC = 'updates',
   OUTPUT_TOPIC = 'update_requests',
-  EXTRACTOR_URL = 'https://staging-fbf-entities.herokuapp.com/concepts/',
+  WATSON_URL = 'https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze',
   ANNOTATOR_URL = 'http://ec2-34-212-79-22.us-west-2.compute.amazonaws.com/rest/annotate',
-  MEDIA_URL = 'https://staging-media.feedbackfruits.com/'
+  MEDIA_URL = 'https://staging-media.feedbackfruits.com/',
+
+  WATSON_USERNAME,
+  WATSON_PASSWORD,
 } = process.env;
 
 export {
@@ -15,7 +18,10 @@ export {
   KAFKA_ADDRESS,
   INPUT_TOPIC,
   OUTPUT_TOPIC,
-  EXTRACTOR_URL,
+  WATSON_URL,
   ANNOTATOR_URL,
   MEDIA_URL,
+
+  WATSON_USERNAME,
+  WATSON_PASSWORD,
 };

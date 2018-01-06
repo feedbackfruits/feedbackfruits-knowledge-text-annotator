@@ -1,0 +1,660 @@
+[
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMFMtUDAuNlM=",
+    "startsAfter": "P0S",
+    "duration": "P0.6S",
+    "text": "",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMC42Uy1QMy40N1M=",
+    "startsAfter": "P0.6S",
+    "duration": "P3.47S",
+    "text": "Let's do a few examples multiplying fractions.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNC4wN1MtUDQuOTc1Uw==",
+    "startsAfter": "P4.07S",
+    "duration": "P4.975S",
+    "text": "So let's multiply negative 7 times 3/49.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QOS4wNDVTLVAzLjQ3NVM=",
+    "startsAfter": "P9.045S",
+    "duration": "P3.475S",
+    "text": "",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTIuNTJTLVAyLjg4Uw==",
+    "startsAfter": "P12.52S",
+    "duration": "P2.88S",
+    "text": "So you might say, I don't see a fraction here.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTUuNFMtUDEuNDRT",
+    "startsAfter": "P15.4S",
+    "duration": "P1.44S",
+    "text": "This looks like an integer.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTYuODRTLVAzLjAxUw==",
+    "startsAfter": "P16.84S",
+    "duration": "P3.01S",
+    "text": "But you just to remind yourself that the negative 7 can",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTkuODVTLVA2Ljc2Uw==",
+    "startsAfter": "P19.85S",
+    "duration": "P6.76S",
+    "text": "be rewritten as negative 7/1 times 3/49.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjYuNjFTLVAyLjFT",
+    "startsAfter": "P26.61S",
+    "duration": "P2.1S",
+    "text": "Now we can multiply the numerators.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjguNzFTLVAzLjI0Uw==",
+    "startsAfter": "P28.71S",
+    "duration": "P3.24S",
+    "text": "So the numerator is going to be negative 7 times 3.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMzEuOTVTLVAyLjc1Uw==",
+    "startsAfter": "P31.95S",
+    "duration": "P2.75S",
+    "text": "And the denominator is going to be 1 times 49.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMzQuN1MtUDEuODlT",
+    "startsAfter": "P34.7S",
+    "duration": "P1.89S",
+    "text": "1 times 49.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMzYuNTlTLVA0LjA2Uw==",
+    "startsAfter": "P36.59S",
+    "duration": "P4.06S",
+    "text": "And this is going to be equal to-- 7 times 3 is 21.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNDAuNjVTLVAyLjMyNVM=",
+    "startsAfter": "P40.65S",
+    "duration": "P2.325S",
+    "text": "And one of their signs is negative,",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNDIuOTc1Uy1QMi4zNzVT",
+    "startsAfter": "P42.975S",
+    "duration": "P2.375S",
+    "text": "so a negative times a positive is going to be a negative.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNDUuMzVTLVAxLjY4Uw==",
+    "startsAfter": "P45.35S",
+    "duration": "P1.68S",
+    "text": "So this is going to be negative 21.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNDcuMDNTLVAyLjA2Uw==",
+    "startsAfter": "P47.03S",
+    "duration": "P2.06S",
+    "text": "You could view this as negative 7 plus negative 7",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNDkuMDlTLVAxLjM3Uw==",
+    "startsAfter": "P49.09S",
+    "duration": "P1.37S",
+    "text": "plus negative 7.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNTAuNDZTLVA0LjAxUw==",
+    "startsAfter": "P50.46S",
+    "duration": "P4.01S",
+    "text": "And that's going to be over 49.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNTQuNDdTLVAyLjg1Uw==",
+    "startsAfter": "P54.47S",
+    "duration": "P2.85S",
+    "text": "And this is the correct value, but we can simplify it",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNTcuMzJTLVA0LjgzUw==",
+    "startsAfter": "P57.32S",
+    "duration": "P4.83S",
+    "text": "more because 21 and 49 both share 7 as a factor.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNjIuMTVTLVAxLjY0M1M=",
+    "startsAfter": "P62.15S",
+    "duration": "P1.643S",
+    "text": "That's their greatest common factor.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNjMuNzkzUy1QMS40MTZT",
+    "startsAfter": "P63.793S",
+    "duration": "P1.416S",
+    "text": "So let's divide both the numerator",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNjUuMjA5Uy1QMi4xOTFT",
+    "startsAfter": "P65.209S",
+    "duration": "P2.191S",
+    "text": "and the denominator by 7.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNjcuNFMtUDMuNDFT",
+    "startsAfter": "P67.4S",
+    "duration": "P3.41S",
+    "text": "Divide the numerator and the denominator by 7.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNzAuODFTLVAyLjY2Uw==",
+    "startsAfter": "P70.81S",
+    "duration": "P2.66S",
+    "text": "And so this gets us negative 3 in the numerator.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNzMuNDdTLVAxLjY1Uw==",
+    "startsAfter": "P73.47S",
+    "duration": "P1.65S",
+    "text": "And in the denominator, we have 7.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNzUuMTJTLVAxLjg0Uw==",
+    "startsAfter": "P75.12S",
+    "duration": "P1.84S",
+    "text": "So we could view it as negative 3 over 7.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QNzYuOTZTLVAzLjExUw==",
+    "startsAfter": "P76.96S",
+    "duration": "P3.11S",
+    "text": "Or, you could even do it as negative 3/7.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QODAuMDdTLVAxLjY1Uw==",
+    "startsAfter": "P80.07S",
+    "duration": "P1.65S",
+    "text": "Let's do another one.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QODEuNzJTLVA4LjMyUw==",
+    "startsAfter": "P81.72S",
+    "duration": "P8.32S",
+    "text": "Let's take 5/9 times-- I'll switch colors more in this one.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QOTAuMDRTLVAyLjI0Uw==",
+    "startsAfter": "P90.04S",
+    "duration": "P2.24S",
+    "text": "That one's a little monotonous going all red there.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QOTIuMjhTLVA0LjUxUw==",
+    "startsAfter": "P92.28S",
+    "duration": "P4.51S",
+    "text": "5/9 times 3/15.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QOTYuNzlTLVAzLjc2Uw==",
+    "startsAfter": "P96.79S",
+    "duration": "P3.76S",
+    "text": "",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTAwLjU1Uy1QMS42N1M=",
+    "startsAfter": "P100.55S",
+    "duration": "P1.67S",
+    "text": "So this is going to be equal to-- we",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTAyLjIyUy1QMS43NVM=",
+    "startsAfter": "P102.22S",
+    "duration": "P1.75S",
+    "text": "multiply the numerators.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTAzLjk3Uy1QMi4zN1M=",
+    "startsAfter": "P103.97S",
+    "duration": "P2.37S",
+    "text": "So it's going to be 5 times 3.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTA2LjM0Uy1QMy44M1M=",
+    "startsAfter": "P106.34S",
+    "duration": "P3.83S",
+    "text": "5 times 3 in the numerator.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTEwLjE3Uy1QMi45NTNT",
+    "startsAfter": "P110.17S",
+    "duration": "P2.953S",
+    "text": "And the denominator is going to be 9 times 15.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTEzLjEyM1MtUDUuNDA3Uw==",
+    "startsAfter": "P113.123S",
+    "duration": "P5.407S",
+    "text": "9 times 15.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTE4LjUzUy1QMy41MlM=",
+    "startsAfter": "P118.53S",
+    "duration": "P3.52S",
+    "text": "",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTIyLjA1Uy1QMi42NVM=",
+    "startsAfter": "P122.05S",
+    "duration": "P2.65S",
+    "text": "We could multiply them out, but just leaving it like this",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTI0LjdTLVAyLjA2Uw==",
+    "startsAfter": "P124.7S",
+    "duration": "P2.06S",
+    "text": "you see that there is already common factors",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTI2Ljc2Uy1QMS43NFM=",
+    "startsAfter": "P126.76S",
+    "duration": "P1.74S",
+    "text": "in the numerator and the denominator.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTI4LjVTLVAxLjcyUw==",
+    "startsAfter": "P128.5S",
+    "duration": "P1.72S",
+    "text": "Both the numerator and the denominator,",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTMwLjIyUy1QMi4yMlM=",
+    "startsAfter": "P130.22S",
+    "duration": "P2.22S",
+    "text": "they're both divisible by 5 and they're",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTMyLjQ0Uy1QMi4yNlM=",
+    "startsAfter": "P132.44S",
+    "duration": "P2.26S",
+    "text": "both divisible by 3, which essentially tells us",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTM0LjdTLVAyLjlT",
+    "startsAfter": "P134.7S",
+    "duration": "P2.9S",
+    "text": "that they're divisible by 15.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTM3LjZTLVA0LjMyUw==",
+    "startsAfter": "P137.6S",
+    "duration": "P4.32S",
+    "text": "So we can divide the numerator and denominator by 15.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTQxLjkyUy1QMi4zNVM=",
+    "startsAfter": "P141.92S",
+    "duration": "P2.35S",
+    "text": "So divide the numerator by 15, which",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTQ0LjI3Uy1QMi43NVM=",
+    "startsAfter": "P144.27S",
+    "duration": "P2.75S",
+    "text": "is just like dividing by 5 and then dividing by 3.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTQ3LjAyUy1QMi4wN1M=",
+    "startsAfter": "P147.02S",
+    "duration": "P2.07S",
+    "text": "So we'll just divide by 15.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTQ5LjA5Uy1QMS40MlM=",
+    "startsAfter": "P149.09S",
+    "duration": "P1.42S",
+    "text": "Divide by 15.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTUwLjUxUy1QMy40Uw==",
+    "startsAfter": "P150.51S",
+    "duration": "P3.4S",
+    "text": "And this is going to be equal to-- well, 5 times 3 is 15.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTUzLjkxUy1QMi41N1M=",
+    "startsAfter": "P153.91S",
+    "duration": "P2.57S",
+    "text": "Divided by 15 you get 1 in the numerator.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTU2LjQ4Uy1QMy4yMlM=",
+    "startsAfter": "P156.48S",
+    "duration": "P3.22S",
+    "text": "And in the denominator, 9 times 15 divided by 15.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTU5LjdTLVAzLjQ2Uw==",
+    "startsAfter": "P159.7S",
+    "duration": "P3.46S",
+    "text": "Well, that's just going to be 9.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTYzLjE2Uy1QMS45M1M=",
+    "startsAfter": "P163.16S",
+    "duration": "P1.93S",
+    "text": "So it's equal to 1/9.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTY1LjA5Uy1QMS4wNlM=",
+    "startsAfter": "P165.09S",
+    "duration": "P1.06S",
+    "text": "Let's do another one.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTY2LjE1Uy1QOC43MVM=",
+    "startsAfter": "P166.15S",
+    "duration": "P8.71S",
+    "text": "What would negative 5/9 times negative 3/15 be?",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTc0Ljg2Uy1QMS41Uw==",
+    "startsAfter": "P174.86S",
+    "duration": "P1.5S",
+    "text": "Well, we've already figured out what",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTc2LjM2Uy1QMy45NDlT",
+    "startsAfter": "P176.36S",
+    "duration": "P3.949S",
+    "text": "positive 5/9 times positive 3/15 would be.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTgwLjMwOVMtUDEuNzkxUw==",
+    "startsAfter": "P180.309S",
+    "duration": "P1.791S",
+    "text": "So now we just have to care about the sign.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTgyLjFTLVAyLjk5Uw==",
+    "startsAfter": "P182.1S",
+    "duration": "P2.99S",
+    "text": "If we were just multiplying the two positives, it would be 1/9.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTg1LjA5Uy1QMi4wMlM=",
+    "startsAfter": "P185.09S",
+    "duration": "P2.02S",
+    "text": "But now we have to think about the fact",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTg3LjExUy1QMi4yOTlT",
+    "startsAfter": "P187.11S",
+    "duration": "P2.299S",
+    "text": "that we're multiplying by a negative times a negative.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTg5LjQwOVMtUDEuNDE2Uw==",
+    "startsAfter": "P189.409S",
+    "duration": "P1.416S",
+    "text": "Now, we remember when you multiply",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTkwLjgyNVMtUDMuMjk1Uw==",
+    "startsAfter": "P190.825S",
+    "duration": "P3.295S",
+    "text": "a negative times a negative, it's a positive.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTk0LjEyUy1QMS41N1M=",
+    "startsAfter": "P194.12S",
+    "duration": "P1.57S",
+    "text": "The only way that you get a negative",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTk1LjY5Uy1QMlM=",
+    "startsAfter": "P195.69S",
+    "duration": "P2S",
+    "text": "is if one of those two numbers that you're",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMTk3LjY5Uy1QMi42Uw==",
+    "startsAfter": "P197.69S",
+    "duration": "P2.6S",
+    "text": "taking the product of is negative, not two.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjAwLjI5Uy1QMS44Uw==",
+    "startsAfter": "P200.29S",
+    "duration": "P1.8S",
+    "text": "If both are positive, it's positive.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjAyLjA5Uy1QMi44MjJT",
+    "startsAfter": "P202.09S",
+    "duration": "P2.822S",
+    "text": "If both are negative, it's positive.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjA0LjkxMlMtUDEuMDgzUw==",
+    "startsAfter": "P204.912S",
+    "duration": "P1.083S",
+    "text": "Let's do one more example.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjA1Ljk5NVMtUDMuMDI1Uw==",
+    "startsAfter": "P205.995S",
+    "duration": "P3.025S",
+    "text": "",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjA5LjAyUy1QMy42Uw==",
+    "startsAfter": "P209.02S",
+    "duration": "P3.6S",
+    "text": "Let's take 5-- I'm using the number 5 a lot.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjEyLjYyUy1QNy40OFM=",
+    "startsAfter": "P212.62S",
+    "duration": "P7.48S",
+    "text": "So let's do 3/2, just to show that this",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjIwLjFTLVAyLjM1Uw==",
+    "startsAfter": "P220.1S",
+    "duration": "P2.35S",
+    "text": "would work with improper fractions.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjIyLjQ1Uy1QNi44MlM=",
+    "startsAfter": "P222.45S",
+    "duration": "P6.82S",
+    "text": "3/2 times negative 7/10.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjI5LjI3Uy1QNC40NVM=",
+    "startsAfter": "P229.27S",
+    "duration": "P4.45S",
+    "text": "",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjMzLjcyUy1QMi4yMlM=",
+    "startsAfter": "P233.72S",
+    "duration": "P2.22S",
+    "text": "I'm arbitrarily picking colors.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjM1Ljk0Uy1QMi45N1M=",
+    "startsAfter": "P235.94S",
+    "duration": "P2.97S",
+    "text": "And so our numerator is going to be 3 times negative 7.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjM4LjkxUy1QMy41OVM=",
+    "startsAfter": "P238.91S",
+    "duration": "P3.59S",
+    "text": "3 times negative 7.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjQyLjVTLVA0LjI5Uw==",
+    "startsAfter": "P242.5S",
+    "duration": "P4.29S",
+    "text": "And our denominator is going to be 2 times 10.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjQ2Ljc5Uy1QMS4xUw==",
+    "startsAfter": "P246.79S",
+    "duration": "P1.1S",
+    "text": "2 times 10.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjQ3Ljg5Uy1QNC42NlM=",
+    "startsAfter": "P247.89S",
+    "duration": "P4.66S",
+    "text": "",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjUyLjU1Uy1QMS42Uw==",
+    "startsAfter": "P252.55S",
+    "duration": "P1.6S",
+    "text": "So this is going to be the numerator.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjU0LjE1Uy1QNC4zM1M=",
+    "startsAfter": "P254.15S",
+    "duration": "P4.33S",
+    "text": "Positive times a negative is a negative.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjU4LjQ4Uy1QMy41M1M=",
+    "startsAfter": "P258.48S",
+    "duration": "P3.53S",
+    "text": "3 times negative 7 is negative 21.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjYyLjAxUy1QMS42NVM=",
+    "startsAfter": "P262.01S",
+    "duration": "P1.65S",
+    "text": "Negative 21.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjYzLjY2Uy1QMS44OVM=",
+    "startsAfter": "P263.66S",
+    "duration": "P1.89S",
+    "text": "And the denominator, 2 times 10.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjY1LjU1Uy1QMS41N1M=",
+    "startsAfter": "P265.55S",
+    "duration": "P1.57S",
+    "text": "Well, that is just 20.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjY3LjEyUy1QMi41OVM=",
+    "startsAfter": "P267.12S",
+    "duration": "P2.59S",
+    "text": "So this is negative 21/20.",
+    "language": "en"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1lbi1QMjY5LjcxUy1QMy40Uw==",
+    "startsAfter": "P269.71S",
+    "duration": "P3.4S",
+    "text": "And you really can't simplify this any further.",
+    "language": "en"
+  }
+]
