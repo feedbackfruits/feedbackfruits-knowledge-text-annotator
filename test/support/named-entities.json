@@ -4,35 +4,35 @@
     "@support": "1083",
     "@types": "",
     "@surfaceForm": "fractions",
-    "@offset": "37",
-    "@similarityScore": "0.9999999919680249",
-    "@percentageOfSecondRank": "8.028683773555782E-9"
+    "@offset": "36",
+    "@similarityScore": "0.9999999919579068",
+    "@percentageOfSecondRank": "8.04062996188026E-9"
   },
   {
     "@URI": "http://dbpedia.org/resource/Integer",
     "@support": "3806",
     "@types": "",
     "@surfaceForm": "integer",
-    "@offset": "156",
+    "@offset": "155",
     "@similarityScore": "1.0",
-    "@percentageOfSecondRank": "2.8998267679559966E-14"
+    "@percentageOfSecondRank": "1.9023928469610977E-14"
   },
   {
     "@URI": "http://dbpedia.org/resource/Greatest_common_divisor",
     "@support": "304",
     "@types": "",
     "@surfaceForm": "greatest common factor",
-    "@offset": "806",
-    "@similarityScore": "0.9999999172360993",
-    "@percentageOfSecondRank": "8.276394976802283E-8"
+    "@offset": "805",
+    "@similarityScore": "0.999999945374158",
+    "@percentageOfSecondRank": "5.462582842574571E-8"
   },
   {
     "@URI": "http://dbpedia.org/resource/Fraction_(mathematics)",
     "@support": "1083",
     "@types": "",
     "@surfaceForm": "fractions",
-    "@offset": "2896",
-    "@similarityScore": "0.9999999919680249",
-    "@percentageOfSecondRank": "8.028683773555782E-9"
+    "@offset": "2895",
+    "@similarityScore": "0.9999999919579068",
+    "@percentageOfSecondRank": "8.04062996188026E-9"
   }
 ]

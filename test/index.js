@@ -1,18 +1,22 @@
 import test from 'ava';
 
 import memux from 'memux';
+import nock from 'nock';
 import init from '../lib';
-import { NAME, KAFKA_ADDRESS, OUTPUT_TOPIC, INPUT_TOPIC, PAGE_SIZE, START_PAGE } from '../lib/config';
+import { NAME, KAFKA_ADDRESS, OUTPUT_TOPIC, INPUT_TOPIC, PAGE_SIZE, START_PAGE, RETRIEVE_URL } from '../lib/config';
+
+import * as Support from './support';
+
+nock(RETRIEVE_URL)
+  .post('/text?concepts&namedEntities')
+  .reply(200, {
+    concepts: Support.concepts,
+    namedEntities: Support.namedEntities
+   });
 
 test('it exists', t => {
   t.not(init, undefined);
 });
-
-const captions = require('./support/captions');
-const videoDoc = { ...require('./support/doc.json'), 'https://knowledge.express/caption': captions };
-
-const tags = require('./support/tags');
-const annotations = require('./support/annotations');
 
 test('it works', async (t) => {
   try {
@@ -42,18 +46,18 @@ test('it works', async (t) => {
       name: NAME,
     });
 
-    await send({ action: 'write', key: videoDoc['@id'], data: videoDoc });
+    await send({ action: 'write', key: Support.doc['@id'], data: Support.doc });
 
     const result = await resultPromise;
     console.log('Result data:', result.data);
     return t.deepEqual(result, {
       action: 'write',
       data: {
-        ...videoDoc,
-        ['https://knowledge.express/tag']: tags,
-        ['https://knowledge.express/annotation']: annotations
+        ...Support.doc,
+        ['https://knowledge.express/tag']: Support.tags,
+        // ['https://knowledge.express/annotation']: Support.annotations
       },
-      key: 'https://www.youtube.com/watch?v=pi3WWQ0q6Lc',
+      key: Support.doc['@id'],
       label: NAME,
     });
   } catch(e) {

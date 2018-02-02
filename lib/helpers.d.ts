@@ -16,19 +16,19 @@ export declare function hasTags(doc: Doc): doc is Doc & {
 export declare function hasAnnotations(doc: Doc): doc is Doc & {
     ['https://knowledge.express/annotation']: string;
 };
+export declare type Caption = {
+    "@id": string;
+    text: string;
+};
 export declare type Concept = {
     text: string;
     relevance: number;
     dbpedia_resource: string;
 };
 export declare type Tag = {
-    id: string;
-    resource: {
-        id: string;
-    };
-    entity: {
-        id: string;
-    };
+    "@id": string;
+    tagOf: string[];
+    about: string;
     score: number;
 };
 export declare type Annotation = Tag & {
@@ -48,9 +48,15 @@ export declare type DBPediaResource = {
     "@similarityScore": string;
     "@percentageOfSecondRank": string;
 };
+export declare function annotateVideo(doc: Doc): Promise<Doc>;
 export declare function generateId(...strings: Array<string | number>): string;
+export declare function captionsForRange(captions: any, startIndex: any, endIndex: any): any;
+export declare function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[]): Caption[];
 export declare function docToText(doc: Doc): string;
-export declare function getConcepts(text: string): Promise<Array<Concept>>;
-export declare function getNamedEntities(text: string, concepts: Array<Concept>): Promise<Array<DBPediaResource>>;
-export declare function conceptsToTags(concepts: Array<Concept>, resourceId: string): Array<Tag>;
-export declare function namedEntitiesToAnnotations(namedEntities: Array<DBPediaResource>, resourceId: string): Array<Annotation>;
+export declare type IRResult = {
+    concepts: Concept[];
+    namedEntities: DBPediaResource[];
+};
+export declare function retrieveInformation(text: string): Promise<IRResult>;
+export declare function conceptsToTags(concepts: Array<Concept>, taggableId: string): Array<Tag>;
+export declare function namedEntitiesToAnnotations(namedEntities: Array<DBPediaResource>, taggableId: string): Array<Annotation>;

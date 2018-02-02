@@ -1,33 +1,33 @@
 [
   {
-    "dbpedia_resource": "http://dbpedia.org/resource/Fraction_(mathematics)",
+    "text": "Fraction",
     "relevance": 0.979609,
-    "text": "Fraction"
+    "dbpedia_resource": "http://dbpedia.org/resource/Fraction_(mathematics)"
   },
   {
-    "dbpedia_resource": "http://dbpedia.org/resource/Divisor",
+    "text": "Divisor",
     "relevance": 0.939714,
-    "text": "Divisor"
+    "dbpedia_resource": "http://dbpedia.org/resource/Divisor"
   },
   {
-    "dbpedia_resource": "http://dbpedia.org/resource/Elementary_arithmetic",
+    "text": "Elementary arithmetic",
     "relevance": 0.896297,
-    "text": "Elementary arithmetic"
+    "dbpedia_resource": "http://dbpedia.org/resource/Elementary_arithmetic"
   },
   {
-    "dbpedia_resource": "http://dbpedia.org/resource/Division_(mathematics)",
+    "text": "Division",
     "relevance": 0.872582,
-    "text": "Division"
+    "dbpedia_resource": "http://dbpedia.org/resource/Division_(mathematics)"
   },
   {
-    "dbpedia_resource": "http://dbpedia.org/resource/Greatest_common_divisor",
+    "text": "Greatest common divisor",
     "relevance": 0.696193,
-    "text": "Greatest common divisor"
+    "dbpedia_resource": "http://dbpedia.org/resource/Greatest_common_divisor"
   },
   {
-    "dbpedia_resource": "http://dbpedia.org/resource/Integer",
+    "text": "Integer",
     "relevance": 0.611651,
-    "text": "Integer"
+    "dbpedia_resource": "http://dbpedia.org/resource/Integer"
   },
   {
     "text": "Number",
