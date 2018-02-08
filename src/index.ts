@@ -1,23 +1,25 @@
 import { Operation } from 'memux';
-import { Doc, Annotator, Config as _Config } from 'feedbackfruits-knowledge-engine';
-import * as Context from 'feedbackfruits-knowledge-context';
+import { Doc, Annotator, Config as _Config, Context } from 'feedbackfruits-knowledge-engine';
 import * as Config from './config';
 import * as Helpers from './helpers';
 
 async function annotate(doc: Doc): Promise<Doc> {
   console.log(`Annotating ${doc['@id']} with concepts`);
+
+  const annotated = await Helpers.annotateVideo(doc);
+  return annotated;
   // const unflattened = await Doc.unflatten(doc, Context.context);
 
-  const text = await Helpers.docToText(doc);
-  const { concepts, namedEntities } = await Helpers.retrieveInformation(text);
-  const tags = Helpers.conceptsToTags(concepts, doc["@id"]);
-  const mappedCaptions = Helpers.mapCaptions(doc[Context.iris.$.caption], namedEntities);
+  // const text = await Helpers.docToText(doc);
+  // const { concepts, namedEntities } = await Helpers.retrieveInformation(text);
+  // const tags = Helpers.conceptsToTags(concepts, doc["@id"]);
+  // const mappedCaptions = Helpers.mapCaptions(doc[Context.iris.$.caption], namedEntities);
 
-  return {
-    ...doc,
-    [Context.iris.$.tag]: tags,
-    [Context.iris.$.caption]: mappedCaptions
-  };
+  // return {
+  //   ...doc,
+  //   [Context.iris.$.tag]: tags,
+  //   [Context.iris.$.caption]: mappedCaptions
+  // };
 }
 
 export type SendFn = (operation: Operation<Doc>) => Promise<void>;
