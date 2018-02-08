@@ -1,0 +1,3909 @@
+{
+  "@id": "https://www.youtube.com/watch?v=pi3WWQ0q6Lc",
+  "@type": [
+    "https://knowledge.express/Resource",
+    "http://schema.org/VideoObject"
+  ],
+  "https://knowledge.express/caption": [
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDBTLVAwLjZT",
+      "@type": "VideoCaption",
+      "text": "",
+      "duration": "P0.6S",
+      "language": "en",
+      "startsAfter": "P0S",
+      "startIndex": 0,
+      "endIndex": 1
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDAuNlMtUDMuNDdT",
+      "@type": "VideoCaption",
+      "text": "Let's do a few examples multiplying fractions.",
+      "duration": "P3.47S",
+      "language": "en",
+      "startsAfter": "P0.6S",
+      "startIndex": 1,
+      "endIndex": 48
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQuMDdTLVA0Ljk3NVM=",
+      "@type": "VideoCaption",
+      "text": "So let's multiply negative 7 times 3/49.",
+      "duration": "P4.975S",
+      "language": "en",
+      "startsAfter": "P4.07S",
+      "startIndex": 48,
+      "endIndex": 89,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURRdU1EZFRMVkEwTGprM05WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQuMDdTLVA0Ljk3NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkuMDQ1Uy1QMy40NzVT",
+      "@type": "VideoCaption",
+      "text": "",
+      "duration": "P3.475S",
+      "language": "en",
+      "startsAfter": "P9.045S",
+      "startIndex": 89,
+      "endIndex": 90,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURrdU1EUTFVeTFRTXk0ME56VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkuMDQ1Uy1QMy40NzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyLjUyUy1QMi44OFM=",
+      "@type": "VideoCaption",
+      "text": "So you might say, I don't see a fraction here.",
+      "duration": "P2.88S",
+      "language": "en",
+      "startsAfter": "P12.52S",
+      "startIndex": 90,
+      "endIndex": 137,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeUxqVXlVeTFRTWk0NE9GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyLjUyUy1QMi44OFM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1LjRTLVAxLjQ0Uw==",
+      "@type": "VideoCaption",
+      "text": "This looks like an integer.",
+      "duration": "P1.44S",
+      "language": "en",
+      "startsAfter": "P15.4S",
+      "startIndex": 137,
+      "endIndex": 165,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMUxqUlRMVkF4TGpRMFV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1LjRTLVAxLjQ0Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ljg0Uy1QMy4wMVM=",
+      "@type": "VideoCaption",
+      "text": "But you just to remind yourself that the negative 7 can",
+      "duration": "P3.01S",
+      "language": "en",
+      "startsAfter": "P16.84S",
+      "startIndex": 165,
+      "endIndex": 221,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMkxqZzBVeTFRTXk0d01WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ljg0Uy1QMy4wMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMkxqZzBVeTFRTXk0d01WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ljg0Uy1QMy4wMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ljg1Uy1QNi43NlM=",
+      "@type": "VideoCaption",
+      "text": "be rewritten as negative 7/1 times 3/49.",
+      "duration": "P6.76S",
+      "language": "en",
+      "startsAfter": "P19.85S",
+      "startIndex": 221,
+      "endIndex": 262,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNUxqZzFVeTFRTmk0M05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ljg1Uy1QNi43NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNUxqZzFVeTFRTmk0M05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ljg1Uy1QNi43NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2LjYxUy1QMi4xUw==",
+      "@type": "VideoCaption",
+      "text": "Now we can multiply the numerators.",
+      "duration": "P2.1S",
+      "language": "en",
+      "startsAfter": "P26.61S",
+      "startIndex": 262,
+      "endIndex": 298,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMkxqWXhVeTFRTWk0eFV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2LjYxUy1QMi4xUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMkxqWXhVeTFRTWk0eFV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2LjYxUy1QMi4xUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI4LjcxUy1QMy4yNFM=",
+      "@type": "VideoCaption",
+      "text": "So the numerator is going to be negative 7 times 3.",
+      "duration": "P3.24S",
+      "language": "en",
+      "startsAfter": "P28.71S",
+      "startIndex": 298,
+      "endIndex": 350,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJNExqY3hVeTFRTXk0eU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI4LjcxUy1QMy4yNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJNExqY3hVeTFRTXk0eU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI4LjcxUy1QMy4yNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDMxLjk1Uy1QMi43NVM=",
+      "@type": "VideoCaption",
+      "text": "And the denominator is going to be 1 times 49.",
+      "duration": "P2.75S",
+      "language": "en",
+      "startsAfter": "P31.95S",
+      "startIndex": 350,
+      "endIndex": 397,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURNeExqazFVeTFRTWk0M05WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDMxLjk1Uy1QMi43NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURNeExqazFVeTFRTWk0M05WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDMxLjk1Uy1QMi43NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM0LjdTLVAxLjg5Uw==",
+      "@type": "VideoCaption",
+      "text": "1 times 49.",
+      "duration": "P1.89S",
+      "language": "en",
+      "startsAfter": "P34.7S",
+      "startIndex": 397,
+      "endIndex": 409,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURNMExqZFRMVkF4TGpnNVV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM0LjdTLVAxLjg5Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURNMExqZFRMVkF4TGpnNVV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM0LjdTLVAxLjg5Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM2LjU5Uy1QNC4wNlM=",
+      "@type": "VideoCaption",
+      "text": "And this is going to be equal to-- 7 times 3 is 21.",
+      "duration": "P4.06S",
+      "language": "en",
+      "startsAfter": "P36.59S",
+      "startIndex": 409,
+      "endIndex": 461,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURNMkxqVTVVeTFRTkM0d05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM2LjU5Uy1QNC4wNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURNMkxqVTVVeTFRTkM0d05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM2LjU5Uy1QNC4wNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQwLjY1Uy1QMi4zMjVT",
+      "@type": "VideoCaption",
+      "text": "And one of their signs is negative,",
+      "duration": "P2.325S",
+      "language": "en",
+      "startsAfter": "P40.65S",
+      "startIndex": 461,
+      "endIndex": 497,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURRd0xqWTFVeTFRTWk0ek1qVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQwLjY1Uy1QMi4zMjVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURRd0xqWTFVeTFRTWk0ek1qVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQwLjY1Uy1QMi4zMjVT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQyLjk3NVMtUDIuMzc1Uw==",
+      "@type": "VideoCaption",
+      "text": "so a negative times a positive is going to be a negative.",
+      "duration": "P2.375S",
+      "language": "en",
+      "startsAfter": "P42.975S",
+      "startIndex": 497,
+      "endIndex": 555,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURReUxqazNOVk10VURJdU16YzFVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQyLjk3NVMtUDIuMzc1Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURReUxqazNOVk10VURJdU16YzFVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQyLjk3NVMtUDIuMzc1Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ1LjM1Uy1QMS42OFM=",
+      "@type": "VideoCaption",
+      "text": "So this is going to be negative 21.",
+      "duration": "P1.68S",
+      "language": "en",
+      "startsAfter": "P45.35S",
+      "startIndex": 555,
+      "endIndex": 591,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURRMUxqTTFVeTFRTVM0Mk9GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ1LjM1Uy1QMS42OFM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURRMUxqTTFVeTFRTVM0Mk9GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ1LjM1Uy1QMS42OFM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ3LjAzUy1QMi4wNlM=",
+      "@type": "VideoCaption",
+      "text": "You could view this as negative 7 plus negative 7",
+      "duration": "P2.06S",
+      "language": "en",
+      "startsAfter": "P47.03S",
+      "startIndex": 591,
+      "endIndex": 641,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURRM0xqQXpVeTFRTWk0d05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ3LjAzUy1QMi4wNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURRM0xqQXpVeTFRTWk0d05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ3LjAzUy1QMi4wNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ5LjA5Uy1QMS4zN1M=",
+      "@type": "VideoCaption",
+      "text": "plus negative 7.",
+      "duration": "P1.37S",
+      "language": "en",
+      "startsAfter": "P49.09S",
+      "startIndex": 641,
+      "endIndex": 658,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURRNUxqQTVVeTFRTVM0ek4xTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ5LjA5Uy1QMS4zN1M="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURRNUxqQTVVeTFRTVM0ek4xTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ5LjA5Uy1QMS4zN1M="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDUwLjQ2Uy1QNC4wMVM=",
+      "@type": "VideoCaption",
+      "text": "And that's going to be over 49.",
+      "duration": "P4.01S",
+      "language": "en",
+      "startsAfter": "P50.46S",
+      "startIndex": 658,
+      "endIndex": 690,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURVd0xqUTJVeTFRTkM0d01WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDUwLjQ2Uy1QNC4wMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURVd0xqUTJVeTFRTkM0d01WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDUwLjQ2Uy1QNC4wMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU0LjQ3Uy1QMi44NVM=",
+      "@type": "VideoCaption",
+      "text": "And this is the correct value, but we can simplify it",
+      "duration": "P2.85S",
+      "language": "en",
+      "startsAfter": "P54.47S",
+      "startIndex": 690,
+      "endIndex": 744,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURVMExqUTNVeTFRTWk0NE5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU0LjQ3Uy1QMi44NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURVMExqUTNVeTFRTWk0NE5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU0LjQ3Uy1QMi44NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU3LjMyUy1QNC44M1M=",
+      "@type": "VideoCaption",
+      "text": "more because 21 and 49 both share 7 as a factor.",
+      "duration": "P4.83S",
+      "language": "en",
+      "startsAfter": "P57.32S",
+      "startIndex": 744,
+      "endIndex": 793,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURVM0xqTXlVeTFRTkM0NE0xTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU3LjMyUy1QNC44M1M="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURVM0xqTXlVeTFRTkM0NE0xTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU3LjMyUy1QNC44M1M="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYyLjE1Uy1QMS42NDNT",
+      "@type": "VideoCaption",
+      "text": "That's their greatest common factor.",
+      "duration": "P1.643S",
+      "language": "en",
+      "startsAfter": "P62.15S",
+      "startIndex": 793,
+      "endIndex": 830,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZeUxqRTFVeTFRTVM0Mk5ETlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYyLjE1Uy1QMS42NDNT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZeUxqRTFVeTFRTVM0Mk5ETlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYyLjE1Uy1QMS42NDNT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYzLjc5M1MtUDEuNDE2Uw==",
+      "@type": "VideoCaption",
+      "text": "So let's divide both the numerator",
+      "duration": "P1.416S",
+      "language": "en",
+      "startsAfter": "P63.793S",
+      "startIndex": 830,
+      "endIndex": 865,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZekxqYzVNMU10VURFdU5ERTJVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYzLjc5M1MtUDEuNDE2Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZekxqYzVNMU10VURFdU5ERTJVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYzLjc5M1MtUDEuNDE2Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZekxqYzVNMU10VURFdU5ERTJVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYzLjc5M1MtUDEuNDE2Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY1LjIwOVMtUDIuMTkxUw==",
+      "@type": "VideoCaption",
+      "text": "and the denominator by 7.",
+      "duration": "P2.191S",
+      "language": "en",
+      "startsAfter": "P65.209S",
+      "startIndex": 865,
+      "endIndex": 891,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZMUxqSXdPVk10VURJdU1Ua3hVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY1LjIwOVMtUDIuMTkxUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZMUxqSXdPVk10VURJdU1Ua3hVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY1LjIwOVMtUDIuMTkxUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZMUxqSXdPVk10VURJdU1Ua3hVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY1LjIwOVMtUDIuMTkxUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY3LjRTLVAzLjQxUw==",
+      "@type": "VideoCaption",
+      "text": "Divide the numerator and the denominator by 7.",
+      "duration": "P3.41S",
+      "language": "en",
+      "startsAfter": "P67.4S",
+      "startIndex": 891,
+      "endIndex": 938,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZM0xqUlRMVkF6TGpReFV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY3LjRTLVAzLjQxUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZM0xqUlRMVkF6TGpReFV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY3LjRTLVAzLjQxUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURZM0xqUlRMVkF6TGpReFV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY3LjRTLVAzLjQxUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDcwLjgxUy1QMi42NlM=",
+      "@type": "VideoCaption",
+      "text": "And so this gets us negative 3 in the numerator.",
+      "duration": "P2.66S",
+      "language": "en",
+      "startsAfter": "P70.81S",
+      "startIndex": 938,
+      "endIndex": 987,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjd0xqZ3hVeTFRTWk0Mk5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDcwLjgxUy1QMi42NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjd0xqZ3hVeTFRTWk0Mk5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDcwLjgxUy1QMi42NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjd0xqZ3hVeTFRTWk0Mk5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDcwLjgxUy1QMi42NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDczLjQ3Uy1QMS42NVM=",
+      "@type": "VideoCaption",
+      "text": "And in the denominator, we have 7.",
+      "duration": "P1.65S",
+      "language": "en",
+      "startsAfter": "P73.47S",
+      "startIndex": 987,
+      "endIndex": 1022,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjekxqUTNVeTFRTVM0Mk5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDczLjQ3Uy1QMS42NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjekxqUTNVeTFRTVM0Mk5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDczLjQ3Uy1QMS42NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjekxqUTNVeTFRTVM0Mk5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDczLjQ3Uy1QMS42NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc1LjEyUy1QMS44NFM=",
+      "@type": "VideoCaption",
+      "text": "So we could view it as negative 3 over 7.",
+      "duration": "P1.84S",
+      "language": "en",
+      "startsAfter": "P75.12S",
+      "startIndex": 1022,
+      "endIndex": 1064,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjMUxqRXlVeTFRTVM0NE5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc1LjEyUy1QMS44NFM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjMUxqRXlVeTFRTVM0NE5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc1LjEyUy1QMS44NFM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjMUxqRXlVeTFRTVM0NE5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc1LjEyUy1QMS44NFM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc2Ljk2Uy1QMy4xMVM=",
+      "@type": "VideoCaption",
+      "text": "Or, you could even do it as negative 3/7.",
+      "duration": "P3.11S",
+      "language": "en",
+      "startsAfter": "P76.96S",
+      "startIndex": 1064,
+      "endIndex": 1106,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjMkxqazJVeTFRTXk0eE1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc2Ljk2Uy1QMy4xMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjMkxqazJVeTFRTXk0eE1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc2Ljk2Uy1QMy4xMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURjMkxqazJVeTFRTXk0eE1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc2Ljk2Uy1QMy4xMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgwLjA3Uy1QMS42NVM=",
+      "@type": "VideoCaption",
+      "text": "Let's do another one.",
+      "duration": "P1.65S",
+      "language": "en",
+      "startsAfter": "P80.07S",
+      "startIndex": 1106,
+      "endIndex": 1128,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURnd0xqQTNVeTFRTVM0Mk5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgwLjA3Uy1QMS42NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURnd0xqQTNVeTFRTVM0Mk5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgwLjA3Uy1QMS42NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURnd0xqQTNVeTFRTVM0Mk5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgwLjA3Uy1QMS42NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgxLjcyUy1QOC4zMlM=",
+      "@type": "VideoCaption",
+      "text": "Let's take 5/9 times-- I'll switch colors more in this one.",
+      "duration": "P8.32S",
+      "language": "en",
+      "startsAfter": "P81.72S",
+      "startIndex": 1128,
+      "endIndex": 1188,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURneExqY3lVeTFRT0M0ek1sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgxLjcyUy1QOC4zMlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURneExqY3lVeTFRT0M0ek1sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgxLjcyUy1QOC4zMlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURneExqY3lVeTFRT0M0ek1sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgxLjcyUy1QOC4zMlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkwLjA0Uy1QMi4yNFM=",
+      "@type": "VideoCaption",
+      "text": "That one's a little monotonous going all red there.",
+      "duration": "P2.24S",
+      "language": "en",
+      "startsAfter": "P90.04S",
+      "startIndex": 1188,
+      "endIndex": 1240,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURrd0xqQTBVeTFRTWk0eU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkwLjA0Uy1QMi4yNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURrd0xqQTBVeTFRTWk0eU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkwLjA0Uy1QMi4yNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURrd0xqQTBVeTFRTWk0eU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkwLjA0Uy1QMi4yNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkyLjI4Uy1QNC41MVM=",
+      "@type": "VideoCaption",
+      "text": "5/9 times 3/15.",
+      "duration": "P4.51S",
+      "language": "en",
+      "startsAfter": "P92.28S",
+      "startIndex": 1240,
+      "endIndex": 1256,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURreUxqSTRVeTFRTkM0MU1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkyLjI4Uy1QNC41MVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURreUxqSTRVeTFRTkM0MU1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkyLjI4Uy1QNC41MVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURreUxqSTRVeTFRTkM0MU1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkyLjI4Uy1QNC41MVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDk2Ljc5Uy1QMy43NlM=",
+      "@type": "VideoCaption",
+      "text": "",
+      "duration": "P3.76S",
+      "language": "en",
+      "startsAfter": "P96.79S",
+      "startIndex": 1256,
+      "endIndex": 1257,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURrMkxqYzVVeTFRTXk0M05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDk2Ljc5Uy1QMy43NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURrMkxqYzVVeTFRTXk0M05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDk2Ljc5Uy1QMy43NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURrMkxqYzVVeTFRTXk0M05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDk2Ljc5Uy1QMy43NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMC41NVMtUDEuNjdT",
+      "@type": "VideoCaption",
+      "text": "So this is going to be equal to-- we",
+      "duration": "P1.67S",
+      "language": "en",
+      "startsAfter": "P100.55S",
+      "startIndex": 1257,
+      "endIndex": 1294,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd01DNDFOVk10VURFdU5qZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMC41NVMtUDEuNjdT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd01DNDFOVk10VURFdU5qZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMC41NVMtUDEuNjdT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd01DNDFOVk10VURFdU5qZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMC41NVMtUDEuNjdT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMi4yMlMtUDEuNzVT",
+      "@type": "VideoCaption",
+      "text": "multiply the numerators.",
+      "duration": "P1.75S",
+      "language": "en",
+      "startsAfter": "P102.22S",
+      "startIndex": 1294,
+      "endIndex": 1319,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd01pNHlNbE10VURFdU56VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMi4yMlMtUDEuNzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd01pNHlNbE10VURFdU56VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMi4yMlMtUDEuNzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd01pNHlNbE10VURFdU56VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMi4yMlMtUDEuNzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMy45N1MtUDIuMzdT",
+      "@type": "VideoCaption",
+      "text": "So it's going to be 5 times 3.",
+      "duration": "P2.37S",
+      "language": "en",
+      "startsAfter": "P103.97S",
+      "startIndex": 1319,
+      "endIndex": 1350,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd015NDVOMU10VURJdU16ZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMy45N1MtUDIuMzdT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd015NDVOMU10VURJdU16ZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMy45N1MtUDIuMzdT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd015NDVOMU10VURJdU16ZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMy45N1MtUDIuMzdT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwNi4zNFMtUDMuODNT",
+      "@type": "VideoCaption",
+      "text": "5 times 3 in the numerator.",
+      "duration": "P3.83S",
+      "language": "en",
+      "startsAfter": "P106.34S",
+      "startIndex": 1350,
+      "endIndex": 1378,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd05pNHpORk10VURNdU9ETlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwNi4zNFMtUDMuODNT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd05pNHpORk10VURNdU9ETlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwNi4zNFMtUDMuODNT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFd05pNHpORk10VURNdU9ETlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwNi4zNFMtUDMuODNT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMC4xN1MtUDIuOTUzUw==",
+      "@type": "VideoCaption",
+      "text": "And the denominator is going to be 9 times 15.",
+      "duration": "P2.953S",
+      "language": "en",
+      "startsAfter": "P110.17S",
+      "startIndex": 1378,
+      "endIndex": 1425,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeE1DNHhOMU10VURJdU9UVXpVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMC4xN1MtUDIuOTUzUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeE1DNHhOMU10VURJdU9UVXpVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMC4xN1MtUDIuOTUzUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeE1DNHhOMU10VURJdU9UVXpVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMC4xN1MtUDIuOTUzUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMy4xMjNTLVA1LjQwN1M=",
+      "@type": "VideoCaption",
+      "text": "9 times 15.",
+      "duration": "P5.407S",
+      "language": "en",
+      "startsAfter": "P113.123S",
+      "startIndex": 1425,
+      "endIndex": 1437,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeE15NHhNak5UTFZBMUxqUXdOMU09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMy4xMjNTLVA1LjQwN1M="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeE15NHhNak5UTFZBMUxqUXdOMU09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMy4xMjNTLVA1LjQwN1M="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeE15NHhNak5UTFZBMUxqUXdOMU09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMy4xMjNTLVA1LjQwN1M="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExOC41M1MtUDMuNTJT",
+      "@type": "VideoCaption",
+      "text": "",
+      "duration": "P3.52S",
+      "language": "en",
+      "startsAfter": "P118.53S",
+      "startIndex": 1437,
+      "endIndex": 1438,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeE9DNDFNMU10VURNdU5USlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExOC41M1MtUDMuNTJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeE9DNDFNMU10VURNdU5USlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExOC41M1MtUDMuNTJT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeE9DNDFNMU10VURNdU5USlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExOC41M1MtUDMuNTJT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyMi4wNVMtUDIuNjVT",
+      "@type": "VideoCaption",
+      "text": "We could multiply them out, but just leaving it like this",
+      "duration": "P2.65S",
+      "language": "en",
+      "startsAfter": "P122.05S",
+      "startIndex": 1438,
+      "endIndex": 1496,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU1pNHdOVk10VURJdU5qVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyMi4wNVMtUDIuNjVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU1pNHdOVk10VURJdU5qVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyMi4wNVMtUDIuNjVT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU1pNHdOVk10VURJdU5qVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyMi4wNVMtUDIuNjVT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNC43Uy1QMi4wNlM=",
+      "@type": "VideoCaption",
+      "text": "you see that there is already common factors",
+      "duration": "P2.06S",
+      "language": "en",
+      "startsAfter": "P124.7S",
+      "startIndex": 1496,
+      "endIndex": 1541,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU5DNDNVeTFRTWk0d05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNC43Uy1QMi4wNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU5DNDNVeTFRTWk0d05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNC43Uy1QMi4wNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU5DNDNVeTFRTWk0d05sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNC43Uy1QMi4wNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNi43NlMtUDEuNzRT",
+      "@type": "VideoCaption",
+      "text": "in the numerator and the denominator.",
+      "duration": "P1.74S",
+      "language": "en",
+      "startsAfter": "P126.76S",
+      "startIndex": 1541,
+      "endIndex": 1579,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU5pNDNObE10VURFdU56UlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNi43NlMtUDEuNzRT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU5pNDNObE10VURFdU56UlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNi43NlMtUDEuNzRT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU5pNDNObE10VURFdU56UlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNi43NlMtUDEuNzRT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyOC41Uy1QMS43MlM=",
+      "@type": "VideoCaption",
+      "text": "Both the numerator and the denominator,",
+      "duration": "P1.72S",
+      "language": "en",
+      "startsAfter": "P128.5S",
+      "startIndex": 1579,
+      "endIndex": 1619,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU9DNDFVeTFRTVM0M01sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyOC41Uy1QMS43MlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU9DNDFVeTFRTVM0M01sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyOC41Uy1QMS43MlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFeU9DNDFVeTFRTVM0M01sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyOC41Uy1QMS43MlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMC4yMlMtUDIuMjJT",
+      "@type": "VideoCaption",
+      "text": "they're both divisible by 5 and they're",
+      "duration": "P2.22S",
+      "language": "en",
+      "startsAfter": "P130.22S",
+      "startIndex": 1619,
+      "endIndex": 1659,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek1DNHlNbE10VURJdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMC4yMlMtUDIuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek1DNHlNbE10VURJdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMC4yMlMtUDIuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek1DNHlNbE10VURJdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMC4yMlMtUDIuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMi40NFMtUDIuMjZT",
+      "@type": "VideoCaption",
+      "text": "both divisible by 3, which essentially tells us",
+      "duration": "P2.26S",
+      "language": "en",
+      "startsAfter": "P132.44S",
+      "startIndex": 1659,
+      "endIndex": 1707,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek1pNDBORk10VURJdU1qWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMi40NFMtUDIuMjZT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek1pNDBORk10VURJdU1qWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMi40NFMtUDIuMjZT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek1pNDBORk10VURJdU1qWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMi40NFMtUDIuMjZT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNC43Uy1QMi45Uw==",
+      "@type": "VideoCaption",
+      "text": "that they're divisible by 15.",
+      "duration": "P2.9S",
+      "language": "en",
+      "startsAfter": "P134.7S",
+      "startIndex": 1707,
+      "endIndex": 1737,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek5DNDNVeTFRTWk0NVV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNC43Uy1QMi45Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek5DNDNVeTFRTWk0NVV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNC43Uy1QMi45Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek5DNDNVeTFRTWk0NVV3PT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNC43Uy1QMi45Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNy42Uy1QNC4zMlM=",
+      "@type": "VideoCaption",
+      "text": "So we can divide the numerator and denominator by 15.",
+      "duration": "P4.32S",
+      "language": "en",
+      "startsAfter": "P137.6S",
+      "startIndex": 1737,
+      "endIndex": 1791,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek55NDJVeTFRTkM0ek1sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNy42Uy1QNC4zMlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek55NDJVeTFRTkM0ek1sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNy42Uy1QNC4zMlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFek55NDJVeTFRTkM0ek1sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNy42Uy1QNC4zMlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0MS45MlMtUDIuMzVT",
+      "@type": "VideoCaption",
+      "text": "So divide the numerator by 15, which",
+      "duration": "P2.35S",
+      "language": "en",
+      "startsAfter": "P141.92S",
+      "startIndex": 1791,
+      "endIndex": 1828,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME1TNDVNbE10VURJdU16VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0MS45MlMtUDIuMzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME1TNDVNbE10VURJdU16VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0MS45MlMtUDIuMzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME1TNDVNbE10VURJdU16VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0MS45MlMtUDIuMzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0NC4yN1MtUDIuNzVT",
+      "@type": "VideoCaption",
+      "text": "is just like dividing by 5 and then dividing by 3.",
+      "duration": "P2.75S",
+      "language": "en",
+      "startsAfter": "P144.27S",
+      "startIndex": 1828,
+      "endIndex": 1879,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME5DNHlOMU10VURJdU56VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0NC4yN1MtUDIuNzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME5DNHlOMU10VURJdU56VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0NC4yN1MtUDIuNzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME5DNHlOMU10VURJdU56VlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0NC4yN1MtUDIuNzVT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0Ny4wMlMtUDIuMDdT",
+      "@type": "VideoCaption",
+      "text": "So we'll just divide by 15.",
+      "duration": "P2.07S",
+      "language": "en",
+      "startsAfter": "P147.02S",
+      "startIndex": 1879,
+      "endIndex": 1907,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME55NHdNbE10VURJdU1EZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0Ny4wMlMtUDIuMDdT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME55NHdNbE10VURJdU1EZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0Ny4wMlMtUDIuMDdT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME55NHdNbE10VURJdU1EZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0Ny4wMlMtUDIuMDdT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0OS4wOVMtUDEuNDJT",
+      "@type": "VideoCaption",
+      "text": "Divide by 15.",
+      "duration": "P1.42S",
+      "language": "en",
+      "startsAfter": "P149.09S",
+      "startIndex": 1907,
+      "endIndex": 1921,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME9TNHdPVk10VURFdU5ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0OS4wOVMtUDEuNDJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME9TNHdPVk10VURFdU5ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0OS4wOVMtUDEuNDJT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFME9TNHdPVk10VURFdU5ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0OS4wOVMtUDEuNDJT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1MC41MVMtUDMuNFM=",
+      "@type": "VideoCaption",
+      "text": "And this is going to be equal to-- well, 5 times 3 is 15.",
+      "duration": "P3.4S",
+      "language": "en",
+      "startsAfter": "P150.51S",
+      "startIndex": 1921,
+      "endIndex": 1979,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU1DNDFNVk10VURNdU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1MC41MVMtUDMuNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU1DNDFNVk10VURNdU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1MC41MVMtUDMuNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU1DNDFNVk10VURNdU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1MC41MVMtUDMuNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1My45MVMtUDIuNTdT",
+      "@type": "VideoCaption",
+      "text": "Divided by 15 you get 1 in the numerator.",
+      "duration": "P2.57S",
+      "language": "en",
+      "startsAfter": "P153.91S",
+      "startIndex": 1979,
+      "endIndex": 2021,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU15NDVNVk10VURJdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1My45MVMtUDIuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU15NDVNVk10VURJdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1My45MVMtUDIuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU15NDVNVk10VURJdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1My45MVMtUDIuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1Ni40OFMtUDMuMjJT",
+      "@type": "VideoCaption",
+      "text": "And in the denominator, 9 times 15 divided by 15.",
+      "duration": "P3.22S",
+      "language": "en",
+      "startsAfter": "P156.48S",
+      "startIndex": 2021,
+      "endIndex": 2071,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU5pNDBPRk10VURNdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1Ni40OFMtUDMuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU5pNDBPRk10VURNdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1Ni40OFMtUDMuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU5pNDBPRk10VURNdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1Ni40OFMtUDMuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1OS43Uy1QMy40NlM=",
+      "@type": "VideoCaption",
+      "text": "Well, that's just going to be 9.",
+      "duration": "P3.46S",
+      "language": "en",
+      "startsAfter": "P159.7S",
+      "startIndex": 2071,
+      "endIndex": 2104,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU9TNDNVeTFRTXk0ME5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1OS43Uy1QMy40NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU9TNDNVeTFRTXk0ME5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1OS43Uy1QMy40NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMU9TNDNVeTFRTXk0ME5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1OS43Uy1QMy40NlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2My4xNlMtUDEuOTNT",
+      "@type": "VideoCaption",
+      "text": "So it's equal to 1/9.",
+      "duration": "P1.93S",
+      "language": "en",
+      "startsAfter": "P163.16S",
+      "startIndex": 2104,
+      "endIndex": 2126,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMk15NHhObE10VURFdU9UTlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2My4xNlMtUDEuOTNT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMk15NHhObE10VURFdU9UTlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2My4xNlMtUDEuOTNT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMk15NHhObE10VURFdU9UTlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2My4xNlMtUDEuOTNT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2NS4wOVMtUDEuMDZT",
+      "@type": "VideoCaption",
+      "text": "Let's do another one.",
+      "duration": "P1.06S",
+      "language": "en",
+      "startsAfter": "P165.09S",
+      "startIndex": 2126,
+      "endIndex": 2148,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMk5TNHdPVk10VURFdU1EWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2NS4wOVMtUDEuMDZT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMk5TNHdPVk10VURFdU1EWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2NS4wOVMtUDEuMDZT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMk5TNHdPVk10VURFdU1EWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2NS4wOVMtUDEuMDZT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ni4xNVMtUDguNzFT",
+      "@type": "VideoCaption",
+      "text": "What would negative 5/9 times negative 3/15 be?",
+      "duration": "P8.71S",
+      "language": "en",
+      "startsAfter": "P166.15S",
+      "startIndex": 2148,
+      "endIndex": 2196,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMk5pNHhOVk10VURndU56RlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ni4xNVMtUDguNzFT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMk5pNHhOVk10VURndU56RlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ni4xNVMtUDguNzFT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFMk5pNHhOVk10VURndU56RlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ni4xNVMtUDguNzFT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3NC44NlMtUDEuNVM=",
+      "@type": "VideoCaption",
+      "text": "Well, we've already figured out what",
+      "duration": "P1.5S",
+      "language": "en",
+      "startsAfter": "P174.86S",
+      "startIndex": 2196,
+      "endIndex": 2233,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFM05DNDRObE10VURFdU5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3NC44NlMtUDEuNVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFM05DNDRObE10VURFdU5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3NC44NlMtUDEuNVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFM05DNDRObE10VURFdU5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3NC44NlMtUDEuNVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3Ni4zNlMtUDMuOTQ5Uw==",
+      "@type": "VideoCaption",
+      "text": "positive 5/9 times positive 3/15 would be.",
+      "duration": "P3.949S",
+      "language": "en",
+      "startsAfter": "P176.36S",
+      "startIndex": 2233,
+      "endIndex": 2276,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFM05pNHpObE10VURNdU9UUTVVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3Ni4zNlMtUDMuOTQ5Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFM05pNHpObE10VURNdU9UUTVVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3Ni4zNlMtUDMuOTQ5Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFM05pNHpObE10VURNdU9UUTVVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3Ni4zNlMtUDMuOTQ5Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4MC4zMDlTLVAxLjc5MVM=",
+      "@type": "VideoCaption",
+      "text": "So now we just have to care about the sign.",
+      "duration": "P1.791S",
+      "language": "en",
+      "startsAfter": "P180.309S",
+      "startIndex": 2276,
+      "endIndex": 2320,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE1DNHpNRGxUTFZBeExqYzVNVk09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4MC4zMDlTLVAxLjc5MVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE1DNHpNRGxUTFZBeExqYzVNVk09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4MC4zMDlTLVAxLjc5MVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE1DNHpNRGxUTFZBeExqYzVNVk09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4MC4zMDlTLVAxLjc5MVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Mi4xUy1QMi45OVM=",
+      "@type": "VideoCaption",
+      "text": "If we were just multiplying the two positives, it would be 1/9.",
+      "duration": "P2.99S",
+      "language": "en",
+      "startsAfter": "P182.1S",
+      "startIndex": 2320,
+      "endIndex": 2384,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE1pNHhVeTFRTWk0NU9WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Mi4xUy1QMi45OVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE1pNHhVeTFRTWk0NU9WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Mi4xUy1QMi45OVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE1pNHhVeTFRTWk0NU9WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Mi4xUy1QMi45OVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4NS4wOVMtUDIuMDJT",
+      "@type": "VideoCaption",
+      "text": "But now we have to think about the fact",
+      "duration": "P2.02S",
+      "language": "en",
+      "startsAfter": "P185.09S",
+      "startIndex": 2384,
+      "endIndex": 2424,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE5TNHdPVk10VURJdU1ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4NS4wOVMtUDIuMDJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE5TNHdPVk10VURJdU1ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4NS4wOVMtUDIuMDJT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE5TNHdPVk10VURJdU1ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4NS4wOVMtUDIuMDJT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Ny4xMVMtUDIuMjk5Uw==",
+      "@type": "VideoCaption",
+      "text": "that we're multiplying by a negative times a negative.",
+      "duration": "P2.299S",
+      "language": "en",
+      "startsAfter": "P187.11S",
+      "startIndex": 2424,
+      "endIndex": 2479,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE55NHhNVk10VURJdU1qazVVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Ny4xMVMtUDIuMjk5Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE55NHhNVk10VURJdU1qazVVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Ny4xMVMtUDIuMjk5Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE55NHhNVk10VURJdU1qazVVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Ny4xMVMtUDIuMjk5Uw=="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4OS40MDlTLVAxLjQxNlM=",
+      "@type": "VideoCaption",
+      "text": "Now, we remember when you multiply",
+      "duration": "P1.416S",
+      "language": "en",
+      "startsAfter": "P189.409S",
+      "startIndex": 2479,
+      "endIndex": 2514,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE9TNDBNRGxUTFZBeExqUXhObE09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4OS40MDlTLVAxLjQxNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE9TNDBNRGxUTFZBeExqUXhObE09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4OS40MDlTLVAxLjQxNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNE9TNDBNRGxUTFZBeExqUXhObE09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4OS40MDlTLVAxLjQxNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5MC44MjVTLVAzLjI5NVM=",
+      "@type": "VideoCaption",
+      "text": "a negative times a negative, it's a positive.",
+      "duration": "P3.295S",
+      "language": "en",
+      "startsAfter": "P190.825S",
+      "startIndex": 2514,
+      "endIndex": 2560,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU1DNDRNalZUTFZBekxqSTVOVk09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5MC44MjVTLVAzLjI5NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU1DNDRNalZUTFZBekxqSTVOVk09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5MC44MjVTLVAzLjI5NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU1DNDRNalZUTFZBekxqSTVOVk09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5MC44MjVTLVAzLjI5NVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NC4xMlMtUDEuNTdT",
+      "@type": "VideoCaption",
+      "text": "The only way that you get a negative",
+      "duration": "P1.57S",
+      "language": "en",
+      "startsAfter": "P194.12S",
+      "startIndex": 2560,
+      "endIndex": 2597,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU5DNHhNbE10VURFdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NC4xMlMtUDEuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU5DNHhNbE10VURFdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NC4xMlMtUDEuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU5DNHhNbE10VURFdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NC4xMlMtUDEuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NS42OVMtUDJT",
+      "@type": "VideoCaption",
+      "text": "is if one of those two numbers that you're",
+      "duration": "P2S",
+      "language": "en",
+      "startsAfter": "P195.69S",
+      "startIndex": 2597,
+      "endIndex": 2640,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU5TNDJPVk10VURKVC1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKS0zNi1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NS42OVMtUDJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU5TNDJPVk10VURKVC1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvSW50ZWdlci0xNTUtaW50ZWdlcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NS42OVMtUDJT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU5TNDJPVk10VURKVC1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvR3JlYXRlc3RfY29tbW9uX2Rpdmlzb3ItODA1LWdyZWF0ZXN0IGNvbW1vbiBmYWN0b3I=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NS42OVMtUDJT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ny42OVMtUDIuNlM=",
+      "@type": "VideoCaption",
+      "text": "taking the product of is negative, not two.",
+      "duration": "P2.6S",
+      "language": "en",
+      "startsAfter": "P197.69S",
+      "startIndex": 2640,
+      "endIndex": 2684,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU55NDJPVk10VURJdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ny42OVMtUDIuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU55NDJPVk10VURJdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ny42OVMtUDIuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURFNU55NDJPVk10VURJdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ny42OVMtUDIuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMC4yOVMtUDEuOFM=",
+      "@type": "VideoCaption",
+      "text": "If both are positive, it's positive.",
+      "duration": "P1.8S",
+      "language": "en",
+      "startsAfter": "P200.29S",
+      "startIndex": 2684,
+      "endIndex": 2721,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd01DNHlPVk10VURFdU9GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMC4yOVMtUDEuOFM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd01DNHlPVk10VURFdU9GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMC4yOVMtUDEuOFM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd01DNHlPVk10VURFdU9GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMC4yOVMtUDEuOFM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMi4wOVMtUDIuODIyUw==",
+      "@type": "VideoCaption",
+      "text": "If both are negative, it's positive.",
+      "duration": "P2.822S",
+      "language": "en",
+      "startsAfter": "P202.09S",
+      "startIndex": 2721,
+      "endIndex": 2758,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd01pNHdPVk10VURJdU9ESXlVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMi4wOVMtUDIuODIyUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd01pNHdPVk10VURJdU9ESXlVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMi4wOVMtUDIuODIyUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd01pNHdPVk10VURJdU9ESXlVdz09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMi4wOVMtUDIuODIyUw=="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNC45MTJTLVAxLjA4M1M=",
+      "@type": "VideoCaption",
+      "text": "Let's do one more example.",
+      "duration": "P1.083S",
+      "language": "en",
+      "startsAfter": "P204.912S",
+      "startIndex": 2758,
+      "endIndex": 2785,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd05DNDVNVEpUTFZBeExqQTRNMU09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNC45MTJTLVAxLjA4M1M="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd05DNDVNVEpUTFZBeExqQTRNMU09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNC45MTJTLVAxLjA4M1M="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd05DNDVNVEpUTFZBeExqQTRNMU09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNC45MTJTLVAxLjA4M1M="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNS45OTVTLVAzLjAyNVM=",
+      "@type": "VideoCaption",
+      "text": "",
+      "duration": "P3.025S",
+      "language": "en",
+      "startsAfter": "P205.995S",
+      "startIndex": 2785,
+      "endIndex": 2786,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd05TNDVPVFZUTFZBekxqQXlOVk09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9GcmFjdGlvbl8obWF0aGVtYXRpY3MpLTM2LWZyYWN0aW9ucw==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNS45OTVTLVAzLjAyNVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd05TNDVPVFZUTFZBekxqQXlOVk09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9JbnRlZ2VyLTE1NS1pbnRlZ2Vy",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNS45OTVTLVAzLjAyNVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd05TNDVPVFZUTFZBekxqQXlOVk09LWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9HcmVhdGVzdF9jb21tb25fZGl2aXNvci04MDUtZ3JlYXRlc3QgY29tbW9uIGZhY3Rvcg==",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNS45OTVTLVAzLjAyNVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwOS4wMlMtUDMuNlM=",
+      "@type": "VideoCaption",
+      "text": "Let's take 5-- I'm using the number 5 a lot.",
+      "duration": "P3.6S",
+      "language": "en",
+      "startsAfter": "P209.02S",
+      "startIndex": 2786,
+      "endIndex": 2831,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd09TNHdNbE10VURNdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwOS4wMlMtUDMuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd09TNHdNbE10VURNdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwOS4wMlMtUDMuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJd09TNHdNbE10VURNdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwOS4wMlMtUDMuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIxMi42MlMtUDcuNDhT",
+      "@type": "VideoCaption",
+      "text": "So let's do 3/2, just to show that this",
+      "duration": "P7.48S",
+      "language": "en",
+      "startsAfter": "P212.62S",
+      "startIndex": 2831,
+      "endIndex": 2871,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeE1pNDJNbE10VURjdU5EaFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIxMi42MlMtUDcuNDhT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeE1pNDJNbE10VURjdU5EaFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIxMi42MlMtUDcuNDhT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeE1pNDJNbE10VURjdU5EaFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIxMi42MlMtUDcuNDhT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMC4xUy1QMi4zNVM=",
+      "@type": "VideoCaption",
+      "text": "would work with improper fractions.",
+      "duration": "P2.35S",
+      "language": "en",
+      "startsAfter": "P220.1S",
+      "startIndex": 2871,
+      "endIndex": 2907,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU1DNHhVeTFRTWk0ek5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMC4xUy1QMi4zNVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU1DNHhVeTFRTWk0ek5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMC4xUy1QMi4zNVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU1DNHhVeTFRTWk0ek5WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMC4xUy1QMi4zNVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMi40NVMtUDYuODJT",
+      "@type": "VideoCaption",
+      "text": "3/2 times negative 7/10.",
+      "duration": "P6.82S",
+      "language": "en",
+      "startsAfter": "P222.45S",
+      "startIndex": 2907,
+      "endIndex": 2932,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU1pNDBOVk10VURZdU9ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMi40NVMtUDYuODJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU1pNDBOVk10VURZdU9ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMi40NVMtUDYuODJT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU1pNDBOVk10VURZdU9ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMi40NVMtUDYuODJT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU1pNDBOVk10VURZdU9ESlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMi40NVMtUDYuODJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyOS4yN1MtUDQuNDVT",
+      "@type": "VideoCaption",
+      "text": "",
+      "duration": "P4.45S",
+      "language": "en",
+      "startsAfter": "P229.27S",
+      "startIndex": 2932,
+      "endIndex": 2933,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU9TNHlOMU10VURRdU5EVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyOS4yN1MtUDQuNDVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU9TNHlOMU10VURRdU5EVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyOS4yN1MtUDQuNDVT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU9TNHlOMU10VURRdU5EVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyOS4yN1MtUDQuNDVT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJeU9TNHlOMU10VURRdU5EVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyOS4yN1MtUDQuNDVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzMy43MlMtUDIuMjJT",
+      "@type": "VideoCaption",
+      "text": "I'm arbitrarily picking colors.",
+      "duration": "P2.22S",
+      "language": "en",
+      "startsAfter": "P233.72S",
+      "startIndex": 2933,
+      "endIndex": 2965,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek15NDNNbE10VURJdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzMy43MlMtUDIuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek15NDNNbE10VURJdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzMy43MlMtUDIuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek15NDNNbE10VURJdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzMy43MlMtUDIuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek15NDNNbE10VURJdU1qSlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzMy43MlMtUDIuMjJT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzNS45NFMtUDIuOTdT",
+      "@type": "VideoCaption",
+      "text": "And so our numerator is going to be 3 times negative 7.",
+      "duration": "P2.97S",
+      "language": "en",
+      "startsAfter": "P235.94S",
+      "startIndex": 2965,
+      "endIndex": 3021,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek5TNDVORk10VURJdU9UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzNS45NFMtUDIuOTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek5TNDVORk10VURJdU9UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzNS45NFMtUDIuOTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek5TNDVORk10VURJdU9UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzNS45NFMtUDIuOTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek5TNDVORk10VURJdU9UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzNS45NFMtUDIuOTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzOC45MVMtUDMuNTlT",
+      "@type": "VideoCaption",
+      "text": "3 times negative 7.",
+      "duration": "P3.59S",
+      "language": "en",
+      "startsAfter": "P238.91S",
+      "startIndex": 3021,
+      "endIndex": 3041,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek9DNDVNVk10VURNdU5UbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzOC45MVMtUDMuNTlT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek9DNDVNVk10VURNdU5UbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzOC45MVMtUDMuNTlT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek9DNDVNVk10VURNdU5UbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzOC45MVMtUDMuNTlT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJek9DNDVNVk10VURNdU5UbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzOC45MVMtUDMuNTlT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Mi41Uy1QNC4yOVM=",
+      "@type": "VideoCaption",
+      "text": "And our denominator is going to be 2 times 10.",
+      "duration": "P4.29S",
+      "language": "en",
+      "startsAfter": "P242.5S",
+      "startIndex": 3041,
+      "endIndex": 3088,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME1pNDFVeTFRTkM0eU9WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Mi41Uy1QNC4yOVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME1pNDFVeTFRTkM0eU9WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Mi41Uy1QNC4yOVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME1pNDFVeTFRTkM0eU9WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Mi41Uy1QNC4yOVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME1pNDFVeTFRTkM0eU9WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Mi41Uy1QNC4yOVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ni43OVMtUDEuMVM=",
+      "@type": "VideoCaption",
+      "text": "2 times 10.",
+      "duration": "P1.1S",
+      "language": "en",
+      "startsAfter": "P246.79S",
+      "startIndex": 3088,
+      "endIndex": 3100,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME5pNDNPVk10VURFdU1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ni43OVMtUDEuMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME5pNDNPVk10VURFdU1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ni43OVMtUDEuMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME5pNDNPVk10VURFdU1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ni43OVMtUDEuMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME5pNDNPVk10VURFdU1WTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ni43OVMtUDEuMVM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ny44OVMtUDQuNjZT",
+      "@type": "VideoCaption",
+      "text": "",
+      "duration": "P4.66S",
+      "language": "en",
+      "startsAfter": "P247.89S",
+      "startIndex": 3100,
+      "endIndex": 3101,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME55NDRPVk10VURRdU5qWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ny44OVMtUDQuNjZT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME55NDRPVk10VURRdU5qWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ny44OVMtUDQuNjZT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME55NDRPVk10VURRdU5qWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ny44OVMtUDQuNjZT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJME55NDRPVk10VURRdU5qWlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ny44OVMtUDQuNjZT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1Mi41NVMtUDEuNlM=",
+      "@type": "VideoCaption",
+      "text": "So this is going to be the numerator.",
+      "duration": "P1.6S",
+      "language": "en",
+      "startsAfter": "P252.55S",
+      "startIndex": 3101,
+      "endIndex": 3139,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU1pNDFOVk10VURFdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1Mi41NVMtUDEuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU1pNDFOVk10VURFdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1Mi41NVMtUDEuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU1pNDFOVk10VURFdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1Mi41NVMtUDEuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU1pNDFOVk10VURFdU5sTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1Mi41NVMtUDEuNlM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1NC4xNVMtUDQuMzNT",
+      "@type": "VideoCaption",
+      "text": "Positive times a negative is a negative.",
+      "duration": "P4.33S",
+      "language": "en",
+      "startsAfter": "P254.15S",
+      "startIndex": 3139,
+      "endIndex": 3180,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU5DNHhOVk10VURRdU16TlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1NC4xNVMtUDQuMzNT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU5DNHhOVk10VURRdU16TlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1NC4xNVMtUDQuMzNT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU5DNHhOVk10VURRdU16TlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1NC4xNVMtUDQuMzNT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU5DNHhOVk10VURRdU16TlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1NC4xNVMtUDQuMzNT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1OC40OFMtUDMuNTNT",
+      "@type": "VideoCaption",
+      "text": "3 times negative 7 is negative 21.",
+      "duration": "P3.53S",
+      "language": "en",
+      "startsAfter": "P258.48S",
+      "startIndex": 3180,
+      "endIndex": 3215,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU9DNDBPRk10VURNdU5UTlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1OC40OFMtUDMuNTNT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU9DNDBPRk10VURNdU5UTlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1OC40OFMtUDMuNTNT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU9DNDBPRk10VURNdU5UTlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1OC40OFMtUDMuNTNT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMU9DNDBPRk10VURNdU5UTlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1OC40OFMtUDMuNTNT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Mi4wMVMtUDEuNjVT",
+      "@type": "VideoCaption",
+      "text": "Negative 21.",
+      "duration": "P1.65S",
+      "language": "en",
+      "startsAfter": "P262.01S",
+      "startIndex": 3215,
+      "endIndex": 3228,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk1pNHdNVk10VURFdU5qVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Mi4wMVMtUDEuNjVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk1pNHdNVk10VURFdU5qVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Mi4wMVMtUDEuNjVT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk1pNHdNVk10VURFdU5qVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Mi4wMVMtUDEuNjVT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk1pNHdNVk10VURFdU5qVlQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Mi4wMVMtUDEuNjVT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2My42NlMtUDEuODlT",
+      "@type": "VideoCaption",
+      "text": "And the denominator, 2 times 10.",
+      "duration": "P1.89S",
+      "language": "en",
+      "startsAfter": "P263.66S",
+      "startIndex": 3228,
+      "endIndex": 3261,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk15NDJObE10VURFdU9EbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2My42NlMtUDEuODlT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk15NDJObE10VURFdU9EbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2My42NlMtUDEuODlT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk15NDJObE10VURFdU9EbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2My42NlMtUDEuODlT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk15NDJObE10VURFdU9EbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2My42NlMtUDEuODlT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2NS41NVMtUDEuNTdT",
+      "@type": "VideoCaption",
+      "text": "Well, that is just 20.",
+      "duration": "P1.57S",
+      "language": "en",
+      "startsAfter": "P265.55S",
+      "startIndex": 3261,
+      "endIndex": 3284,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk5TNDFOVk10VURFdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2NS41NVMtUDEuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk5TNDFOVk10VURFdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2NS41NVMtUDEuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk5TNDFOVk10VURFdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2NS41NVMtUDEuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk5TNDFOVk10VURFdU5UZFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2NS41NVMtUDEuNTdT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Ny4xMlMtUDIuNTlT",
+      "@type": "VideoCaption",
+      "text": "So this is negative 21/20.",
+      "duration": "P2.59S",
+      "language": "en",
+      "startsAfter": "P267.12S",
+      "startIndex": 3284,
+      "endIndex": 3311,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk55NHhNbE10VURJdU5UbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Ny4xMlMtUDIuNTlT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk55NHhNbE10VURJdU5UbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Ny4xMlMtUDIuNTlT"
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk55NHhNbE10VURJdU5UbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Ny4xMlMtUDIuNTlT"
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk55NHhNbE10VURJdU5UbFQtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Ny4xMlMtUDIuNTlT"
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    },
+    {
+      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2OS43MVMtUDMuNFM=",
+      "@type": "VideoCaption",
+      "text": "And you really can't simplify this any further.",
+      "duration": "P3.4S",
+      "language": "en",
+      "startsAfter": "P269.71S",
+      "startIndex": 3311,
+      "endIndex": 3358,
+      "https://knowledge.express/annotation": [
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk9TNDNNVk10VURNdU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMzYtZnJhY3Rpb25z",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2OS43MVMtUDMuNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 36
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk9TNDNNVk10VURNdU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ludGVnZXItMTU1LWludGVnZXI=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2OS43MVMtUDMuNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Integer",
+          "score": 1,
+          "detectedAs": "integer",
+          "startPosition": 155
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk9TNDNNVk10VURNdU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0dyZWF0ZXN0X2NvbW1vbl9kaXZpc29yLTgwNS1ncmVhdGVzdCBjb21tb24gZmFjdG9y",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2OS43MVMtUDMuNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+          "score": 0.999999945374158,
+          "detectedAs": "greatest common factor",
+          "startPosition": 805
+        },
+        {
+          "@id": "aHR0cHM6Ly92aWRlby5nb29nbGUuY29tL3RpbWVkdGV4dD92PXBpM1dXUTBxNkxjJmxhbmc9ZW4jVURJMk9TNDNNVk10VURNdU5GTT0taHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL0ZyYWN0aW9uXyhtYXRoZW1hdGljcyktMjg5NS1mcmFjdGlvbnM=",
+          "tagOf": [
+            "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2OS43MVMtUDMuNFM="
+          ],
+          "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+          "score": 0.9999999919579068,
+          "detectedAs": "fractions",
+          "startPosition": 2895
+        }
+      ]
+    }
+  ],
+  "http://schema.org/description": [
+    {
+      "@value": "See examples of multiplying and dividing fractions with negative numbers."
+    }
+  ],
+  "http://schema.org/image": [
+    {
+      "@id": "https://cdn.kastatic.org/googleusercontent/vkR4iP2PXl0SGkwmmpX-7N9mKNP7RWX8ilHMuROW745BJBvmp_eElCItbyPY-tweaVYgddFoNaaHpXSanPm92ZUS"
+    }
+  ],
+  "http://schema.org/license": [
+    {
+      "@id": "http://creativecommons.org/licenses/by-nc-sa/3.0"
+    }
+  ],
+  "http://schema.org/name": [
+    {
+      "@value": "Multiplying positive and negative fractions"
+    }
+  ],
+  "http://schema.org/sourceOrganization": [
+    {
+      "@id": "https://www.khanacademy.org/"
+    }
+  ],
+  "https://knowledge.express/topic": [
+    {
+      "@id": "https://www.khanacademy.org/video/multiplying-negative-and-positive-fractions"
+    }
+  ],
+  "https://knowledge.express/tag": [
+    {
+      "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKQ==",
+      "tagOf": [
+        "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
+      ],
+      "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+      "score": 0.979609
+    },
+    {
+      "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRGl2aXNvcg==",
+      "tagOf": [
+        "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
+      ],
+      "about": "http://dbpedia.org/resource/Divisor",
+      "score": 0.939714
+    },
+    {
+      "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRWxlbWVudGFyeV9hcml0aG1ldGlj",
+      "tagOf": [
+        "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
+      ],
+      "about": "http://dbpedia.org/resource/Elementary_arithmetic",
+      "score": 0.896297
+    },
+    {
+      "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRGl2aXNpb25fKG1hdGhlbWF0aWNzKQ==",
+      "tagOf": [
+        "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
+      ],
+      "about": "http://dbpedia.org/resource/Division_(mathematics)",
+      "score": 0.872582
+    },
+    {
+      "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvR3JlYXRlc3RfY29tbW9uX2Rpdmlzb3I=",
+      "tagOf": [
+        "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
+      ],
+      "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+      "score": 0.696193
+    },
+    {
+      "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvSW50ZWdlcg==",
+      "tagOf": [
+        "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
+      ],
+      "about": "http://dbpedia.org/resource/Integer",
+      "score": 0.611651
+    },
+    {
+      "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvTnVtYmVy",
+      "tagOf": [
+        "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
+      ],
+      "about": "http://dbpedia.org/resource/Number",
+      "score": 0.568961
+    },
+    {
+      "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvTWF0aGVtYXRpY3NfaW5fbWVkaWV2YWxfSXNsYW0=",
+      "tagOf": [
+        "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
+      ],
+      "about": "http://dbpedia.org/resource/Mathematics_in_medieval_Islam",
+      "score": 0.52889
+    }
+  ]
+}

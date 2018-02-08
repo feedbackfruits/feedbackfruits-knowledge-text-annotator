@@ -1,27 +1,26 @@
 import fetch from 'node-fetch';
 // import * as FormData from 'form-data';
-import { Doc } from 'feedbackfruits-knowledge-engine';
-import * as Context from 'feedbackfruits-knowledge-context';
+import * as Engine from 'feedbackfruits-knowledge-engine';
 import { RETRIEVE_URL } from './config';
 
-export function isOperableDoc(doc: Doc): doc is Doc & ({ ['https://knowledge.express/caption']: Array<Object> } | { ['http://schema.org/text']: string }) {
+export function isOperableDoc(doc: Engine.Doc): doc is Engine.Doc & ({ ['https://knowledge.express/caption']: Array<Object> } | { ['http://schema.org/text']: string }) {
   return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc) || hasText(doc));
 }
 
-export function hasCaptions(doc: Doc): doc is Doc & { ['https://knowledge.express/caption']: string } {
-  return Context.iris.$.caption in doc;
+export function hasCaptions(doc: Engine.Doc): doc is Engine.Doc & { ['https://knowledge.express/caption']: string } {
+  return Engine.Context.iris.$.caption in doc;
 }
 
-export function hasText(doc: Doc): doc is Doc & { ['http://schema.org/text']: string } {
-  return Context.iris.schema.text in doc;
+export function hasText(doc: Engine.Doc): doc is Engine.Doc & { ['http://schema.org/text']: string } {
+  return Engine.Context.iris.schema.text in doc;
 }
 
-export function hasTags(doc: Doc): doc is Doc & { ['https://knowledge.express/tag']: string } {
-  return Context.iris.$.tag in doc;
+export function hasTags(doc: Engine.Doc): doc is Engine.Doc & { ['https://knowledge.express/tag']: string } {
+  return Engine.Context.iris.$.tag in doc;
 }
 
-export function hasAnnotations(doc: Doc): doc is Doc & { ['https://knowledge.express/annotation']: string } {
-  return Context.iris.$.annotation in doc;
+export function hasAnnotations(doc: Engine.Doc): doc is Engine.Doc & { ['https://knowledge.express/annotation']: string } {
+  return Engine.Context.iris.$.annotation in doc;
 }
 
 export type Caption = {
@@ -62,17 +61,23 @@ export type DBPediaResource =   {
   "@percentageOfSecondRank": string
 };
 
-export async function annotateVideo(doc: Doc): Promise<Doc> {
+export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
   const text = await docToText(doc);
   const { concepts, namedEntities } = await retrieveInformation(text);
   const tags = conceptsToTags(concepts, doc["@id"]);
-  const mappedCaptions = mapCaptions(doc[Context.iris.$.caption], namedEntities);
+  const compacted = await Promise.all<Caption>(doc[Engine.Context.iris.$.caption]
+    .map(caption => Engine.Doc.compact(caption, Engine.Context.context)));
+  const mappedCaptions = mapCaptions(compacted, namedEntities);
 
-  return {
+  const annotated = {
     ...doc,
-    [Context.iris.$.tag]: tags,
-    [Context.iris.$.caption]: mappedCaptions
+    [Engine.Context.iris.$.tag]: tags,
+    [Engine.Context.iris.$.caption]: mappedCaptions
   };
+
+  const expanded = await Engine.Doc.expand(annotated, Engine.Context.context);
+  console.log('Returning annotated doc:', JSON.stringify(expanded));
+  return expanded;
 }
 
 export function generateId(...strings: Array<string | number>): string {
@@ -80,26 +85,29 @@ export function generateId(...strings: Array<string | number>): string {
 }
 
 // Returns all the captions that overlap with the range
-export function captionsForRange(captions, startIndex, endIndex) {
-  return captions.reduce((memo, caption) => {
-    if (caption.startIndex >= startIndex && startIndex <= caption.endIndex) {
-      memo.push(caption);
-    }
-
-    if (caption.startIndex >= endIndex && endIndex <= caption.endIndex) {
-      memo.push(caption);
-    }
-
-    return memo;
-  }, []);
-}
+// export function captionsForRange(captions, startIndex, endIndex) {
+//   return captions.reduce((memo, caption) => {
+//     if (caption.startIndex >= startIndex && startIndex <= caption.endIndex) {
+//       memo.push(caption);
+//     }
+//
+//     if (caption.startIndex >= endIndex && endIndex <= caption.endIndex) {
+//       memo.push(caption);
+//     }
+//
+//     return memo;
+//   }, []);
+// }
 
 export function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[]): Caption[] {
-  const withIndices = captions.reduce((memo, caption) => {
+  const withIndices = captions.reduce((memo, caption, index) => {
+    // console.log(`Adding indices to caption:`, caption);
     const { baseIndex } = memo;
     const { text } = caption;
     const startIndex = baseIndex;
-    const endIndex = baseIndex + text.length;
+
+    // Add 1 for the spaces in between the captions, except on the last caption
+    const endIndex = baseIndex + text.length + (index === captions.length - 1 ? 0 : 1 );
 
     return {
       baseIndex: endIndex,
@@ -123,21 +131,26 @@ export function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[
         (caption.startIndex >= endIndex && endIndex <= caption.endIndex);
     });
 
-    if (entities.length === 0) return caption;
+    const newCaption = caption;
+    delete newCaption.startIndex;
+    delete newCaption.endIndex;
+
+
+    if (entities.length === 0) return newCaption;
     const annotations = namedEntitiesToAnnotations(entities, caption["@id"]);
     return {
-      ...caption,
-      [Context.iris.$.annotation]: annotations
+      ...newCaption,
+      [Engine.Context.iris.$.annotation]: annotations
     };
   });
 }
 
-export function docToText(doc: Doc): string {
-  if (hasText(doc)) return doc[Context.iris.schema.text];
+export function docToText(doc: Engine.Doc): string {
+  if (hasText(doc)) return doc[Engine.Context.iris.schema.text];
 
   // Temporary until ambiguity is resolved around compact vs expanded JSON-LD
-  // return doc[Context.iris.$.caption].map(caption => caption[Context.iris.schema.text]).join(' ');
-  return doc[Context.iris.$.caption].map(caption => caption.text).join(' ');
+  // return doc[Engine.Context.iris.$.caption].map(caption => caption[Engine.Context.iris.schema.text]).join(' ');
+  return doc[Engine.Context.iris.$.caption].map(caption => caption.text).join(' ');
 }
 
 export type IRResult = { concepts: Concept[], namedEntities: DBPediaResource[] };

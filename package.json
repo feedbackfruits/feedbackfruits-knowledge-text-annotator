@@ -40,7 +40,6 @@
   "dependencies": {
     "@types/node": "^8.0.25",
     "dotenv": "^4.0.0",
-    "feedbackfruits-knowledge-context": "feedbackfruits/feedbackfruits-knowledge-context#^1.1.2",
     "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#feature/ontology",
     "memux": "^0.4.2",
     "node-fetch": "^1.6.3",

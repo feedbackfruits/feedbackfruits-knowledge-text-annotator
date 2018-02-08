@@ -1,19 +1,19 @@
-import { Doc } from 'feedbackfruits-knowledge-engine';
-export declare function isOperableDoc(doc: Doc): doc is Doc & ({
+import * as Engine from 'feedbackfruits-knowledge-engine';
+export declare function isOperableDoc(doc: Engine.Doc): doc is Engine.Doc & ({
     ['https://knowledge.express/caption']: Array<Object>;
 } | {
     ['http://schema.org/text']: string;
 });
-export declare function hasCaptions(doc: Doc): doc is Doc & {
+export declare function hasCaptions(doc: Engine.Doc): doc is Engine.Doc & {
     ['https://knowledge.express/caption']: string;
 };
-export declare function hasText(doc: Doc): doc is Doc & {
+export declare function hasText(doc: Engine.Doc): doc is Engine.Doc & {
     ['http://schema.org/text']: string;
 };
-export declare function hasTags(doc: Doc): doc is Doc & {
+export declare function hasTags(doc: Engine.Doc): doc is Engine.Doc & {
     ['https://knowledge.express/tag']: string;
 };
-export declare function hasAnnotations(doc: Doc): doc is Doc & {
+export declare function hasAnnotations(doc: Engine.Doc): doc is Engine.Doc & {
     ['https://knowledge.express/annotation']: string;
 };
 export declare type Caption = {
@@ -48,11 +48,10 @@ export declare type DBPediaResource = {
     "@similarityScore": string;
     "@percentageOfSecondRank": string;
 };
-export declare function annotateVideo(doc: Doc): Promise<Doc>;
+export declare function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc>;
 export declare function generateId(...strings: Array<string | number>): string;
-export declare function captionsForRange(captions: any, startIndex: any, endIndex: any): any;
 export declare function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[]): Caption[];
-export declare function docToText(doc: Doc): string;
+export declare function docToText(doc: Engine.Doc): string;
 export declare type IRResult = {
     concepts: Concept[];
     namedEntities: DBPediaResource[];

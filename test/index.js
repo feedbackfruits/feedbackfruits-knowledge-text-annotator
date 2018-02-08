@@ -28,7 +28,7 @@ test('it works', async (t) => {
 
     const receive = (message) => {
       console.log('Received message!', message);
-      _resolve(message);
+      if ([].concat(message.data["@type"]).find(type => type === "VideoObject")) _resolve(message);
     };
 
     const send = await memux({
@@ -54,8 +54,8 @@ test('it works', async (t) => {
       action: 'write',
       data: {
         ...Support.doc,
-        ['https://knowledge.express/tag']: Support.tags,
-        // ['https://knowledge.express/annotation']: Support.annotations
+        caption: Support.doc.caption.map(c => c["@id"]),
+        // tag: Support.tags,
       },
       key: Support.doc['@id'],
       label: NAME,
