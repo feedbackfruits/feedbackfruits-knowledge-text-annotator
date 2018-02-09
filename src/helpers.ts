@@ -25,6 +25,7 @@ export function hasAnnotations(doc: Engine.Doc): doc is Engine.Doc & { ['https:/
 
 export type Caption = {
   "@id": string,
+  "@type": string[];
   text: string
 };
 
@@ -36,6 +37,7 @@ export type Concept = {
 
 export type Tag = {
   "@id": string;
+  "@type": string[];
   tagOf: string[];
   about: string;
   score: number;
@@ -81,7 +83,7 @@ export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
 }
 
 export function generateId(...strings: Array<string | number>): string {
-  return new Buffer(strings.join('-')).toString('base64')
+  return `https://knowledge.express/tag#${new Buffer(strings.join('-')).toString('base64')}`;
 }
 
 // Returns all the captions that overlap with the range
@@ -185,6 +187,7 @@ export async function retrieveInformation(text: string): Promise<IRResult> {
 export function conceptsToTags(concepts: Array<Concept>, taggableId: string): Array<Tag> {
   return concepts.map(concept => {
     return {
+      "@type": [ Engine.Context.iris.$.Tag ],
       tagOf: [ taggableId ],
       about: concept.dbpedia_resource,
       score: concept.relevance,
@@ -198,6 +201,7 @@ export function conceptsToTags(concepts: Array<Concept>, taggableId: string): Ar
 export function namedEntitiesToAnnotations(namedEntities: Array<DBPediaResource>, taggableId: string): Array<Annotation> {
   return namedEntities.map(resource => {
     return {
+      "@type": [ Engine.Context.iris.$.Annotation ],
       tagOf: [ taggableId ],
       about: resource["@URI"],
       score: parseFloat(resource["@similarityScore"]),
