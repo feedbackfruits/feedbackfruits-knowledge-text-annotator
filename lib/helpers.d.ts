@@ -18,6 +18,7 @@ export declare function hasAnnotations(doc: Engine.Doc): doc is Engine.Doc & {
 };
 export declare type Caption = {
     "@id": string;
+    "@type": string[];
     text: string;
 };
 export declare type Concept = {
@@ -27,6 +28,7 @@ export declare type Concept = {
 };
 export declare type Tag = {
     "@id": string;
+    "@type": string[];
     tagOf: string[];
     about: string;
     score: number;

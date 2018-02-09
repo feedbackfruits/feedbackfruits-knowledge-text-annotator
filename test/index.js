@@ -50,12 +50,19 @@ test('it works', async (t) => {
 
     const result = await resultPromise;
     console.log('Result data:', result.data);
-    return t.deepEqual(result, {
+    return t.deepEqual({
+      ...result,
+      data: {
+        ...result.data,
+        caption: Support.sortArray(result.data.caption),
+        tag: Support.sortArray(result.data.tag),
+      }
+    }, {
       action: 'write',
       data: {
         ...Support.doc,
-        caption: Support.doc.caption.map(c => c["@id"]),
-        // tag: Support.tags,
+        caption: Support.sortArray(Support.doc.caption.map(c => c["@id"])),
+        tag: Support.sortArray(Support.tags.map(c => c["@id"])),
       },
       key: Support.doc['@id'],
       label: NAME,

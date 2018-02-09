@@ -17,6 +17,13 @@ export function sortNamedEntities(namedEntities) {
   return namedEntities.sort((a, b) => a["@URI"].localeCompare(b["@URI"]));
 }
 
+export function sortArray(docs) {
+  return docs.sort((a, b) => {
+    if (typeof a === "string" && typeof b === "string") return a.localeCompare(b);
+    return a["@id"].localeCompare(b["@id"]);
+  });
+}
+
 export {
   doc,
   captionText,
