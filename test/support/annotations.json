@@ -1,40 +1,48 @@
 [
   {
-    "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKS0zNi1mcmFjdGlvbnM=",
-    "tagOf": [
-      "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
-    ],
-    "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+    "@id": "tag:#aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKS0zNi1mcmFjdGlvbnM=",
+    "tagOf": "https://www.youtube.com/watch?v=pi3WWQ0q6Lc",
+    "@type": "Annotation",
+    "about": {
+      "@id": "http://dbpedia.org/resource/Fraction_(mathematics)",
+      "@type": "Entity"
+    },
     "score": 0.9999999919579068,
     "detectedAs": "fractions",
     "startPosition": 36
   },
   {
-    "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvSW50ZWdlci0xNTUtaW50ZWdlcg==",
-    "tagOf": [
-      "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
-    ],
-    "about": "http://dbpedia.org/resource/Integer",
+    "@id": "tag:#aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvSW50ZWdlci0xNTUtaW50ZWdlcg==",
+    "tagOf": "https://www.youtube.com/watch?v=pi3WWQ0q6Lc",
+    "@type": "Annotation",
+    "about": {
+      "@id": "http://dbpedia.org/resource/Integer",
+      "@type": "Entity"
+    },
     "score": 1,
     "detectedAs": "integer",
     "startPosition": 155
   },
   {
-    "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvR3JlYXRlc3RfY29tbW9uX2Rpdmlzb3ItODA1LWdyZWF0ZXN0IGNvbW1vbiBmYWN0b3I=",
-    "tagOf": [
-      "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
-    ],
-    "about": "http://dbpedia.org/resource/Greatest_common_divisor",
+    "@id": "tag:#aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvR3JlYXRlc3RfY29tbW9uX2Rpdmlzb3ItODA1LWdyZWF0ZXN0IGNvbW1vbiBmYWN0b3I=",
+    "tagOf": "https://www.youtube.com/watch?v=pi3WWQ0q6Lc",
+    "@type": "Annotation",
+    "about": {
+      "@id": "http://dbpedia.org/resource/Greatest_common_divisor",
+      "@type": "Entity"
+    },
     "score": 0.999999945374158,
     "detectedAs": "greatest common factor",
     "startPosition": 805
   },
   {
-    "@id": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKS0yODk1LWZyYWN0aW9ucw==",
-    "tagOf": [
-      "https://www.youtube.com/watch?v=pi3WWQ0q6Lc"
-    ],
-    "about": "http://dbpedia.org/resource/Fraction_(mathematics)",
+    "@id": "tag:#aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1waTNXV1EwcTZMYy1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKS0yODk1LWZyYWN0aW9ucw==",
+    "tagOf": "https://www.youtube.com/watch?v=pi3WWQ0q6Lc",
+    "@type": "Annotation",
+    "about": {
+      "@id": "http://dbpedia.org/resource/Fraction_(mathematics)",
+      "@type": "Entity"
+    },
     "score": 0.9999999919579068,
     "detectedAs": "fractions",
     "startPosition": 2895

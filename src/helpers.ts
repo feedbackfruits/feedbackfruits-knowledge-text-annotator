@@ -38,8 +38,11 @@ export type Concept = {
 export type Tag = {
   "@id": string;
   "@type": string[];
-  tagOf: string[];
-  about: string;
+  tagOf: string;
+  about: {
+    "@id": string;
+    "@type": string;
+  };
   score: number;
 };
 
@@ -69,17 +72,19 @@ export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
   const tags = conceptsToTags(concepts, doc["@id"]);
   const compacted = await Promise.all<Caption>(doc[Engine.Context.iris.$.caption]
     .map(caption => Engine.Doc.compact(caption, Engine.Context.context)));
-  const mappedCaptions = mapCaptions(compacted, namedEntities);
+  const annotations = namedEntitiesToAnnotations(namedEntities, doc["@id"]);
+  // const mappedCaptions = mapCaptions(compacted, namedEntities);
 
   const annotated = {
     ...doc,
     [Engine.Context.iris.$.tag]: tags,
-    [Engine.Context.iris.$.caption]: mappedCaptions
+    [Engine.Context.iris.$.annotation]: annotations,
+    // [Engine.Context.iris.$.caption]: mappedCaptions
   };
 
   const expanded = await Engine.Doc.expand(annotated, Engine.Context.context);
   console.log('Returning annotated doc:', JSON.stringify(expanded));
-  return expanded;
+  return expanded[0]; // Expanded returns an array, we are only expecting one doc. This will be fixed in the future by flattening docs
 }
 
 export function generateId(...strings: Array<string | number>): string {
@@ -188,12 +193,15 @@ export function conceptsToTags(concepts: Array<Concept>, taggableId: string): Ar
   return concepts.map(concept => {
     return {
       "@type": [ Engine.Context.iris.$.Tag ],
-      tagOf: [ taggableId ],
-      about: concept.dbpedia_resource,
+      tagOf: taggableId,
+      about: {
+        "@id": concept.dbpedia_resource,
+        "@type": Engine.Context.iris.$.Entity
+      },
       score: concept.relevance,
     }
   }).map(partialTag => ({
-    "@id": generateId(...[ partialTag.tagOf[0], partialTag.about ]),
+    "@id": generateId(...[ partialTag.tagOf, partialTag.about["@id"] ]),
     ...partialTag
   }));
 }
@@ -202,14 +210,17 @@ export function namedEntitiesToAnnotations(namedEntities: Array<DBPediaResource>
   return namedEntities.map(resource => {
     return {
       "@type": [ Engine.Context.iris.$.Annotation ],
-      tagOf: [ taggableId ],
-      about: resource["@URI"],
+      tagOf: taggableId,
+      about: {
+        "@id": resource["@URI"],
+        "@type": Engine.Context.iris.$.Entity
+      },
       score: parseFloat(resource["@similarityScore"]),
       detectedAs: resource["@surfaceForm"],
       startPosition: parseInt(resource["@offset"])
     }
   }).map(partialAnnotation => ({
-    "@id": generateId(...[ partialAnnotation.tagOf[0], partialAnnotation.about, partialAnnotation.startPosition, partialAnnotation.detectedAs ]),
+    "@id": generateId(...[ partialAnnotation.tagOf, partialAnnotation.about["@id"], partialAnnotation.startPosition, partialAnnotation.detectedAs ]),
     ...partialAnnotation
   }));
 }

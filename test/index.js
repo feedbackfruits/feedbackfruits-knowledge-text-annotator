@@ -61,8 +61,9 @@ test('it works', async (t) => {
       action: 'write',
       data: {
         ...Support.doc,
-        caption: Support.sortArray(Support.doc.caption.map(c => c["@id"])),
-        tag: Support.sortArray(Support.tags.map(c => c["@id"])),
+        caption: Support.sortArray(Support.doc.caption), //.map(c => c["@id"])),
+        tag: Support.sortArray(Support.tags), //.map(c => c["@id"])),
+        annotation: Support.annotations,
       },
       key: Support.doc['@id'],
       label: NAME,
