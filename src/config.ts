@@ -5,7 +5,7 @@ const {
   KAFKA_ADDRESS = 'tcp://kafka:9092',
   INPUT_TOPIC = 'updates',
   OUTPUT_TOPIC = 'update_requests',
-  RETRIEVE_URL = 'http://localhost:4000/retrieve',
+  RETRIEVE_URL = 'http://localhost:5000',
 } = process.env;
 
 export {

@@ -29,8 +29,11 @@ export declare type Concept = {
 export declare type Tag = {
     "@id": string;
     "@type": string[];
-    tagOf: string[];
-    about: string;
+    tagOf: string;
+    about: {
+        "@id": string;
+        "@type": string;
+    };
     score: number;
 };
 export declare type Annotation = Tag & {
