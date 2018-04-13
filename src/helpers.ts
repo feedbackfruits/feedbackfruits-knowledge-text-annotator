@@ -4,7 +4,7 @@ import * as Engine from 'feedbackfruits-knowledge-engine';
 import { RETRIEVE_URL } from './config';
 
 export function isOperableDoc(doc: Engine.Doc): doc is Engine.Doc & ({ ['https://knowledge.express/caption']: Array<Object> } | { ['http://schema.org/text']: string }) {
-  return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc) || hasText(doc));
+  return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc));
 }
 
 export function hasCaptions(doc: Engine.Doc): doc is Engine.Doc & { ['https://knowledge.express/caption']: string } {
