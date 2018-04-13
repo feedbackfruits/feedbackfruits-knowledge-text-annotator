@@ -157,7 +157,7 @@ export function docToText(doc: Engine.Doc): string {
 
   // Temporary until ambiguity is resolved around compact vs expanded JSON-LD
   // return doc[Engine.Context.iris.$.caption].map(caption => caption[Engine.Context.iris.schema.text]).join(' ');
-  return doc[Engine.Context.iris.$.caption].map(caption => caption.text).join(' ');
+  return doc[Engine.Context.iris.$.caption].map(caption => caption[Engine.Context.iris.schema.text]).join(' ');
 }
 
 export type IRResult = { concepts: Concept[], namedEntities: DBPediaResource[] };
