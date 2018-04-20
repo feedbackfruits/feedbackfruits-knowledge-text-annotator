@@ -171,7 +171,7 @@ export async function retrieveInformation(text: string): Promise<IRResult> {
   });
 
   const result = await response.json<IRResult>();
-  // console.log('Received result:', result);
+  console.log('Received ir:', result);
 
   return result;
 }
