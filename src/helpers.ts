@@ -68,6 +68,7 @@ export type DBPediaResource =   {
 
 export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
   const text = await docToText(doc);
+  console.log('Retrieving information for text:', text);
   const { concepts, namedEntities } = await retrieveInformation(text);
   const tags = conceptsToTags(concepts, doc["@id"]);
   const compacted = await Promise.all<Caption>(doc[Engine.Context.iris.$.caption]
@@ -157,7 +158,7 @@ export function docToText(doc: Engine.Doc): string {
 
   // Temporary until ambiguity is resolved around compact vs expanded JSON-LD
   // return doc[Engine.Context.iris.$.caption].map(caption => caption[Engine.Context.iris.schema.text]).join(' ');
-  return doc[Engine.Context.iris.$.caption].map(caption => caption[Engine.Context.iris.schema.text]).join(' ');
+  return doc[Engine.Context.iris.$.caption].reduce((memo, caption) => [ ...memo, ...[].concat(caption[Engine.Context.iris.schema.text]) ], []).map(doc => doc["@value"]).join(' ');
 }
 
 export type IRResult = { concepts: Concept[], namedEntities: DBPediaResource[] };
@@ -171,7 +172,7 @@ export async function retrieveInformation(text: string): Promise<IRResult> {
   });
 
   const result = await response.json<IRResult>();
-  console.log('Received ir:', result);
+  console.log('Received ir:', JSON.stringify(result));
 
   return result;
 }

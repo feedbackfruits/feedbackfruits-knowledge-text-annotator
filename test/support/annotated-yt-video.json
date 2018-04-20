@@ -1,775 +1,2485 @@
-{
-  "@id": "https://www.youtube.com/watch?v=pi3WWQ0q6Lc",
-  "@type": [
-    "Resource",
-    "VideoObject"
-  ],
-  "description": "See examples of multiplying and dividing fractions with negative numbers.",
-  "image": [
-    "https://cdn.kastatic.org/googleusercontent/vkR4iP2PXl0SGkwmmpX-7N9mKNP7RWX8ilHMuROW745BJBvmp_eElCItbyPY-tweaVYgddFoNaaHpXSanPm92ZUS"
-  ],
-  "license": [
-    "http://creativecommons.org/licenses/by-nc-sa/3.0"
-  ],
-  "name": "Multiplying positive and negative fractions",
-  "sourceOrganization": [
-    "https://www.khanacademy.org/"
-  ],
-  "topic": [
-    "https://www.khanacademy.org/video/multiplying-negative-and-positive-fractions"
-  ],
-  "caption": [
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDBTLVAwLjZT",
-      "@type":"VideoCaption",
-      "startsAfter": "P0S",
-      "duration": "P0.6S",
-      "text": "",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDAuNlMtUDMuNDdT",
-      "@type":"VideoCaption",
-      "startsAfter": "P0.6S",
-      "duration": "P3.47S",
-      "text": "Let's do a few examples multiplying fractions.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQuMDdTLVA0Ljk3NVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P4.07S",
-      "duration": "P4.975S",
-      "text": "So let's multiply negative 7 times 3/49.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkuMDQ1Uy1QMy40NzVT",
-      "@type":"VideoCaption",
-      "startsAfter": "P9.045S",
-      "duration": "P3.475S",
-      "text": "",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyLjUyUy1QMi44OFM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P12.52S",
-      "duration": "P2.88S",
-      "text": "So you might say, I don't see a fraction here.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1LjRTLVAxLjQ0Uw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P15.4S",
-      "duration": "P1.44S",
-      "text": "This looks like an integer.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ljg0Uy1QMy4wMVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P16.84S",
-      "duration": "P3.01S",
-      "text": "But you just to remind yourself that the negative 7 can",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ljg1Uy1QNi43NlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P19.85S",
-      "duration": "P6.76S",
-      "text": "be rewritten as negative 7/1 times 3/49.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2LjYxUy1QMi4xUw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P26.61S",
-      "duration": "P2.1S",
-      "text": "Now we can multiply the numerators.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI4LjcxUy1QMy4yNFM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P28.71S",
-      "duration": "P3.24S",
-      "text": "So the numerator is going to be negative 7 times 3.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDMxLjk1Uy1QMi43NVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P31.95S",
-      "duration": "P2.75S",
-      "text": "And the denominator is going to be 1 times 49.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM0LjdTLVAxLjg5Uw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P34.7S",
-      "duration": "P1.89S",
-      "text": "1 times 49.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM2LjU5Uy1QNC4wNlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P36.59S",
-      "duration": "P4.06S",
-      "text": "And this is going to be equal to-- 7 times 3 is 21.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQwLjY1Uy1QMi4zMjVT",
-      "@type":"VideoCaption",
-      "startsAfter": "P40.65S",
-      "duration": "P2.325S",
-      "text": "And one of their signs is negative,",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQyLjk3NVMtUDIuMzc1Uw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P42.975S",
-      "duration": "P2.375S",
-      "text": "so a negative times a positive is going to be a negative.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ1LjM1Uy1QMS42OFM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P45.35S",
-      "duration": "P1.68S",
-      "text": "So this is going to be negative 21.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ3LjAzUy1QMi4wNlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P47.03S",
-      "duration": "P2.06S",
-      "text": "You could view this as negative 7 plus negative 7",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ5LjA5Uy1QMS4zN1M=",
-      "@type":"VideoCaption",
-      "startsAfter": "P49.09S",
-      "duration": "P1.37S",
-      "text": "plus negative 7.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDUwLjQ2Uy1QNC4wMVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P50.46S",
-      "duration": "P4.01S",
-      "text": "And that's going to be over 49.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU0LjQ3Uy1QMi44NVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P54.47S",
-      "duration": "P2.85S",
-      "text": "And this is the correct value, but we can simplify it",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU3LjMyUy1QNC44M1M=",
-      "@type":"VideoCaption",
-      "startsAfter": "P57.32S",
-      "duration": "P4.83S",
-      "text": "more because 21 and 49 both share 7 as a factor.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYyLjE1Uy1QMS42NDNT",
-      "@type":"VideoCaption",
-      "startsAfter": "P62.15S",
-      "duration": "P1.643S",
-      "text": "That's their greatest common factor.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYzLjc5M1MtUDEuNDE2Uw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P63.793S",
-      "duration": "P1.416S",
-      "text": "So let's divide both the numerator",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY1LjIwOVMtUDIuMTkxUw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P65.209S",
-      "duration": "P2.191S",
-      "text": "and the denominator by 7.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY3LjRTLVAzLjQxUw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P67.4S",
-      "duration": "P3.41S",
-      "text": "Divide the numerator and the denominator by 7.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDcwLjgxUy1QMi42NlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P70.81S",
-      "duration": "P2.66S",
-      "text": "And so this gets us negative 3 in the numerator.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDczLjQ3Uy1QMS42NVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P73.47S",
-      "duration": "P1.65S",
-      "text": "And in the denominator, we have 7.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc1LjEyUy1QMS44NFM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P75.12S",
-      "duration": "P1.84S",
-      "text": "So we could view it as negative 3 over 7.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc2Ljk2Uy1QMy4xMVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P76.96S",
-      "duration": "P3.11S",
-      "text": "Or, you could even do it as negative 3/7.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgwLjA3Uy1QMS42NVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P80.07S",
-      "duration": "P1.65S",
-      "text": "Let's do another one.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgxLjcyUy1QOC4zMlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P81.72S",
-      "duration": "P8.32S",
-      "text": "Let's take 5/9 times-- I'll switch colors more in this one.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkwLjA0Uy1QMi4yNFM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P90.04S",
-      "duration": "P2.24S",
-      "text": "That one's a little monotonous going all red there.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkyLjI4Uy1QNC41MVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P92.28S",
-      "duration": "P4.51S",
-      "text": "5/9 times 3/15.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDk2Ljc5Uy1QMy43NlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P96.79S",
-      "duration": "P3.76S",
-      "text": "",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMC41NVMtUDEuNjdT",
-      "@type":"VideoCaption",
-      "startsAfter": "P100.55S",
-      "duration": "P1.67S",
-      "text": "So this is going to be equal to-- we",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMi4yMlMtUDEuNzVT",
-      "@type":"VideoCaption",
-      "startsAfter": "P102.22S",
-      "duration": "P1.75S",
-      "text": "multiply the numerators.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMy45N1MtUDIuMzdT",
-      "@type":"VideoCaption",
-      "startsAfter": "P103.97S",
-      "duration": "P2.37S",
-      "text": "So it's going to be 5 times 3.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwNi4zNFMtUDMuODNT",
-      "@type":"VideoCaption",
-      "startsAfter": "P106.34S",
-      "duration": "P3.83S",
-      "text": "5 times 3 in the numerator.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMC4xN1MtUDIuOTUzUw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P110.17S",
-      "duration": "P2.953S",
-      "text": "And the denominator is going to be 9 times 15.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMy4xMjNTLVA1LjQwN1M=",
-      "@type":"VideoCaption",
-      "startsAfter": "P113.123S",
-      "duration": "P5.407S",
-      "text": "9 times 15.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExOC41M1MtUDMuNTJT",
-      "@type":"VideoCaption",
-      "startsAfter": "P118.53S",
-      "duration": "P3.52S",
-      "text": "",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyMi4wNVMtUDIuNjVT",
-      "@type":"VideoCaption",
-      "startsAfter": "P122.05S",
-      "duration": "P2.65S",
-      "text": "We could multiply them out, but just leaving it like this",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNC43Uy1QMi4wNlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P124.7S",
-      "duration": "P2.06S",
-      "text": "you see that there is already common factors",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNi43NlMtUDEuNzRT",
-      "@type":"VideoCaption",
-      "startsAfter": "P126.76S",
-      "duration": "P1.74S",
-      "text": "in the numerator and the denominator.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyOC41Uy1QMS43MlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P128.5S",
-      "duration": "P1.72S",
-      "text": "Both the numerator and the denominator,",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMC4yMlMtUDIuMjJT",
-      "@type":"VideoCaption",
-      "startsAfter": "P130.22S",
-      "duration": "P2.22S",
-      "text": "they're both divisible by 5 and they're",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMi40NFMtUDIuMjZT",
-      "@type":"VideoCaption",
-      "startsAfter": "P132.44S",
-      "duration": "P2.26S",
-      "text": "both divisible by 3, which essentially tells us",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNC43Uy1QMi45Uw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P134.7S",
-      "duration": "P2.9S",
-      "text": "that they're divisible by 15.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNy42Uy1QNC4zMlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P137.6S",
-      "duration": "P4.32S",
-      "text": "So we can divide the numerator and denominator by 15.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0MS45MlMtUDIuMzVT",
-      "@type":"VideoCaption",
-      "startsAfter": "P141.92S",
-      "duration": "P2.35S",
-      "text": "So divide the numerator by 15, which",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0NC4yN1MtUDIuNzVT",
-      "@type":"VideoCaption",
-      "startsAfter": "P144.27S",
-      "duration": "P2.75S",
-      "text": "is just like dividing by 5 and then dividing by 3.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0Ny4wMlMtUDIuMDdT",
-      "@type":"VideoCaption",
-      "startsAfter": "P147.02S",
-      "duration": "P2.07S",
-      "text": "So we'll just divide by 15.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0OS4wOVMtUDEuNDJT",
-      "@type":"VideoCaption",
-      "startsAfter": "P149.09S",
-      "duration": "P1.42S",
-      "text": "Divide by 15.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1MC41MVMtUDMuNFM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P150.51S",
-      "duration": "P3.4S",
-      "text": "And this is going to be equal to-- well, 5 times 3 is 15.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1My45MVMtUDIuNTdT",
-      "@type":"VideoCaption",
-      "startsAfter": "P153.91S",
-      "duration": "P2.57S",
-      "text": "Divided by 15 you get 1 in the numerator.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1Ni40OFMtUDMuMjJT",
-      "@type":"VideoCaption",
-      "startsAfter": "P156.48S",
-      "duration": "P3.22S",
-      "text": "And in the denominator, 9 times 15 divided by 15.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1OS43Uy1QMy40NlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P159.7S",
-      "duration": "P3.46S",
-      "text": "Well, that's just going to be 9.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2My4xNlMtUDEuOTNT",
-      "@type":"VideoCaption",
-      "startsAfter": "P163.16S",
-      "duration": "P1.93S",
-      "text": "So it's equal to 1/9.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2NS4wOVMtUDEuMDZT",
-      "@type":"VideoCaption",
-      "startsAfter": "P165.09S",
-      "duration": "P1.06S",
-      "text": "Let's do another one.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ni4xNVMtUDguNzFT",
-      "@type":"VideoCaption",
-      "startsAfter": "P166.15S",
-      "duration": "P8.71S",
-      "text": "What would negative 5/9 times negative 3/15 be?",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3NC44NlMtUDEuNVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P174.86S",
-      "duration": "P1.5S",
-      "text": "Well, we've already figured out what",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3Ni4zNlMtUDMuOTQ5Uw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P176.36S",
-      "duration": "P3.949S",
-      "text": "positive 5/9 times positive 3/15 would be.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4MC4zMDlTLVAxLjc5MVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P180.309S",
-      "duration": "P1.791S",
-      "text": "So now we just have to care about the sign.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Mi4xUy1QMi45OVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P182.1S",
-      "duration": "P2.99S",
-      "text": "If we were just multiplying the two positives, it would be 1/9.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4NS4wOVMtUDIuMDJT",
-      "@type":"VideoCaption",
-      "startsAfter": "P185.09S",
-      "duration": "P2.02S",
-      "text": "But now we have to think about the fact",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Ny4xMVMtUDIuMjk5Uw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P187.11S",
-      "duration": "P2.299S",
-      "text": "that we're multiplying by a negative times a negative.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4OS40MDlTLVAxLjQxNlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P189.409S",
-      "duration": "P1.416S",
-      "text": "Now, we remember when you multiply",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5MC44MjVTLVAzLjI5NVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P190.825S",
-      "duration": "P3.295S",
-      "text": "a negative times a negative, it's a positive.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NC4xMlMtUDEuNTdT",
-      "@type":"VideoCaption",
-      "startsAfter": "P194.12S",
-      "duration": "P1.57S",
-      "text": "The only way that you get a negative",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NS42OVMtUDJT",
-      "@type":"VideoCaption",
-      "startsAfter": "P195.69S",
-      "duration": "P2S",
-      "text": "is if one of those two numbers that you're",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ny42OVMtUDIuNlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P197.69S",
-      "duration": "P2.6S",
-      "text": "taking the product of is negative, not two.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMC4yOVMtUDEuOFM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P200.29S",
-      "duration": "P1.8S",
-      "text": "If both are positive, it's positive.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMi4wOVMtUDIuODIyUw==",
-      "@type":"VideoCaption",
-      "startsAfter": "P202.09S",
-      "duration": "P2.822S",
-      "text": "If both are negative, it's positive.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNC45MTJTLVAxLjA4M1M=",
-      "@type":"VideoCaption",
-      "startsAfter": "P204.912S",
-      "duration": "P1.083S",
-      "text": "Let's do one more example.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNS45OTVTLVAzLjAyNVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P205.995S",
-      "duration": "P3.025S",
-      "text": "",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwOS4wMlMtUDMuNlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P209.02S",
-      "duration": "P3.6S",
-      "text": "Let's take 5-- I'm using the number 5 a lot.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIxMi42MlMtUDcuNDhT",
-      "@type":"VideoCaption",
-      "startsAfter": "P212.62S",
-      "duration": "P7.48S",
-      "text": "So let's do 3/2, just to show that this",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMC4xUy1QMi4zNVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P220.1S",
-      "duration": "P2.35S",
-      "text": "would work with improper fractions.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMi40NVMtUDYuODJT",
-      "@type":"VideoCaption",
-      "startsAfter": "P222.45S",
-      "duration": "P6.82S",
-      "text": "3/2 times negative 7/10.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyOS4yN1MtUDQuNDVT",
-      "@type":"VideoCaption",
-      "startsAfter": "P229.27S",
-      "duration": "P4.45S",
-      "text": "",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzMy43MlMtUDIuMjJT",
-      "@type":"VideoCaption",
-      "startsAfter": "P233.72S",
-      "duration": "P2.22S",
-      "text": "I'm arbitrarily picking colors.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzNS45NFMtUDIuOTdT",
-      "@type":"VideoCaption",
-      "startsAfter": "P235.94S",
-      "duration": "P2.97S",
-      "text": "And so our numerator is going to be 3 times negative 7.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzOC45MVMtUDMuNTlT",
-      "@type":"VideoCaption",
-      "startsAfter": "P238.91S",
-      "duration": "P3.59S",
-      "text": "3 times negative 7.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Mi41Uy1QNC4yOVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P242.5S",
-      "duration": "P4.29S",
-      "text": "And our denominator is going to be 2 times 10.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ni43OVMtUDEuMVM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P246.79S",
-      "duration": "P1.1S",
-      "text": "2 times 10.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ny44OVMtUDQuNjZT",
-      "@type":"VideoCaption",
-      "startsAfter": "P247.89S",
-      "duration": "P4.66S",
-      "text": "",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1Mi41NVMtUDEuNlM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P252.55S",
-      "duration": "P1.6S",
-      "text": "So this is going to be the numerator.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1NC4xNVMtUDQuMzNT",
-      "@type":"VideoCaption",
-      "startsAfter": "P254.15S",
-      "duration": "P4.33S",
-      "text": "Positive times a negative is a negative.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1OC40OFMtUDMuNTNT",
-      "@type":"VideoCaption",
-      "startsAfter": "P258.48S",
-      "duration": "P3.53S",
-      "text": "3 times negative 7 is negative 21.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Mi4wMVMtUDEuNjVT",
-      "@type":"VideoCaption",
-      "startsAfter": "P262.01S",
-      "duration": "P1.65S",
-      "text": "Negative 21.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2My42NlMtUDEuODlT",
-      "@type":"VideoCaption",
-      "startsAfter": "P263.66S",
-      "duration": "P1.89S",
-      "text": "And the denominator, 2 times 10.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2NS41NVMtUDEuNTdT",
-      "@type":"VideoCaption",
-      "startsAfter": "P265.55S",
-      "duration": "P1.57S",
-      "text": "Well, that is just 20.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Ny4xMlMtUDIuNTlT",
-      "@type":"VideoCaption",
-      "startsAfter": "P267.12S",
-      "duration": "P2.59S",
-      "text": "So this is negative 21/20.",
-      "language": "en"
-    },
-    {
-      "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2OS43MVMtUDMuNFM=",
-      "@type":"VideoCaption",
-      "startsAfter": "P269.71S",
-      "duration": "P3.4S",
-      "text": "And you really can't simplify this any further.",
-      "language": "en"
-    }
-  ]
-}
+[
+  {
+    "@id": "https://www.youtube.com/watch?v=pi3WWQ0q6Lc",
+    "@type": [
+      "https://knowledge.express/Resource",
+      "http://schema.org/VideoObject"
+    ],
+    "https://knowledge.express/caption": [
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDBTLVAwLjZT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P0.6S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P0S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": ""
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDAuNlMtUDMuNDdT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.47S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P0.6S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Let's do a few examples multiplying fractions."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQuMDdTLVA0Ljk3NVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.975S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P4.07S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So let's multiply negative 7 times 3/49."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkuMDQ1Uy1QMy40NzVT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.475S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P9.045S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": ""
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyLjUyUy1QMi44OFM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.88S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P12.52S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So you might say, I don't see a fraction here."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1LjRTLVAxLjQ0Uw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.44S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P15.4S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "This looks like an integer."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ljg0Uy1QMy4wMVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.01S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P16.84S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "But you just to remind yourself that the negative 7 can"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ljg1Uy1QNi43NlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P6.76S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P19.85S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "be rewritten as negative 7/1 times 3/49."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2LjYxUy1QMi4xUw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.1S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P26.61S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Now we can multiply the numerators."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI4LjcxUy1QMy4yNFM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.24S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P28.71S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So the numerator is going to be negative 7 times 3."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDMxLjk1Uy1QMi43NVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.75S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P31.95S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And the denominator is going to be 1 times 49."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM0LjdTLVAxLjg5Uw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.89S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P34.7S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "1 times 49."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDM2LjU5Uy1QNC4wNlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.06S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P36.59S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And this is going to be equal to-- 7 times 3 is 21."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQwLjY1Uy1QMi4zMjVT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.325S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P40.65S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And one of their signs is negative,"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQyLjk3NVMtUDIuMzc1Uw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.375S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P42.975S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "so a negative times a positive is going to be a negative."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ1LjM1Uy1QMS42OFM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.68S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P45.35S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So this is going to be negative 21."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ3LjAzUy1QMi4wNlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.06S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P47.03S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "You could view this as negative 7 plus negative 7"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDQ5LjA5Uy1QMS4zN1M=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.37S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P49.09S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "plus negative 7."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDUwLjQ2Uy1QNC4wMVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.01S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P50.46S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And that's going to be over 49."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU0LjQ3Uy1QMi44NVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.85S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P54.47S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And this is the correct value, but we can simplify it"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDU3LjMyUy1QNC44M1M=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.83S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P57.32S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "more because 21 and 49 both share 7 as a factor."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYyLjE1Uy1QMS42NDNT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.643S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P62.15S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "That's their greatest common factor."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDYzLjc5M1MtUDEuNDE2Uw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.416S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P63.793S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So let's divide both the numerator"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY1LjIwOVMtUDIuMTkxUw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.191S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P65.209S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "and the denominator by 7."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDY3LjRTLVAzLjQxUw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.41S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P67.4S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Divide the numerator and the denominator by 7."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDcwLjgxUy1QMi42NlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.66S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P70.81S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And so this gets us negative 3 in the numerator."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDczLjQ3Uy1QMS42NVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.65S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P73.47S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And in the denominator, we have 7."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc1LjEyUy1QMS44NFM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.84S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P75.12S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So we could view it as negative 3 over 7."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDc2Ljk2Uy1QMy4xMVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.11S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P76.96S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Or, you could even do it as negative 3/7."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgwLjA3Uy1QMS42NVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.65S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P80.07S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Let's do another one."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDgxLjcyUy1QOC4zMlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P8.32S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P81.72S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Let's take 5/9 times-- I'll switch colors more in this one."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkwLjA0Uy1QMi4yNFM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.24S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P90.04S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "That one's a little monotonous going all red there."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDkyLjI4Uy1QNC41MVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.51S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P92.28S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "5/9 times 3/15."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDk2Ljc5Uy1QMy43NlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.76S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P96.79S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": ""
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMC41NVMtUDEuNjdT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.67S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P100.55S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So this is going to be equal to-- we"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMi4yMlMtUDEuNzVT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.75S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P102.22S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "multiply the numerators."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwMy45N1MtUDIuMzdT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.37S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P103.97S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So it's going to be 5 times 3."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEwNi4zNFMtUDMuODNT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.83S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P106.34S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "5 times 3 in the numerator."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMC4xN1MtUDIuOTUzUw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.953S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P110.17S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And the denominator is going to be 9 times 15."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExMy4xMjNTLVA1LjQwN1M=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P5.407S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P113.123S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "9 times 15."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDExOC41M1MtUDMuNTJT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.52S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P118.53S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": ""
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyMi4wNVMtUDIuNjVT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.65S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P122.05S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "We could multiply them out, but just leaving it like this"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNC43Uy1QMi4wNlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.06S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P124.7S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "you see that there is already common factors"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyNi43NlMtUDEuNzRT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.74S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P126.76S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "in the numerator and the denominator."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEyOC41Uy1QMS43MlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.72S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P128.5S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Both the numerator and the denominator,"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMC4yMlMtUDIuMjJT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.22S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P130.22S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "they're both divisible by 5 and they're"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzMi40NFMtUDIuMjZT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.26S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P132.44S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "both divisible by 3, which essentially tells us"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNC43Uy1QMi45Uw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.9S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P134.7S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "that they're divisible by 15."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDEzNy42Uy1QNC4zMlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.32S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P137.6S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So we can divide the numerator and denominator by 15."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0MS45MlMtUDIuMzVT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.35S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P141.92S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So divide the numerator by 15, which"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0NC4yN1MtUDIuNzVT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.75S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P144.27S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "is just like dividing by 5 and then dividing by 3."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0Ny4wMlMtUDIuMDdT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.07S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P147.02S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So we'll just divide by 15."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE0OS4wOVMtUDEuNDJT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.42S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P149.09S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Divide by 15."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1MC41MVMtUDMuNFM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.4S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P150.51S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And this is going to be equal to-- well, 5 times 3 is 15."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1My45MVMtUDIuNTdT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.57S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P153.91S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Divided by 15 you get 1 in the numerator."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1Ni40OFMtUDMuMjJT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.22S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P156.48S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And in the denominator, 9 times 15 divided by 15."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE1OS43Uy1QMy40NlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.46S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P159.7S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Well, that's just going to be 9."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2My4xNlMtUDEuOTNT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.93S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P163.16S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So it's equal to 1/9."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2NS4wOVMtUDEuMDZT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.06S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P165.09S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Let's do another one."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE2Ni4xNVMtUDguNzFT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P8.71S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P166.15S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "What would negative 5/9 times negative 3/15 be?"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3NC44NlMtUDEuNVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.5S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P174.86S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Well, we've already figured out what"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE3Ni4zNlMtUDMuOTQ5Uw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.949S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P176.36S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "positive 5/9 times positive 3/15 would be."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4MC4zMDlTLVAxLjc5MVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.791S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P180.309S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So now we just have to care about the sign."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Mi4xUy1QMi45OVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.99S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P182.1S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "If we were just multiplying the two positives, it would be 1/9."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4NS4wOVMtUDIuMDJT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.02S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P185.09S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "But now we have to think about the fact"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4Ny4xMVMtUDIuMjk5Uw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.299S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P187.11S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "that we're multiplying by a negative times a negative."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE4OS40MDlTLVAxLjQxNlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.416S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P189.409S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Now, we remember when you multiply"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5MC44MjVTLVAzLjI5NVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.295S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P190.825S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "a negative times a negative, it's a positive."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NC4xMlMtUDEuNTdT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.57S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P194.12S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "The only way that you get a negative"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5NS42OVMtUDJT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P195.69S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "is if one of those two numbers that you're"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDE5Ny42OVMtUDIuNlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.6S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P197.69S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "taking the product of is negative, not two."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMC4yOVMtUDEuOFM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.8S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P200.29S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "If both are positive, it's positive."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwMi4wOVMtUDIuODIyUw==",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.822S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P202.09S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "If both are negative, it's positive."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNC45MTJTLVAxLjA4M1M=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.083S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P204.912S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Let's do one more example."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwNS45OTVTLVAzLjAyNVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.025S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P205.995S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": ""
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIwOS4wMlMtUDMuNlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.6S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P209.02S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Let's take 5-- I'm using the number 5 a lot."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIxMi42MlMtUDcuNDhT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P7.48S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P212.62S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So let's do 3/2, just to show that this"
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMC4xUy1QMi4zNVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.35S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P220.1S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "would work with improper fractions."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyMi40NVMtUDYuODJT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P6.82S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P222.45S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "3/2 times negative 7/10."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIyOS4yN1MtUDQuNDVT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.45S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P229.27S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": ""
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzMy43MlMtUDIuMjJT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.22S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P233.72S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "I'm arbitrarily picking colors."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzNS45NFMtUDIuOTdT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.97S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P235.94S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And so our numerator is going to be 3 times negative 7."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDIzOC45MVMtUDMuNTlT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.59S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P238.91S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "3 times negative 7."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Mi41Uy1QNC4yOVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.29S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P242.5S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And our denominator is going to be 2 times 10."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ni43OVMtUDEuMVM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.1S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P246.79S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "2 times 10."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI0Ny44OVMtUDQuNjZT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.66S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P247.89S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": ""
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1Mi41NVMtUDEuNlM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.6S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P252.55S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So this is going to be the numerator."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1NC4xNVMtUDQuMzNT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P4.33S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P254.15S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Positive times a negative is a negative."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI1OC40OFMtUDMuNTNT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.53S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P258.48S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "3 times negative 7 is negative 21."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Mi4wMVMtUDEuNjVT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.65S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P262.01S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Negative 21."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2My42NlMtUDEuODlT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.89S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P263.66S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And the denominator, 2 times 10."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2NS41NVMtUDEuNTdT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P1.57S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P265.55S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "Well, that is just 20."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2Ny4xMlMtUDIuNTlT",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P2.59S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P267.12S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "So this is negative 21/20."
+          }
+        ]
+      },
+      {
+        "@id": "https://video.google.com/timedtext?v=pi3WWQ0q6Lc&lang=en#UDI2OS43MVMtUDMuNFM=",
+        "@type": [
+          "https://knowledge.express/VideoCaption"
+        ],
+        "https://knowledge.express/duration": [
+          {
+            "@value": "P3.4S"
+          }
+        ],
+        "https://knowledge.express/language": [
+          {
+            "@value": "en"
+          }
+        ],
+        "https://knowledge.express/startsAfter": [
+          {
+            "@value": "P269.71S"
+          }
+        ],
+        "http://schema.org/text": [
+          {
+            "@value": "And you really can't simplify this any further."
+          }
+        ]
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "See examples of multiplying and dividing fractions with negative numbers."
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://cdn.kastatic.org/googleusercontent/vkR4iP2PXl0SGkwmmpX-7N9mKNP7RWX8ilHMuROW745BJBvmp_eElCItbyPY-tweaVYgddFoNaaHpXSanPm92ZUS"
+      }
+    ],
+    "http://schema.org/license": [
+      {
+        "@id": "http://creativecommons.org/licenses/by-nc-sa/3.0"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Multiplying positive and negative fractions"
+      }
+    ],
+    "http://schema.org/sourceOrganization": [
+      {
+        "@id": "https://www.khanacademy.org/"
+      }
+    ],
+    "https://knowledge.express/topic": [
+      {
+        "@id": "https://www.khanacademy.org/video/multiplying-negative-and-positive-fractions"
+      }
+    ]
+  }
+]
