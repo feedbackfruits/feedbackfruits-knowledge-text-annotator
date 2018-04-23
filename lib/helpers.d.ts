@@ -20,6 +20,8 @@ export declare type Caption = {
     "@id": string;
     "@type": string[];
     text: string;
+    startsAfter: string;
+    duration: string;
 };
 export declare type Concept = {
     text: string;
@@ -55,7 +57,8 @@ export declare type DBPediaResource = {
 };
 export declare function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc>;
 export declare function generateId(...strings: Array<string | number>): string;
-export declare function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[]): Caption[];
+export declare function fixDuration(duration: string): string;
+export declare function calculateRelevance(captions: Caption[], annotations: Annotation[]): string;
 export declare function docToText(doc: Engine.Doc): string;
 export declare type IRResult = {
     concepts: Concept[];

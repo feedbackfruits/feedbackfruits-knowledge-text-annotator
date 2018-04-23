@@ -1,4 +1,5 @@
 import fetch from 'node-fetch';
+import * as iso8601 from 'duration-iso-8601';
 // import * as FormData from 'form-data';
 import * as Engine from 'feedbackfruits-knowledge-engine';
 import { RETRIEVE_URL } from './config';
@@ -27,6 +28,8 @@ export type Caption = {
   "@id": string,
   "@type": string[];
   text: string
+  startsAfter: string,
+  duration: string
 };
 
 export type Concept = {
@@ -107,8 +110,17 @@ export function generateId(...strings: Array<string | number>): string {
 //   }, []);
 // }
 
-export function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[]): Caption[] {
-  const withIndices = captions.reduce((memo, caption, index) => {
+export function fixDuration(duration: string): string {
+  return duration.slice(0, 2) === 'PT' ? duration : `${duration[0]}T${duration.slice(1)}`;
+}
+
+export function calculateRelevance(captions: Caption[], annotations: Annotation[]): string {
+  const lastCaption = captions[captions.length - 1];
+  const lastCaptionStart = iso8601.convertToSecond(fixDuration(lastCaption.startsAfter));
+  const lastCaptionDuration = iso8601.convertToSecond(fixDuration(lastCaption.startsAfter));
+  const totalDuration = lastCaptionStart + lastCaptionDuration;
+
+  const { results: withIndices, baseIndex: totalLength } = captions.reduce((memo, caption, index) => {
     // console.log(`Adding indices to caption:`, caption);
     const { baseIndex } = memo;
     const { text } = caption;
@@ -128,29 +140,53 @@ export function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[
         }
       ]
     };
-  }, { baseIndex: 0, results: [] }).results;
+  }, { baseIndex: 0, results: [] });
 
-  return withIndices.map(caption => {
-    const entities = namedEntities.filter(entity => {
-      const startIndex = entity["@offset"];
-      const endIndex = startIndex + entity["@surfaceForm"].length;
+  // console.log('With indices:', JSON.stringify(withIndices.reverse()[0]));
 
-      return (caption.startIndex >= startIndex && startIndex <= caption.endIndex) ||
-        (caption.startIndex >= endIndex && endIndex <= caption.endIndex);
+  const annotationIndex = annotations.reduce((memo, annotation) => {
+    const index = annotation.startPosition;
+    return { ...memo, [index]: [].concat(memo[index] || [], annotation) };
+  }, {});
+
+  // console.log('Annotation index:', JSON.stringify(Object.keys(annotationIndex)));
+
+  const withRelevantAnnotations = withIndices.map(caption => {
+    const relevantAnnotations = annotations.filter(annotation => {
+      const startIndex = annotation.startPosition;
+      const endIndex = startIndex + annotation.detectedAs.length;
+
+      // console.log('Determining relevant annotations...')
+      // console.log('Caption indices:', caption.startIndex, caption.endIndex);
+      // console.log('Annotation indices:', startIndex, endIndex);
+
+      const overlaps = !((startIndex > caption.endIndex) || (endIndex < caption.startIndex));
+      // console.log('Annotation overlaps:', overlaps);
+
+      return overlaps;
     });
 
-    const newCaption = caption;
-    delete newCaption.startIndex;
-    delete newCaption.endIndex;
-
-
-    if (entities.length === 0) return newCaption;
-    const annotations = namedEntitiesToAnnotations(entities, caption["@id"]);
     return {
-      ...newCaption,
-      [Engine.Context.iris.$.annotation]: annotations
+      ...caption,
+      relevantAnnotations
     };
   });
+
+  const relevantSections = withRelevantAnnotations.reduce((memo, caption) => {
+    if (caption.relevantAnnotations.length === 0) return memo;
+
+    memo[caption["@id"]] = caption.relevantAnnotations.map(a => a["@id"]);
+
+    return memo;
+  }, {});
+
+  const relevance = {
+    length: totalLength,
+    duration: totalDuration,
+    relevantSections
+  };
+
+  return JSON.stringify(relevance);
 }
 
 export function docToText(doc: Engine.Doc): string {

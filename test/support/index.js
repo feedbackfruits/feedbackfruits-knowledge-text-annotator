@@ -7,6 +7,7 @@ const namedEntities = require('./named-entities');
 
 const tags = require('./tags');
 const annotations = require('./annotations');
+const relevance = require('./relevance');
 const captionText = doc.caption.map(caption => caption.text).join(' ');
 
 export function sortConcepts(concepts) {
@@ -31,6 +32,7 @@ export {
   namedEntities,
   tags,
   annotations,
+  relevance,
 }
 
 // This is a bit hacky, but ava complains otherwise

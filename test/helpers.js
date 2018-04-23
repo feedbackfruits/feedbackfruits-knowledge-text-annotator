@@ -35,3 +35,8 @@ test('it exists', t => {
 //   // console.log(JSON.stringify(result));
 //   return t.deepEqual(result, Support.annotations);
 // });
+
+test('calculateRelevance: it calculates relevance', async t => {
+  const result = Helpers.calculateRelevance(Support.doc.caption, Support.annotations);
+  return t.deepEqual(JSON.parse(result), Support.relevance);
+});
