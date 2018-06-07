@@ -1,0 +1,20 @@
+{
+  "@id": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
+  "@type": [
+    "Resource",
+    "Document"
+  ],
+  "encoding": [
+    {
+      "@id": "https://staging-media.feedbackfruits.com/5b0be26033bffd0025332deb",
+      "@type": "MediaObject",
+      "name": "notes_01",
+      "contentUrl": "https://staging-media.feedbackfruits.com/5b0be26033bffd0025332deb/notes_01.pdf",
+      "fileFormat": "pdf",
+      "encodesCreativeWork": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf"
+    }
+  ],
+  "sourceOrganization": [
+   "https://ocw.mit.edu"
+  ]
+}

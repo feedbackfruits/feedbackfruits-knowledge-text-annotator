@@ -1,13 +1,19 @@
 import test from 'ava';
+import * as fs from 'fs';
 
-const doc = require('./doc.json');
-
+const video = require('./video.json');
+const document = require('./document/doc.json');
+const documentText = fs.readFileSync(__dirname + '/document/text.txt').toString();
+// const { text: documentText } = require('./document/text.json');
+const documentTags = require('./document/tags.json');
+const documentAnnotations = require('./document/annotations.json');
+// const { text: documentText } = require('./document/text.json');
 const concepts = require('./concepts');
 const namedEntities = require('./named-entities');
 
 const tags = require('./tags');
 const annotations = require('./annotations');
-const captionText = doc.caption.map(caption => caption.text).join(' ');
+const captionText = video.caption.map(caption => caption.text).join(' ');
 
 export function sortConcepts(concepts) {
   return concepts.sort((a, b) => a.dbpedia_resource.localeCompare(b.dbpedia_resource));
@@ -25,12 +31,16 @@ export function sortArray(docs) {
 }
 
 export {
-  doc,
+  video,
+  document,
+  documentText,
   captionText,
   concepts,
   namedEntities,
   tags,
   annotations,
+  documentTags,
+  documentAnnotations,
 }
 
 // This is a bit hacky, but ava complains otherwise

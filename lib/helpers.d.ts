@@ -16,6 +16,8 @@ export declare function hasTags(doc: Engine.Doc): doc is Engine.Doc & {
 export declare function hasAnnotations(doc: Engine.Doc): doc is Engine.Doc & {
     ['https://knowledge.express/annotation']: string;
 };
+export declare function isDocument(doc: Engine.Doc): boolean;
+export declare function hasMedia(doc: Engine.Doc): doc is Engine.Doc;
 export declare type Caption = {
     "@id": string;
     "@type": string[];
@@ -53,7 +55,9 @@ export declare type DBPediaResource = {
     "@similarityScore": string;
     "@percentageOfSecondRank": string;
 };
+export declare function annotate(text: string, doc: Engine.Doc): Promise<Engine.Doc>;
 export declare function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc>;
+export declare function annotateDocument(doc: Engine.Doc): Promise<Engine.Doc>;
 export declare function generateId(...strings: Array<string | number>): string;
 export declare function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[]): Caption[];
 export declare function docToText(doc: Engine.Doc): string;

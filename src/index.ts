@@ -8,7 +8,13 @@ import { promises as jsonld } from 'jsonld';
 async function annotate(doc: Doc): Promise<Doc> {
   console.log(`Annotating ${doc['@id']} with concepts`);
 
-  const annotated = await Helpers.annotateVideo(doc);
+  let annotated;
+  if (Helpers.isDocument(doc)) {
+    annotated = await Helpers.annotateDocument(doc);
+  } else {
+    annotated = await Helpers.annotateVideo(doc);
+  }
+
   return annotated;
   // const unflattened = await Doc.unflatten(doc, Context.context);
 

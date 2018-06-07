@@ -1,10 +1,10 @@
 import fetch from 'node-fetch';
 // import * as FormData from 'form-data';
 import * as Engine from 'feedbackfruits-knowledge-engine';
-import { RETRIEVE_URL } from './config';
+import { MEDIA_URL, RETRIEVE_URL } from './config';
 
 export function isOperableDoc(doc: Engine.Doc): doc is Engine.Doc & ({ ['https://knowledge.express/caption']: Array<Object> } | { ['http://schema.org/text']: string }) {
-  return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc));
+  return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc) || (isDocument(doc) && hasMedia(doc)));
 }
 
 export function hasCaptions(doc: Engine.Doc): doc is Engine.Doc & { ['https://knowledge.express/caption']: string } {
@@ -21,6 +21,16 @@ export function hasTags(doc: Engine.Doc): doc is Engine.Doc & { ['https://knowle
 
 export function hasAnnotations(doc: Engine.Doc): doc is Engine.Doc & { ['https://knowledge.express/annotation']: string } {
   return Engine.Context.iris.$.annotation in doc;
+}
+
+export function isDocument(doc: Engine.Doc): boolean {
+  return [].concat(doc["@type"]).indexOf(Engine.Context.iris.$.Document) != -1;
+}
+
+export function hasMedia(doc: Engine.Doc): doc is Engine.Doc {
+  return Engine.Context.iris.schema.encoding in doc && doc[Engine.Context.iris.schema.encoding].find(id => {
+    return ((typeof id === 'string') ? id.indexOf(MEDIA_URL) : id["@id"].indexOf(MEDIA_URL)) === 0;
+  });
 }
 
 export type Caption = {
@@ -66,15 +76,14 @@ export type DBPediaResource =   {
   "@percentageOfSecondRank": string
 };
 
-export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
-  const text = await docToText(doc);
+export async function annotate(text: string, doc: Engine.Doc): Promise<Engine.Doc> {
   console.log('Retrieving information for text:', text);
   const { concepts, namedEntities } = await retrieveInformation(text);
   const tags = conceptsToTags(concepts, doc["@id"]);
-  const compacted = await Promise.all<Caption>(doc[Engine.Context.iris.$.caption]
-    .map(caption => Engine.Doc.compact(caption, Engine.Context.context)));
-  const annotations = namedEntitiesToAnnotations(namedEntities, doc["@id"]);
+  // const compacted = await Promise.all<Caption>(doc[Engine.Context.iris.$.caption]
+  //   .map(caption => Engine.Doc.compact(caption, Engine.Context.context)));
   // const mappedCaptions = mapCaptions(compacted, namedEntities);
+  const annotations = namedEntitiesToAnnotations(namedEntities, doc["@id"]);
 
   const annotated = {
     ...doc,
@@ -86,6 +95,21 @@ export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
   const expanded = await Engine.Doc.expand(annotated, Engine.Context.context);
   console.log('Returning annotated doc:', JSON.stringify(expanded));
   return expanded[0]; // Expanded returns an array, we are only expecting one doc. This will be fixed in the future by flattening docs
+}
+
+export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
+  const text = await docToText(doc);
+  return annotate(text, doc);
+}
+
+export async function annotateDocument(doc: Engine.Doc): Promise<Engine.Doc> {
+  const mediaUrlOrDoc = doc[Engine.Context.iris.schema.encoding].find(id => ((typeof id === 'string') ? id.indexOf(MEDIA_URL) : id["@id"].indexOf(MEDIA_URL)) === 0);
+  const mediaUrl = typeof mediaUrlOrDoc === 'string' ? mediaUrlOrDoc : mediaUrlOrDoc["@id"];
+  const textUrl = `${mediaUrl}/text.txt`;
+  console.log('Getting text from media:', textUrl);
+  const response = await fetch(textUrl);
+  const text = await response.text();
+  return annotate(text, doc);
 }
 
 export function generateId(...strings: Array<string | number>): string {
@@ -154,7 +178,7 @@ export function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[
 }
 
 export function docToText(doc: Engine.Doc): string {
-  if (hasText(doc)) return doc[Engine.Context.iris.schema.text];
+  // if (hasText(doc)) return doc[Engine.Context.iris.schema.text];
 
   // Temporary until ambiguity is resolved around compact vs expanded JSON-LD
   // return doc[Engine.Context.iris.$.caption].map(caption => caption[Engine.Context.iris.schema.text]).join(' ');
