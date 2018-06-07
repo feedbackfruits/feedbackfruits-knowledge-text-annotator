@@ -1,0 +1,50 @@
+[
+  {
+     "@id": "tag:#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2F0aGxldGljcy1waHlzaWNhbC1lZHVjYXRpb24tYW5kLXJlY3JlYXRpb24vcGUtNTUwLWRlc2lnbmluZy15b3VyLWxpZmUtamFudWFyeS1pYXAtMjAwNy9sZWN0dXJlLW5vdGVzL25vdGVzXzAxLnBkZi1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKS0zNi1mcmFjdGlvbnM=",
+    "tagOf": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
+    "@type": "Annotation",
+    "about": {
+      "@id": "http://dbpedia.org/resource/Fraction_(mathematics)",
+      "@type": "Entity"
+    },
+    "score": 0.9999999919579068,
+    "detectedAs": "fractions",
+    "startPosition": 36
+  },
+  {
+     "@id": "tag:#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2F0aGxldGljcy1waHlzaWNhbC1lZHVjYXRpb24tYW5kLXJlY3JlYXRpb24vcGUtNTUwLWRlc2lnbmluZy15b3VyLWxpZmUtamFudWFyeS1pYXAtMjAwNy9sZWN0dXJlLW5vdGVzL25vdGVzXzAxLnBkZi1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvSW50ZWdlci0xNTUtaW50ZWdlcg==",
+    "tagOf": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
+    "@type": "Annotation",
+    "about": {
+      "@id": "http://dbpedia.org/resource/Integer",
+      "@type": "Entity"
+    },
+    "score": 1,
+    "detectedAs": "integer",
+    "startPosition": 155
+  },
+  {
+     "@id": "tag:#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2F0aGxldGljcy1waHlzaWNhbC1lZHVjYXRpb24tYW5kLXJlY3JlYXRpb24vcGUtNTUwLWRlc2lnbmluZy15b3VyLWxpZmUtamFudWFyeS1pYXAtMjAwNy9sZWN0dXJlLW5vdGVzL25vdGVzXzAxLnBkZi1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvR3JlYXRlc3RfY29tbW9uX2Rpdmlzb3ItODA1LWdyZWF0ZXN0IGNvbW1vbiBmYWN0b3I=",
+    "tagOf": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
+    "@type": "Annotation",
+    "about": {
+      "@id": "http://dbpedia.org/resource/Greatest_common_divisor",
+      "@type": "Entity"
+    },
+    "score": 0.999999945374158,
+    "detectedAs": "greatest common factor",
+    "startPosition": 805
+  },
+  {
+     "@id": "tag:#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2F0aGxldGljcy1waHlzaWNhbC1lZHVjYXRpb24tYW5kLXJlY3JlYXRpb24vcGUtNTUwLWRlc2lnbmluZy15b3VyLWxpZmUtamFudWFyeS1pYXAtMjAwNy9sZWN0dXJlLW5vdGVzL25vdGVzXzAxLnBkZi1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKS0yODk1LWZyYWN0aW9ucw==",
+    "tagOf": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
+    "@type": "Annotation",
+    "about": {
+      "@id": "http://dbpedia.org/resource/Fraction_(mathematics)",
+      "@type": "Entity"
+    },
+    "score": 0.9999999919579068,
+    "detectedAs": "fractions",
+    "startPosition": 2895
+  }
+]
