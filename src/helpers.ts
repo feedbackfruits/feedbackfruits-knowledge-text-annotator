@@ -2,6 +2,7 @@ import fetch from 'node-fetch';
 // import * as FormData from 'form-data';
 import * as Engine from 'feedbackfruits-knowledge-engine';
 import { MEDIA_URL, RETRIEVE_URL } from './config';
+import captionsToText from './captions-to-text';
 
 export function isOperableDoc(doc: Engine.Doc): doc is Engine.Doc & ({ ['https://knowledge.express/caption']: Array<Object> } | { ['http://schema.org/text']: string }) {
   return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc) || (isDocument(doc) && hasMedia(doc)));
@@ -177,12 +178,16 @@ export function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[
   });
 }
 
-export function docToText(doc: Engine.Doc): string {
+export async function docToText(doc: Engine.Doc): Promise<string> {
+  const [ caption ] = doc[Engine.Context.iris.$.caption];
+  const [ url ] = caption["@id"].split('#');
+  const captionText = await captionsToText(url);
+  return captionText;
   // if (hasText(doc)) return doc[Engine.Context.iris.schema.text];
 
   // Temporary until ambiguity is resolved around compact vs expanded JSON-LD
+  // return doc[Engine.Context.iris.$.caption].reduce((memo, caption) => [ ...memo, ...[].concat(caption[Engine.Context.iris.schema.text]) ], []).map(doc => doc["@value"]).join(' ');
   // return doc[Engine.Context.iris.$.caption].map(caption => caption[Engine.Context.iris.schema.text]).join(' ');
-  return doc[Engine.Context.iris.$.caption].reduce((memo, caption) => [ ...memo, ...[].concat(caption[Engine.Context.iris.schema.text]) ], []).map(doc => doc["@value"]).join(' ');
 }
 
 export type IRResult = { concepts: Concept[], namedEntities: DBPediaResource[] };
