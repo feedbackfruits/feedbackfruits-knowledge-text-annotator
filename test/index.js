@@ -70,14 +70,15 @@ test('it works with videos and documents', async (t) => {
         ...result.data,
         caption: Support.sortArray(result.data.caption),
         tag: Support.sortArray(result.data.tag),
+        annotation: Support.sortArray(result.data.annotation),
       }
     }, {
       action: 'write',
       data: {
         ...Support.video,
-        caption: Support.sortArray(Support.video.caption), //.map(c => c["@id"])),
-        tag: Support.sortArray(Support.tags), //.map(c => c["@id"])),
-        annotation: Support.annotations,
+        caption: Support.sortArray(Support.video.caption.map(x => x["@id"])), //.map(c => c["@id"])),
+        tag: Support.sortArray(Support.tags.map(x => x["@id"])), //.map(c => c["@id"])),
+        annotation: Support.sortArray(Support.annotations.map(x => x["@id"])),
       },
       key: Support.video['@id'],
       label: NAME,
@@ -92,14 +93,16 @@ test('it works with videos and documents', async (t) => {
       data: {
         ...result2.data,
         tag: Support.sortArray(result2.data.tag),
+        annotation: Support.sortArray(result2.data.annotation),
       }
 
     }, {
       action: 'write',
       data: {
         ...Support.document,
-        tag: Support.sortArray(Support.documentTags),
-        annotation: Support.documentAnnotations,
+        encoding: [ Support.document.encoding[0]["@id"] ],
+        tag: Support.sortArray(Support.documentTags.map(x => x["@id"])),
+        annotation: Support.sortArray(Support.documentAnnotations.map(x => x["@id"])),
       },
       key: Support.document['@id'],
       label: NAME,
