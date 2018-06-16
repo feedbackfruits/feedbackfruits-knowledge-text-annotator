@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import * as xml2json from 'xml2json';
 import parseSRT = require('parse-srt');
 
-const googleRegex = /https:\/\/video\.google\.com\/timedtext\?v=(.*)&lang=en#(.*)/
+const googleRegex = /https:\/\/video\.google\.com\/timedtext/
 
 export function unescapeHtml(safe) {
   return safe
@@ -21,6 +21,14 @@ export async function captionsToText(url) {
   const response = await fetch(url);
   const text = await response.text();
   if (googleRegex.test(url)) {
+    // XML captions
+    const json = <any>xml2json.toJson(text, { object: true, trim: false });
+    const captions = json.transcript.text;
+    return captions.map((caption, index) => {
+      const text = '$t' in caption ? trimNewlines(unescapeHtml(caption['$t'])) : '';
+      return text;
+    }).join(' ');
+  } else {
     // SRT captions
     let parsed;
     try {
@@ -36,16 +44,6 @@ export async function captionsToText(url) {
       // console.log('Sub:', id, start, end, text);
       return parsedText;
     }).join(' ');
-
-  } else {
-    // XML captions
-      const json = <any>xml2json.toJson(text, { object: true, trim: false });
-      const captions = json.transcript.text;
-      return captions.map((caption, index) => {
-        const text = '$t' in caption ? trimNewlines(unescapeHtml(caption['$t'])) : '';
-        return text;
-      }).join(' ');
-
   }
 }
 
