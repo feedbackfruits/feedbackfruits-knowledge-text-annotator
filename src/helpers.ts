@@ -3,6 +3,7 @@ import fetch from 'node-fetch';
 import * as Engine from 'feedbackfruits-knowledge-engine';
 import { MEDIA_URL, RETRIEVE_URL } from './config';
 import captionsToText from './captions-to-text';
+import { createIndex } from './create-index';
 
 export function isOperableDoc(doc: Engine.Doc): doc is Engine.Doc & ({ ['https://knowledge.express/caption']: Array<Object> } | { ['http://schema.org/text']: string }) {
   return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc) || (isDocument(doc) && hasMedia(doc)));
@@ -100,7 +101,20 @@ export async function annotate(text: string, doc: Engine.Doc): Promise<Engine.Do
 
 export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
   const text = await docToText(doc);
-  return annotate(text, doc);
+  const annotated = await annotate(text, doc);
+
+  const sdi = createIndex(doc);
+  const mappedAnnotations = doc[Engine.Context.iris.$.annotation].map(annotation => {
+    const id = annotation["@id"];
+    const startDuration = sdi[id];
+    return {
+      ...annotation,
+      "@type": [].concat(annotate["@type"], "VideoAnnotation"),
+      [Engine.Context.iris.$.startDuration]: startDuration
+    }
+  })
+
+  return annotated;
 }
 
 export async function annotateDocument(doc: Engine.Doc): Promise<Engine.Doc> {
