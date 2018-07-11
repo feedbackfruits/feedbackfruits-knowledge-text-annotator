@@ -59,8 +59,6 @@ export declare function annotate(text: string, doc: Engine.Doc): Promise<Engine.
 export declare function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc>;
 export declare function annotateDocument(doc: Engine.Doc): Promise<Engine.Doc>;
 export declare function generateId(...strings: Array<string | number>): string;
-export declare function mapCaptions(captions: Caption[], namedEntities: DBPediaResource[]): Caption[];
-export declare function docToText(doc: Engine.Doc): Promise<string>;
 export declare type IRResult = {
     concepts: Concept[];
     namedEntities: DBPediaResource[];

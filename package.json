@@ -40,7 +40,7 @@
   "dependencies": {
     "@types/node": "^8.0.25",
     "dotenv": "^4.0.0",
-    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#bump/context",
+    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.1",
     "memux": "^0.4.2",
     "node-fetch": "^1.6.3",
     "parse-srt": "^1.0.0-alpha",

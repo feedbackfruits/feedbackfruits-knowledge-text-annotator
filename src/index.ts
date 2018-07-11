@@ -16,18 +16,6 @@ async function annotate(doc: Doc): Promise<Doc> {
   }
 
   return annotated;
-  // const unflattened = await Doc.unflatten(doc, Context.context);
-
-  // const text = await Helpers.docToText(doc);
-  // const { concepts, namedEntities } = await Helpers.retrieveInformation(text);
-  // const tags = Helpers.conceptsToTags(concepts, doc["@id"]);
-  // const mappedCaptions = Helpers.mapCaptions(doc[Context.iris.$.caption], namedEntities);
-
-  // return {
-  //   ...doc,
-  //   [Context.iris.$.tag]: tags,
-  //   [Context.iris.$.caption]: mappedCaptions
-  // };
 }
 
 export type SendFn = (operation: Operation<Doc>) => Promise<void>;
