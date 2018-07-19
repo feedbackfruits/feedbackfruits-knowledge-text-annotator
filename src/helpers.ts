@@ -107,6 +107,7 @@ export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
   if (annotations.length === 0) return annotated;
 
   const sdi = createIndex(annotated, captions);
+  console.log('Created index:', JSON.stringify(sdi));
   const mappedAnnotations = annotations.map(annotation => {
     const id = annotation["@id"];
     const startDuration = sdi[id];

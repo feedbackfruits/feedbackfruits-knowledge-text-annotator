@@ -38,10 +38,18 @@ test('it works with videos and documents', async (t) => {
       _reject2 = reject;
     });
 
+    let _resolve3, _reject3;
+    const resultPromise3 = new Promise((resolve, reject) => {
+      _resolve3 = resolve;
+      _reject3 = reject;
+    });
+
+    const annotations = [];
     const receive = (message) => {
       console.log('Received message!', message);
       if ([].concat(message.data["@type"]).find(type => type === "VideoObject")) _resolve(message);
       if ([].concat(message.data["@type"]).find(type => type === "Document")) _resolve2(message);
+      if ([].concat(message.data["@type"]).find(type => type === "VideoAnnotation")) annotations.push(message.data);
     };
 
     const send = await memux({
@@ -88,7 +96,7 @@ test('it works with videos and documents', async (t) => {
 
     const result2 = await resultPromise2;
     console.log('Result2 data:', result2.data);
-    return t.deepEqual({
+    t.deepEqual({
       ...result2,
       data: {
         ...result2.data,
@@ -107,6 +115,15 @@ test('it works with videos and documents', async (t) => {
       key: Support.document['@id'],
       label: NAME,
     });
+
+    // Wait for annotations
+    setTimeout(() => {
+      _resolve3(annotations);
+    }, 5000);
+
+    const result3 = await resultPromise3;
+    console.log('Result3 data:', JSON.stringify(result3));
+    t.deepEqual(result3, Support.annotations);
 
   } catch(e) {
     console.error(e);
