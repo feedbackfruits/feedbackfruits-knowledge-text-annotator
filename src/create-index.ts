@@ -2,7 +2,7 @@ import { Doc, Context, Captions } from 'feedbackfruits-knowledge-engine';
 
 export function createIndex(doc: Doc, captions: Captions.Caption[]): { [index: string]: string } {
   const annotations = doc[Context.iris.$.annotation];
-  console.log(`Creating index for ${doc["@id"]}: #captions=${captions.length} #annotations=${annotations.length}`)
+  // console.log(`Creating index for ${doc["@id"]}: #captions=${captions.length} #annotations=${annotations.length}`)
   const withIndices = withIndex(captions);
 
   return withIndices.reduce((memo, caption) => {
@@ -13,8 +13,12 @@ export function createIndex(doc: Doc, captions: Captions.Caption[]): { [index: s
       } = annotation;
       const endIndex = startIndex + detectedAs.length;
 
-      return (caption.startIndex >= startIndex && startIndex <= caption.endIndex) ||
-        (caption.startIndex >= endIndex && endIndex <= caption.endIndex);
+      // The annotation starts in this caption if the startIndex of the annotation falls within the caption
+      const startsInCaption = (startIndex >= caption.startIndex && startIndex <= caption.endIndex);
+
+      // console.log(`Found for annotation ${annotation["@id"]} with indices ${startIndex} to ${endIndex} in ${caption["@id"]}?:`, startsInCaption);
+
+      return startsInCaption;
     });
 
     if (found.length === 0) return memo;
@@ -28,13 +32,13 @@ export function createIndex(doc: Doc, captions: Captions.Caption[]): { [index: s
 
 export function withIndex(captions: Captions.Caption[]): (Captions.Caption & { startIndex: number, endIndex: number })[] {
   const withIndices = captions.reduce((memo, caption, index) => {
-    console.log(`Adding indices to caption:`, caption);
     const { baseIndex } = memo;
     const { text } = caption;
     const startIndex = baseIndex;
 
     // Add 1 for the spaces in between the captions, except on the last caption
     const endIndex = baseIndex + text.length + (index === captions.length - 1 ? 0 : 1 );
+    // console.log(`Adding indices ${startIndex} to ${endIndex} caption ${caption["@id"]}`);
 
     return {
       baseIndex: endIndex,
