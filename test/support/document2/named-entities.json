@@ -1,0 +1,182 @@
+[
+  {
+    "@URI": "http://dbpedia.org/resource/Classical_mechanics",
+    "@support": "1739",
+    "@types": "",
+    "@surfaceForm": "Classical Mechanics",
+    "@offset": "6",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "2.9560551388582908E-43"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Acceleration",
+    "@support": "2684",
+    "@types": "",
+    "@surfaceForm": "acceleration",
+    "@offset": "314",
+    "@similarityScore": "0.9999999998376552",
+    "@percentageOfSecondRank": "1.623330210347261E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Acceleration",
+    "@support": "2684",
+    "@types": "",
+    "@surfaceForm": "acceleration",
+    "@offset": "474",
+    "@similarityScore": "0.9999999998376552",
+    "@percentageOfSecondRank": "1.623330210347261E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Velocity",
+    "@support": "4243",
+    "@types": "",
+    "@surfaceForm": "velocity",
+    "@offset": "555",
+    "@similarityScore": "0.9999999993704023",
+    "@percentageOfSecondRank": "6.295575706922279E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Acceleration",
+    "@support": "2684",
+    "@types": "",
+    "@surfaceForm": "acceleration",
+    "@offset": "894",
+    "@similarityScore": "0.9999999998376552",
+    "@percentageOfSecondRank": "1.623330210347261E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Velocity",
+    "@support": "4243",
+    "@types": "",
+    "@surfaceForm": "velocity",
+    "@offset": "989",
+    "@similarityScore": "0.9999999993704023",
+    "@percentageOfSecondRank": "6.295575706922279E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Classical_mechanics",
+    "@support": "1739",
+    "@types": "",
+    "@surfaceForm": "Classical Mechanics",
+    "@offset": "1136",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "2.9560551388582908E-43"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Acceleration",
+    "@support": "2684",
+    "@types": "",
+    "@surfaceForm": "acceleration",
+    "@offset": "1435",
+    "@similarityScore": "0.9999999998376552",
+    "@percentageOfSecondRank": "1.623330210347261E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Velocity",
+    "@support": "4243",
+    "@types": "",
+    "@surfaceForm": "velocity",
+    "@offset": "1531",
+    "@similarityScore": "0.9999999993704023",
+    "@percentageOfSecondRank": "6.295575706922279E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Acceleration",
+    "@support": "2684",
+    "@types": "",
+    "@surfaceForm": "acceleration",
+    "@offset": "1601",
+    "@similarityScore": "0.9999999998376552",
+    "@percentageOfSecondRank": "1.623330210347261E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Acceleration",
+    "@support": "2684",
+    "@types": "",
+    "@surfaceForm": "acceleration",
+    "@offset": "1665",
+    "@similarityScore": "0.9999999998376552",
+    "@percentageOfSecondRank": "1.623330210347261E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Velocity",
+    "@support": "4243",
+    "@types": "",
+    "@surfaceForm": "velocity",
+    "@offset": "1762",
+    "@similarityScore": "0.9999999993704023",
+    "@percentageOfSecondRank": "6.295575706922279E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Acceleration",
+    "@support": "2684",
+    "@types": "",
+    "@surfaceForm": "acceleration",
+    "@offset": "2098",
+    "@similarityScore": "0.9999999998376552",
+    "@percentageOfSecondRank": "1.623330210347261E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Classical_mechanics",
+    "@support": "1739",
+    "@types": "",
+    "@surfaceForm": "Classical Mechanics",
+    "@offset": "2140",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "2.9560551388582908E-43"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Acceleration",
+    "@support": "2684",
+    "@types": "",
+    "@surfaceForm": "acceleration",
+    "@offset": "2359",
+    "@similarityScore": "0.9999999998376552",
+    "@percentageOfSecondRank": "1.623330210347261E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Classical_mechanics",
+    "@support": "1739",
+    "@types": "",
+    "@surfaceForm": "Classical Mechanics",
+    "@offset": "2930",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "2.9560551388582908E-43"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Velocity",
+    "@support": "4243",
+    "@types": "",
+    "@surfaceForm": "velocity",
+    "@offset": "3149",
+    "@similarityScore": "0.9999999993704023",
+    "@percentageOfSecondRank": "6.295575706922279E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Acceleration",
+    "@support": "2684",
+    "@types": "",
+    "@surfaceForm": "acceleration",
+    "@offset": "3295",
+    "@similarityScore": "0.9999999998376552",
+    "@percentageOfSecondRank": "1.623330210347261E-10"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Classical_mechanics",
+    "@support": "1739",
+    "@types": "",
+    "@surfaceForm": "Classical Mechanics",
+    "@offset": "3718",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "2.9560551388582908E-43"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Classical_mechanics",
+    "@support": "1739",
+    "@types": "",
+    "@surfaceForm": "Classical Mechanics",
+    "@offset": "4370",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "2.9560551388582908E-43"
+  }
+]

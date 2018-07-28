@@ -17,21 +17,21 @@ test('it exists', t => {
 //   // console.log(JSON.stringify(result))
 //   return t.deepEqual(Support.sortConcepts(result), Support.sortConcepts(Support.concepts));
 // });
-//
+
 // test('conceptsToTags: it converts concepts to tags for a resource', async t => {
-//   const result = await Helpers.conceptsToTags(Support.concepts, Support.doc['@id']);
-//   // console.log(JSON.stringify(result));
-//   return t.deepEqual(result, Support.tags);
+//   const result = await Helpers.conceptsToTags(Support.Document2.concepts, Support.Document2.doc["@id"]);
+//   console.log(JSON.stringify(result));
+//   return t.deepEqual(result, Support.Document2.tags);
 // });
-//
+
 // test('getNamedEntities: it converts text and concepts to named entities', async t => {
 //   const result = await Helpers.getNamedEntities(Support.captionText, Support.concepts);
 //   // console.log(JSON.stringify(result))
 //   return t.deepEqual(Support.sortNamedEntities(result), Support.sortNamedEntities(Support.namedEntities));
 // });
-//
+
 // test('namedEntitiesToAnnotations: it converts named entities to annotations for a resource', async t => {
-//   const result = await Helpers.namedEntitiesToAnnotations(Support.namedEntities, Support.doc['@id']);
-//   // console.log(JSON.stringify(result));
-//   return t.deepEqual(result, Support.annotations);
+//   const result = await Helpers.namedEntitiesToAnnotations(Support.Document.namedEntities, Support.Document.doc['@id']);
+//   console.log(JSON.stringify(result));
+//   return t.deepEqual(result, Support.Document.annotations);
 // });

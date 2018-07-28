@@ -7,17 +7,36 @@ import { NAME, KAFKA_ADDRESS, OUTPUT_TOPIC, INPUT_TOPIC, PAGE_SIZE, START_PAGE, 
 
 import * as Support from './support';
 
+// For the video
 nock(RETRIEVE_URL)
   .post('/text?concepts&namedEntities')
   .reply(200, {
     concepts: Support.concepts,
     namedEntities: Support.namedEntities
   })
-  .persist();
+
+// For the documents
+// nock(RETRIEVE_URL)
+//   .post('/text?concepts&namedEntities')
+//   .reply(200, {
+//     concepts: Support.Document.concepts,
+//     namedEntities: Support.Document.namedEntities
+//   })
+
+nock(RETRIEVE_URL)
+  .post('/text?concepts&namedEntities')
+  .reply(200, {
+    concepts: Support.Document2.concepts,
+    namedEntities: Support.Document2.namedEntities
+  })
 
 nock(MEDIA_URL)
-  .get('/5b0be26033bffd0025332deb/text.txt')
-  .reply(200, Support.documentText)
+  .get('/5b22b2d17a98990025fbdea0/pdf.pdf')
+  .reply(200, Support.Document.pdf)
+
+nock(MEDIA_URL)
+  .get('/5b5c91b3d438f9003304d811/pdf.pdf')
+  .reply(200, Support.Document2.pdf)
 
 
 test('it exists', t => {
@@ -92,7 +111,7 @@ test('it works with videos and documents', async (t) => {
       label: NAME,
     });
 
-    await send({ action: 'write', key: Support.document['@id'], data: Support.document });
+    await send({ action: 'write', key: Support.Document2.doc['@id'], data: Support.Document2.doc });
 
     const result2 = await resultPromise2;
     console.log('Result2 data:', result2.data);
@@ -107,12 +126,12 @@ test('it works with videos and documents', async (t) => {
     }, {
       action: 'write',
       data: {
-        ...Support.document,
-        encoding: [ Support.document.encoding[0]["@id"] ],
-        tag: Support.sortArray(Support.documentTags.map(x => x["@id"])),
-        annotation: Support.sortArray(Support.documentAnnotations.map(x => x["@id"])),
+        ...Support.Document2.doc,
+        encoding: [ Support.Document2.doc.encoding[0]["@id"] ],
+        tag: Support.sortArray(Support.Document2.tags.map(x => x["@id"])),
+        annotation: Support.sortArray(Support.Document2.annotations.map(x => x["@id"])),
       },
-      key: Support.document['@id'],
+      key: Support.Document2.doc['@id'],
       label: NAME,
     });
 

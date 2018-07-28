@@ -15,7 +15,12 @@
         "noLib": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
-        "outDir": "lib"
+        "outDir": "lib",
+        "lib": [
+            "es2017",
+            "esnext.asynciterable",
+            "dom"
+        ]
     },
     "filesGlob": [
       "src/**/*.ts"

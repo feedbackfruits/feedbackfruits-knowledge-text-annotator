@@ -1,0 +1,27 @@
+[
+  {
+    "text": "Physics",
+    "relevance": 0.904158,
+    "dbpedia_resource": "http://dbpedia.org/resource/Physics"
+  },
+  {
+    "text": "Model theory",
+    "relevance": 0.843248,
+    "dbpedia_resource": "http://dbpedia.org/resource/Model_theory"
+  },
+  {
+    "text": "MIT OpenCourseWare",
+    "relevance": 0.804324,
+    "dbpedia_resource": "http://dbpedia.org/resource/MIT_OpenCourseWare"
+  },
+  {
+    "text": "DNA",
+    "relevance": 0.784896,
+    "dbpedia_resource": "http://dbpedia.org/resource/DNA"
+  },
+  {
+    "text": "Natural environment",
+    "relevance": 0.784328,
+    "dbpedia_resource": "http://dbpedia.org/resource/Natural_environment"
+  }
+]

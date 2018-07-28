@@ -258,6 +258,12 @@ async@^1.4.0:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
+async@^2.0.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.1.tgz#b245a23ca71930044ec53fa46aa00a3e87c6a610"
+  dependencies:
+    lodash "^4.17.10"
+
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
@@ -1522,24 +1528,24 @@ fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
 
-feedbackfruits-knowledge-context@feedbackfruits/feedbackfruits-knowledge-context#^1.1.7:
-  version "1.1.7"
-  resolved "https://codeload.github.com/feedbackfruits/feedbackfruits-knowledge-context/tar.gz/39dbb713cf6612f2003055517416e4e027d72768"
+feedbackfruits-knowledge-context@feedbackfruits/feedbackfruits-knowledge-context#^1.1.12:
+  version "1.1.12"
+  resolved "https://codeload.github.com/feedbackfruits/feedbackfruits-knowledge-context/tar.gz/fc592f61975f646fb1b4e2eb238fc7156cf830f6"
   dependencies:
     "@types/node" "^8.0.8"
     recursive-readdir-sync "^1.0.6"
     tslint "^5.5.0"
     typescript "^2.4.1"
 
-"feedbackfruits-knowledge-engine@github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.1":
-  version "1.4.1"
-  resolved "https://codeload.github.com/feedbackfruits/feedbackfruits-knowledge-engine/tar.gz/0ff55f7111e83e493355f0473ff4c514d330d72e"
+"feedbackfruits-knowledge-engine@github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.3":
+  version "1.4.3"
+  resolved "https://codeload.github.com/feedbackfruits/feedbackfruits-knowledge-engine/tar.gz/c2099d04da2c02995d9b7ae55380e882b74527cf"
   dependencies:
     "@types/n3" "^0.0.3"
     "@types/node" "^8.0.14"
     dotenv "^4.0.0"
     duration-iso-8601 "^1.1.0"
-    feedbackfruits-knowledge-context feedbackfruits/feedbackfruits-knowledge-context#^1.1.7
+    feedbackfruits-knowledge-context feedbackfruits/feedbackfruits-knowledge-context#^1.1.12
     isuri "^2.0.3"
     jsonld "^0.5.18"
     memux "^0.4.5"
@@ -2474,6 +2480,10 @@ lodash@^4.0.1, lodash@^4.1.0, lodash@^4.17.4, lodash@^4.3.0, lodash@~4.17.2:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+lodash@^4.15.0, lodash@^4.17.10:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+
 long@^3.0.3:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/long/-/long-3.2.0.tgz#d821b7138ca1cb581c172990ef14db200b5c474b"
@@ -3063,6 +3073,19 @@ pause-stream@0.0.11:
   resolved "https://registry.yarnpkg.com/pause-stream/-/pause-stream-0.0.11.tgz#fe5a34b0cbce12b5aa6a2b403ee2e73b602f1445"
   dependencies:
     through "~2.3"
+
+pdf.js-extract@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/pdf.js-extract/-/pdf.js-extract-0.0.9.tgz#3892c8b7e14efefc8be283505aa7797a5470dd9b"
+
+pdf2json@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/pdf2json/-/pdf2json-1.1.7.tgz#a09d705ce64d82cbc7d0473d1424963f751bec32"
+  dependencies:
+    async "^2.0.1"
+    lodash "^4.15.0"
+    optimist "^0.6.1"
+    xmldom "^0.1.22"
 
 performance-now@^0.2.0:
   version "0.2.0"
@@ -4160,6 +4183,10 @@ xmlbuilder@~9.0.1:
 xmldom@0.1.19:
   version "0.1.19"
   resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.19.tgz#631fc07776efd84118bf25171b37ed4d075a0abc"
+
+xmldom@^0.1.22:
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"

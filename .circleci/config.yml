@@ -25,6 +25,13 @@ jobs:
           - node_modules-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}
 
       - run:
+          name: Install pdftotext
+          command: |
+            echo "deb http://ftp.de.debian.org/debian sid main" >> /etc/apt/sources.list
+            apt-get update
+            apt-get install -y poppler-utils
+
+      - run:
           name: Install dependencies
           command: yarn
 

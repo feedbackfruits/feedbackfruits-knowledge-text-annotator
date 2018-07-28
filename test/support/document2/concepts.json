@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Time",
+    "relevance": 0.988121,
+    "dbpedia_resource": "http://dbpedia.org/resource/Time"
+  },
+  {
+    "text": "Acceleration",
+    "relevance": 0.906949,
+    "dbpedia_resource": "http://dbpedia.org/resource/Acceleration"
+  },
+  {
+    "text": "Classical mechanics",
+    "relevance": 0.852481,
+    "dbpedia_resource": "http://dbpedia.org/resource/Classical_mechanics"
+  },
+  {
+    "text": "Kinematics",
+    "relevance": 0.779982,
+    "dbpedia_resource": "http://dbpedia.org/resource/Kinematics"
+  },
+  {
+    "text": "Velocity",
+    "relevance": 0.738813,
+    "dbpedia_resource": "http://dbpedia.org/resource/Velocity"
+  },
+  {
+    "text": "Physics",
+    "relevance": 0.711452,
+    "dbpedia_resource": "http://dbpedia.org/resource/Physics"
+  },
+  {
+    "text": "General relativity",
+    "relevance": 0.673195,
+    "dbpedia_resource": "http://dbpedia.org/resource/General_relativity"
+  },
+  {
+    "text": "Fundamental physics concepts",
+    "relevance": 0.557738,
+    "dbpedia_resource": "http://dbpedia.org/resource/Fundamental_physics_concepts"
+  }
+]
