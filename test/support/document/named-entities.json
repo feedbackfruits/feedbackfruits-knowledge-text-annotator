@@ -1,0 +1,20 @@
+[
+  {
+    "@URI": "http://dbpedia.org/resource/Physics",
+    "@support": "21318",
+    "@types": "",
+    "@surfaceForm": "physics",
+    "@offset": "1233",
+    "@similarityScore": "0.9996913198234901",
+    "@percentageOfSecondRank": "3.0877306444111605E-4"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/MIT_OpenCourseWare",
+    "@support": "114",
+    "@types": "",
+    "@surfaceForm": "MIT OpenCourseWare",
+    "@offset": "1302",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "0.0"
+  }
+]

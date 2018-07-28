@@ -19,7 +19,8 @@
   "nyc": {},
   "ava": {
     "files": [
-      "test/**/*.js"
+      "test/**/*.js",
+      "!test/support/**/*.js"
     ],
     "source": [
       "src/**/*.ts"
@@ -40,10 +41,13 @@
   "dependencies": {
     "@types/node": "^8.0.25",
     "dotenv": "^4.0.0",
-    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.1",
+    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.3",
+    "lodash": "^4.17.10",
     "memux": "^0.4.2",
     "node-fetch": "^1.6.3",
     "parse-srt": "^1.0.0-alpha",
+    "pdf.js-extract": "0.0.9",
+    "pdf2json": "^1.1.7",
     "typescript": "^2.4.2",
     "xml2json": "^0.11.0"
   },

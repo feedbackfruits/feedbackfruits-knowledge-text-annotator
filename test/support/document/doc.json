@@ -1,17 +1,17 @@
 {
-  "@id": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
+  "@id": "https://ocw.mit.edu/courses/architecture/4-241j-theory-of-city-form-spring-2013/lecture-notes/MIT4_241JS13_handout2.pdf",
   "@type": [
     "Resource",
     "Document"
   ],
   "encoding": [
     {
-      "@id": "https://staging-media.feedbackfruits.com/5b0be26033bffd0025332deb",
+      "@id": "https://staging-media.feedbackfruits.com/5b22b2d17a98990025fbdea0",
       "@type": "MediaObject",
-      "name": "notes_01",
-      "contentUrl": "https://staging-media.feedbackfruits.com/5b0be26033bffd0025332deb/notes_01.pdf",
+      "name": "MIT4_241JS13_handout2",
+      "contentUrl": "https://staging-media.feedbackfruits.com/5b22b2d17a98990025fbdea0/MIT4_241JS13_handout2.pdf",
       "encodingFormat": "pdf",
-      "encodesCreativeWork": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf"
+      "encodesCreativeWork": "https://ocw.mit.edu/courses/architecture/4-241j-theory-of-city-form-spring-2013/lecture-notes/MIT4_241JS13_handout2.pdf"
     }
   ],
   "sourceOrganization": [

@@ -1,13 +1,16 @@
 import test from 'ava';
 import * as fs from 'fs';
 
+import * as Document from './document';
+export { Document };
+
+import * as Document2 from './document2';
+export { Document2 };
+
 const video = require('./video.json');
 const document = require('./document/doc.json');
-const documentText = fs.readFileSync(__dirname + '/document/text.txt').toString();
-// const { text: documentText } = require('./document/text.json');
 const documentTags = require('./document/tags.json');
 const documentAnnotations = require('./document/annotations.json');
-// const { text: documentText } = require('./document/text.json');
 const concepts = require('./concepts');
 const namedEntities = require('./named-entities');
 
@@ -33,7 +36,6 @@ export function sortArray(docs) {
 export {
   video,
   document,
-  documentText,
   captionText,
   concepts,
   namedEntities,

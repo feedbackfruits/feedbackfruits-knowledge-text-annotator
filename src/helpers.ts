@@ -3,6 +3,7 @@ import fetch from 'node-fetch';
 import * as Engine from 'feedbackfruits-knowledge-engine';
 import { MEDIA_URL, RETRIEVE_URL } from './config';
 import { createIndex } from './create-index';
+import * as PDF from './pdf';
 
 export function isOperableDoc(doc: Engine.Doc): doc is Engine.Doc & ({ ['https://knowledge.express/caption']: Array<Object> } | { ['http://schema.org/text']: string }) {
   return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc) || (isDocument(doc) && hasMedia(doc)));
@@ -129,11 +130,41 @@ export async function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc> {
 export async function annotateDocument(doc: Engine.Doc): Promise<Engine.Doc> {
   const mediaUrlOrDoc = doc[Engine.Context.iris.schema.encoding].find(id => ((typeof id === 'string') ? id.indexOf(MEDIA_URL) : id["@id"].indexOf(MEDIA_URL)) === 0);
   const mediaUrl = typeof mediaUrlOrDoc === 'string' ? mediaUrlOrDoc : mediaUrlOrDoc["@id"];
-  const textUrl = `${mediaUrl}/text.txt`;
-  console.log('Getting text from media:', textUrl);
-  const response = await fetch(textUrl);
-  const text = await response.text();
-  return annotate(text, doc);
+  const pdfUrl = `${mediaUrl}/pdf.pdf`;
+  // console.log('Getting pdf from media:', pdfUrl);
+  const response = await fetch(pdfUrl);
+  // console.log('Got response from media:', response);
+  const pdf = await PDF.parse(response.body);
+  // console.log('Parsed PDF:', pdf);
+  const text = PDF.toText(pdf);
+  // console.log(`Got text from PDF url ${pdfUrl}:`, text);
+  const annotated = await annotate(text, doc);
+  const annotations = annotated[Engine.Context.iris.$.annotation] || [];
+  if (annotations.length === 0) return annotated;
+
+  const mappedAnnotations = (await Promise.all(annotations.map(annotation => Engine.Doc.compact(annotation, Engine.Context.context))))
+    .map((annotation: Annotation) => {
+      const id = annotation["@id"];
+      const words = PDF.findAnnotation(pdf, annotation);
+      // console.log(`Found annotations ${annotation.detectedAs} as:`, JSON.stringify(words));
+      const boundingBox = words.map(word => {
+        const { "$": { xMin, yMin, xMax, yMax} } = word;
+        return `${[ xMin, yMin, xMax, yMax ].join(" ")}`;
+      });
+
+      return {
+        ...annotation,
+        "@type": [].concat(annotation["@type"], "DocumentAnnotation"),
+        [Engine.Context.iris.$.boundingBox]: boundingBox
+      }
+    });
+
+  const withMappedAnnotations = {
+    ...annotated,
+    [Engine.Context.iris.$.annotation]: mappedAnnotations,
+  }
+
+  return withMappedAnnotations;
 }
 
 export function generateId(...strings: Array<string | number>): string {

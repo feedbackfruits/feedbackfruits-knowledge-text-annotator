@@ -1,50 +1,30 @@
 [
   {
-     "@id": "tag:#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2F0aGxldGljcy1waHlzaWNhbC1lZHVjYXRpb24tYW5kLXJlY3JlYXRpb24vcGUtNTUwLWRlc2lnbmluZy15b3VyLWxpZmUtamFudWFyeS1pYXAtMjAwNy9sZWN0dXJlLW5vdGVzL25vdGVzXzAxLnBkZi1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKS0zNi1mcmFjdGlvbnM=",
-    "tagOf": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
-    "@type": "Annotation",
+    "@id": "https://knowledge.express/tag#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2FyY2hpdGVjdHVyZS80LTI0MWotdGhlb3J5LW9mLWNpdHktZm9ybS1zcHJpbmctMjAxMy9sZWN0dXJlLW5vdGVzL01JVDRfMjQxSlMxM19oYW5kb3V0Mi5wZGYtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL1BoeXNpY3MtMTIzMy1waHlzaWNz",
+    "@type": [
+      "https://knowledge.express/Annotation"
+    ],
+    "tagOf": "https://ocw.mit.edu/courses/architecture/4-241j-theory-of-city-form-spring-2013/lecture-notes/MIT4_241JS13_handout2.pdf",
     "about": {
-      "@id": "http://dbpedia.org/resource/Fraction_(mathematics)",
-      "@type": "Entity"
+      "@id": "http://dbpedia.org/resource/Physics",
+      "@type": "https://knowledge.express/Entity"
     },
-    "score": 0.9999999919579068,
-    "detectedAs": "fractions",
-    "startPosition": 36
+    "score": 0.9996913198234901,
+    "detectedAs": "physics",
+    "startPosition": 1233
   },
   {
-     "@id": "tag:#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2F0aGxldGljcy1waHlzaWNhbC1lZHVjYXRpb24tYW5kLXJlY3JlYXRpb24vcGUtNTUwLWRlc2lnbmluZy15b3VyLWxpZmUtamFudWFyeS1pYXAtMjAwNy9sZWN0dXJlLW5vdGVzL25vdGVzXzAxLnBkZi1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvSW50ZWdlci0xNTUtaW50ZWdlcg==",
-    "tagOf": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
-    "@type": "Annotation",
+    "@id": "https://knowledge.express/tag#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2FyY2hpdGVjdHVyZS80LTI0MWotdGhlb3J5LW9mLWNpdHktZm9ybS1zcHJpbmctMjAxMy9sZWN0dXJlLW5vdGVzL01JVDRfMjQxSlMxM19oYW5kb3V0Mi5wZGYtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL01JVF9PcGVuQ291cnNlV2FyZS0xMzAyLU1JVCBPcGVuQ291cnNlV2FyZQ==",
+    "@type": [
+      "https://knowledge.express/Annotation"
+    ],
+    "tagOf": "https://ocw.mit.edu/courses/architecture/4-241j-theory-of-city-form-spring-2013/lecture-notes/MIT4_241JS13_handout2.pdf",
     "about": {
-      "@id": "http://dbpedia.org/resource/Integer",
-      "@type": "Entity"
+      "@id": "http://dbpedia.org/resource/MIT_OpenCourseWare",
+      "@type": "https://knowledge.express/Entity"
     },
     "score": 1,
-    "detectedAs": "integer",
-    "startPosition": 155
-  },
-  {
-     "@id": "tag:#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2F0aGxldGljcy1waHlzaWNhbC1lZHVjYXRpb24tYW5kLXJlY3JlYXRpb24vcGUtNTUwLWRlc2lnbmluZy15b3VyLWxpZmUtamFudWFyeS1pYXAtMjAwNy9sZWN0dXJlLW5vdGVzL25vdGVzXzAxLnBkZi1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvR3JlYXRlc3RfY29tbW9uX2Rpdmlzb3ItODA1LWdyZWF0ZXN0IGNvbW1vbiBmYWN0b3I=",
-    "tagOf": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
-    "@type": "Annotation",
-    "about": {
-      "@id": "http://dbpedia.org/resource/Greatest_common_divisor",
-      "@type": "Entity"
-    },
-    "score": 0.999999945374158,
-    "detectedAs": "greatest common factor",
-    "startPosition": 805
-  },
-  {
-     "@id": "tag:#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2F0aGxldGljcy1waHlzaWNhbC1lZHVjYXRpb24tYW5kLXJlY3JlYXRpb24vcGUtNTUwLWRlc2lnbmluZy15b3VyLWxpZmUtamFudWFyeS1pYXAtMjAwNy9sZWN0dXJlLW5vdGVzL25vdGVzXzAxLnBkZi1odHRwOi8vZGJwZWRpYS5vcmcvcmVzb3VyY2UvRnJhY3Rpb25fKG1hdGhlbWF0aWNzKS0yODk1LWZyYWN0aW9ucw==",
-    "tagOf": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/pe-550-designing-your-life-january-iap-2007/lecture-notes/notes_01.pdf",
-    "@type": "Annotation",
-    "about": {
-      "@id": "http://dbpedia.org/resource/Fraction_(mathematics)",
-      "@type": "Entity"
-    },
-    "score": 0.9999999919579068,
-    "detectedAs": "fractions",
-    "startPosition": 2895
+    "detectedAs": "MIT OpenCourseWare",
+    "startPosition": 1302
   }
 ]
