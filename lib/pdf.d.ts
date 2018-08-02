@@ -1,7 +1,11 @@
 /// <reference types="node" />
 import { Annotation } from './helpers';
 export declare type PDF = {
+    meta: Meta;
     page: Page[];
+};
+export declare type Meta = {
+    title: string;
 };
 export declare type Page = {
     $: {

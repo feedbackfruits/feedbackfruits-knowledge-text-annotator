@@ -4,8 +4,13 @@ import * as xml2js from 'xml2js';
 import { Annotation } from './helpers';
 
 export type PDF = {
+  meta: Meta
   page: Page[]
 }
+
+export type Meta = {
+  title: string
+};
 
 export type Page = {
   $: {
@@ -90,7 +95,13 @@ export async function parse(pdfStream: NodeJS.ReadableStream): Promise<PDF> {
   // }, []).join(' ');
   //
   // return text;
-  return json.html.body[0].doc[0] as PDF;
+  const head = json.html.head[0];
+  const meta = head.meta.reduce((memo, x) => ({ ...memo, [x["$"]["name"]]: x["$"]["content"]}), { title: head.title[0] })
+  const doc = json.html.body[0].doc[0] as PDF;
+  return {
+    meta,
+    ...doc,
+  }
   // return JSON.stringify(json);
 }
 
@@ -164,7 +175,6 @@ export function findAnnotation(pdf: PDF, annotation: Annotation): Word[] {
 
 export function makeWordBoudingBoxRelative(word: Word, width: number, height: number, pageNum: number): Word {
   const [ xMin, yMin, xMax, yMax ] = Object.values(word.$).map(str => parseFloat(str));
-  // const [ xMin, yMin, xMax, yMax ] = boudingBox.split(" ").map(str => parseFloat(str));
 
   const relativeBoundingBox = {
     xMin: `${pageNum + (xMin / width)}`,
@@ -180,5 +190,4 @@ export function makeWordBoudingBoxRelative(word: Word, width: number, height: nu
       ...relativeBoundingBox
     }
   };
-  // return relativeBoundingBox.join(" ");
 }
