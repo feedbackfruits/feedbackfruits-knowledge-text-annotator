@@ -111,7 +111,6 @@ test('it works with videos and documents', async (t) => {
       action: 'write',
       data: {
         ...Support.video,
-        caption: Support.sortArray(Support.video.caption.map(x => x["@id"])), //.map(c => c["@id"])),
         tag: Support.sortArray(Support.tags.map(x => x["@id"])), //.map(c => c["@id"])),
         annotation: Support.sortArray(Support.annotations.map(x => x["@id"])),
       },
@@ -135,6 +134,7 @@ test('it works with videos and documents', async (t) => {
       action: 'write',
       data: {
         ...Support.Document2.doc,
+        name: '8.01 Classical Mechanics Pset 1',
         encoding: [ Support.Document2.doc.encoding[0]["@id"] ],
         tag: Support.sortArray(Support.Document2.tags.map(x => x["@id"])),
         annotation: Support.sortArray(Support.Document2.annotations.map(x => x["@id"])),

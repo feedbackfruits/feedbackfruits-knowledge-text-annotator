@@ -136,6 +136,7 @@ export async function annotateDocument(doc: Engine.Doc): Promise<Engine.Doc> {
   // console.log('Got response from media:', response);
   const pdf = await PDF.parse(response.body);
   // console.log('Parsed PDF:', pdf);
+  const title = pdf.meta.title;
   const text = PDF.toText(pdf);
   // console.log(`Got text from PDF url ${pdfUrl}:`, text);
   const annotated = await annotate(text, doc);
@@ -161,6 +162,7 @@ export async function annotateDocument(doc: Engine.Doc): Promise<Engine.Doc> {
 
   const withMappedAnnotations = {
     ...annotated,
+    [Engine.Context.iris.schema.name]: title,
     [Engine.Context.iris.$.annotation]: mappedAnnotations,
   }
 

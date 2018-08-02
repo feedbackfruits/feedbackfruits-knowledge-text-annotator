@@ -41,7 +41,7 @@
   "dependencies": {
     "@types/node": "^8.0.25",
     "dotenv": "^4.0.0",
-    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.3",
+    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.4",
     "lodash": "^4.17.10",
     "memux": "^0.4.2",
     "node-fetch": "^1.6.3",
