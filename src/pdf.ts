@@ -3,32 +3,34 @@ import { spawn } from 'child_process';
 import * as xml2js from 'xml2js';
 import { Annotation } from './helpers';
 
-// export type PDF = {
-//   meta: any
-//   pages: Page[]
-// }
-//
-// export type Page = {
-//   pageInfo: any
-//   content: PageContent[]
-// }
-//
-// export type PageContent = {
-//   x: number,
-//   y: number,
-//   str: string,
-//   dir: "ltr" | "rtl",
-//   width: number,
-//   height: number,
-//   fontName: string
-// };
+export type PDF = {
+  page: Page[]
+}
 
-export async function load(pdfUrl: string) {
+export type Page = {
+  $: {
+    width: string,
+    height: string
+  }
+  word: Word[]
+}
+
+export type Word = {
+  _: string,
+  $: {
+    xMin: string
+    xMax: string
+    yMin: string
+    yMax: string
+  }
+}
+
+export async function load(pdfUrl: string): Promise<PDF> {
   const response = await fetch(pdfUrl);
   return parse(response.body);
 }
 
-export async function parse(pdfStream: NodeJS.ReadableStream) {
+export async function parse(pdfStream: NodeJS.ReadableStream): Promise<PDF> {
   const xmlString = await new Promise((resolve, reject) => {
     const command = 'pdftotext';
     const args = [
@@ -88,12 +90,12 @@ export async function parse(pdfStream: NodeJS.ReadableStream) {
   // }, []).join(' ');
   //
   // return text;
-  return json;
+  return json.html.body[0].doc[0] as PDF;
   // return JSON.stringify(json);
 }
 
-export function toText(pdf: any) {
-  const pages = pdf.html.body[0].doc[0].page;
+export function toText(pdf: PDF): string {
+  const pages = pdf.page;
 
   const text = pages
     .reduce((memo, page) => {
@@ -112,9 +114,9 @@ export function toText(pdf: any) {
   return text;
 }
 
-export function findAnnotation(pdf: any, annotation: Annotation) {
+export function findAnnotation(pdf: PDF, annotation: Annotation): Word[] {
   // console.log(`Looking for annotation in pdf:`, JSON.stringify(annotation));
-  const pages = pdf.html.body[0].doc[0].page;
+  const pages = pdf.page;
 
   const rangeStart = annotation.startPosition;
   const rangeEnd = rangeStart + annotation.detectedAs.length;
@@ -122,6 +124,7 @@ export function findAnnotation(pdf: any, annotation: Annotation) {
   let index = 0;
   const words = pages
     .reduce((memo, page, pageIndex) => {
+      const { width, height } = page.$;
       const words = page.word;
       return words.reduce((memo, word, wordIndex) => {
         const str = word["_"];
@@ -147,7 +150,7 @@ export function findAnnotation(pdf: any, annotation: Annotation) {
           // Or it ends within this part of the text
           (startIndex <= rangeEnd && rangeEnd <= endIndex);
 
-        if (found) return [ ...memo, word ];
+        if (found) return [ ...memo, makeWordBoudingBoxRelative(word, parseFloat(width), parseFloat(height), pageIndex + 1) ];
         return memo;
       }, memo);
   }, []);
@@ -157,4 +160,25 @@ export function findAnnotation(pdf: any, annotation: Annotation) {
   }
 
   return words;
+}
+
+export function makeWordBoudingBoxRelative(word: Word, width: number, height: number, pageNum: number): Word {
+  const [ xMin, yMin, xMax, yMax ] = Object.values(word.$).map(str => parseFloat(str));
+  // const [ xMin, yMin, xMax, yMax ] = boudingBox.split(" ").map(str => parseFloat(str));
+
+  const relativeBoundingBox = {
+    xMin: `${pageNum + (xMin / width)}`,
+    yMin: `${pageNum + (yMin / height)}`,
+    xMax: `${pageNum + (xMax / width)}`,
+    yMax: `${pageNum + (yMax / height)}`
+  };
+
+  return {
+    ...word,
+    $: {
+      ...word.$,
+      ...relativeBoundingBox
+    }
+  };
+  // return relativeBoundingBox.join(" ");
 }

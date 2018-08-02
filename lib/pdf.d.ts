@@ -1,6 +1,26 @@
 /// <reference types="node" />
 import { Annotation } from './helpers';
-export declare function load(pdfUrl: string): Promise<any>;
-export declare function parse(pdfStream: NodeJS.ReadableStream): Promise<any>;
-export declare function toText(pdf: any): any;
-export declare function findAnnotation(pdf: any, annotation: Annotation): any;
+export declare type PDF = {
+    page: Page[];
+};
+export declare type Page = {
+    $: {
+        width: string;
+        height: string;
+    };
+    word: Word[];
+};
+export declare type Word = {
+    _: string;
+    $: {
+        xMin: string;
+        xMax: string;
+        yMin: string;
+        yMax: string;
+    };
+};
+export declare function load(pdfUrl: string): Promise<PDF>;
+export declare function parse(pdfStream: NodeJS.ReadableStream): Promise<PDF>;
+export declare function toText(pdf: PDF): string;
+export declare function findAnnotation(pdf: PDF, annotation: Annotation): Word[];
+export declare function makeWordBoudingBoxRelative(word: Word, width: number, height: number, pageNum: number): Word;
