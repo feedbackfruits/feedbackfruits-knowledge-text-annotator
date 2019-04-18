@@ -1,30 +1,17 @@
 [
   {
-    "@id": "https://knowledge.express/tag#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2FyY2hpdGVjdHVyZS80LTI0MWotdGhlb3J5LW9mLWNpdHktZm9ybS1zcHJpbmctMjAxMy9sZWN0dXJlLW5vdGVzL01JVDRfMjQxSlMxM19oYW5kb3V0Mi5wZGYtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL1BoeXNpY3MtMTIzMy1waHlzaWNz",
+    "@id": "https://knowledge.express/tag#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL3Nsb2FuLXNjaG9vbC1vZi1tYW5hZ2VtZW50LzE1LTA1My1vcHRpbWl6YXRpb24tbWV0aG9kcy1pbi1tYW5hZ2VtZW50LXNjaWVuY2Utc3ByaW5nLTIwMTMvbGVjdHVyZS1ub3Rlcy9NSVQxNV8wNTNTMTNfbGVjMTcucGRmLWh0dHA6Ly9kYnBlZGlhLm9yZy9yZXNvdXJjZS9UcmF2ZWxsaW5nX3NhbGVzbWFuX3Byb2JsZW0tNDI3LXRyYXZlbGluZyBzYWxlc21hbiBwcm9ibGVt",
     "@type": [
       "https://knowledge.express/Annotation"
     ],
-    "tagOf": "https://ocw.mit.edu/courses/architecture/4-241j-theory-of-city-form-spring-2013/lecture-notes/MIT4_241JS13_handout2.pdf",
-    "about": {
-      "@id": "http://dbpedia.org/resource/Physics",
-      "@type": "https://knowledge.express/Entity"
-    },
-    "score": 0.9996913198234901,
-    "detectedAs": "physics",
-    "startPosition": 1233
-  },
-  {
-    "@id": "https://knowledge.express/tag#aHR0cHM6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2FyY2hpdGVjdHVyZS80LTI0MWotdGhlb3J5LW9mLWNpdHktZm9ybS1zcHJpbmctMjAxMy9sZWN0dXJlLW5vdGVzL01JVDRfMjQxSlMxM19oYW5kb3V0Mi5wZGYtaHR0cDovL2RicGVkaWEub3JnL3Jlc291cmNlL01JVF9PcGVuQ291cnNlV2FyZS0xMzAyLU1JVCBPcGVuQ291cnNlV2FyZQ==",
-    "@type": [
-      "https://knowledge.express/Annotation"
-    ],
-    "tagOf": "https://ocw.mit.edu/courses/architecture/4-241j-theory-of-city-form-spring-2013/lecture-notes/MIT4_241JS13_handout2.pdf",
-    "about": {
-      "@id": "http://dbpedia.org/resource/MIT_OpenCourseWare",
-      "@type": "https://knowledge.express/Entity"
-    },
+    "startPosition": 427,
     "score": 1,
-    "detectedAs": "MIT OpenCourseWare",
-    "startPosition": 1302
+    "detectedAs": "traveling salesman problem",
+    "about": {
+      "@id": "http://dbpedia.org/resource/Travelling_salesman_problem",
+      "@type": [
+        "https://knowledge.express/Entity"
+      ]
+    }
   }
 ]

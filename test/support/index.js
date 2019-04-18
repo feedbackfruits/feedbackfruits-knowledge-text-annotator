@@ -7,6 +7,9 @@ export { Document };
 import * as Document2 from './document2';
 export { Document2 };
 
+import * as Undercovered from './undercovered';
+export { Undercovered };
+
 const video = require('./video.json');
 const document = require('./document/doc.json');
 const documentTags = require('./document/tags.json');

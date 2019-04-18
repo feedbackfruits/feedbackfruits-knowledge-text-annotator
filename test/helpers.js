@@ -1,3 +1,4 @@
+import * as fs from 'fs';
 import test from 'ava';
 import * as Helpers from '../lib/helpers';
 
@@ -12,11 +13,14 @@ test('it exists', t => {
 //   return t.deepEqual(result, {});
 // });
 
-// test('getConcepts: it converts text to concepts', async t => {
-//   const result = await Helpers.getConcepts(Support.captionText);
-//   // console.log(JSON.stringify(result))
-//   return t.deepEqual(Support.sortConcepts(result), Support.sortConcepts(Support.concepts));
-// });
+test('getConcepts: it converts text to concepts', async t => {
+  const result = await Helpers.retrieveInformation(Support.Undercovered.pdfText);
+  const { concepts, namedEntities } = result;
+  // console.log(JSON.stringify(result))
+  // fs.writeFileSync('bla.json', JSON.stringify(result));
+  t.deepEqual(Support.sortConcepts(concepts), Support.sortConcepts(Support.Undercovered.concepts));
+  return t.deepEqual(Support.sortNamedEntities(namedEntities), Support.sortNamedEntities(Support.Undercovered.namedEntities));
+});
 
 // test('conceptsToTags: it converts concepts to tags for a resource', async t => {
 //   const result = await Helpers.conceptsToTags(Support.Document2.concepts, Support.Document2.doc["@id"]);

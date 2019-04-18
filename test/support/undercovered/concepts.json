@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Schema",
+    "relevance": 0.97938,
+    "dbpedia_resource": "http://dbpedia.org/resource/Schema"
+  },
+  {
+    "text": "Transaction cost",
+    "relevance": 0.908662,
+    "dbpedia_resource": "http://dbpedia.org/resource/Transaction_cost"
+  },
+  {
+    "text": "Data management",
+    "relevance": 0.876526,
+    "dbpedia_resource": "http://dbpedia.org/resource/Data_management"
+  },
+  {
+    "text": "XML schema",
+    "relevance": 0.818219,
+    "dbpedia_resource": "http://dbpedia.org/resource/XML_schema"
+  },
+  {
+    "text": "Contract",
+    "relevance": 0.80828,
+    "dbpedia_resource": "http://dbpedia.org/resource/Contract"
+  },
+  {
+    "text": "XML",
+    "relevance": 0.769426,
+    "dbpedia_resource": "http://dbpedia.org/resource/XML"
+  },
+  {
+    "text": "Data",
+    "relevance": 0.7626,
+    "dbpedia_resource": "http://dbpedia.org/resource/Data"
+  },
+  {
+    "text": "Proof of concept",
+    "relevance": 0.75238,
+    "dbpedia_resource": "http://dbpedia.org/resource/Proof_of_concept"
+  }
+]

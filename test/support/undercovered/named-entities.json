@@ -1,0 +1,56 @@
+[
+  {
+    "@URI": "http://dbpedia.org/resource/XML",
+    "@support": "8252",
+    "@types": "",
+    "@surfaceForm": "XML",
+    "@offset": "3159",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "0.0"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/XML_schema",
+    "@support": "259",
+    "@types": "",
+    "@surfaceForm": "xml schema",
+    "@offset": "4897",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "2.104094731675269E-72"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Data_management",
+    "@support": "342",
+    "@types": "",
+    "@surfaceForm": "data management",
+    "@offset": "7210",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "0.0"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Transaction_cost",
+    "@support": "343",
+    "@types": "",
+    "@surfaceForm": "transaction cost",
+    "@offset": "8312",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "0.0"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/Transaction_cost",
+    "@support": "343",
+    "@types": "",
+    "@surfaceForm": "transaction costs",
+    "@offset": "9486",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "0.0"
+  },
+  {
+    "@URI": "http://dbpedia.org/resource/XML_schema",
+    "@support": "259",
+    "@types": "",
+    "@surfaceForm": "xml schema",
+    "@offset": "10355",
+    "@similarityScore": "1.0",
+    "@percentageOfSecondRank": "2.104094731675269E-72"
+  }
+]

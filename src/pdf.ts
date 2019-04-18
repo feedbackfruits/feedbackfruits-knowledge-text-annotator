@@ -153,7 +153,7 @@ export function findAnnotation(pdf: PDF, annotation: Annotation): Word[] {
 
         if (startIndex > rangeEnd + 50) return memo;
         if (endIndex < rangeStart - 50) return memo;
-        // console.log(`Looking for ${annotation.detectedAs} at ${rangeStart} to ${rangeEnd} between ${startIndex} and ${endIndex}: `, str);
+        console.log(`Looking for ${annotation.detectedAs} at ${rangeStart} to ${rangeEnd} between ${startIndex} and ${endIndex}: `, str);
 
         const found =
           // Either our range starts within this part of the text
