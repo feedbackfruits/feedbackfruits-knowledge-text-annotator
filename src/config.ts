@@ -1,4 +1,4 @@
-require('dotenv').load({ silent: true });
+require('dotenv').config();
 
 const {
   NAME = 'feedbackfruits-knowledge-text-annotator',

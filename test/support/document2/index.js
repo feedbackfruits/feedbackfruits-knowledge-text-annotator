@@ -1,3 +1,4 @@
+import test from 'ava';
 import * as fs from 'fs';
 
 import doc from './doc';
@@ -5,6 +6,10 @@ import concepts from './concepts';
 import namedEntities from './named-entities';
 import tags from './tags';
 import annotations from './annotations';
+
+test.skip('Support noop document2', () => {
+  t.pass();
+})
 
 const pdf = fs.createReadStream(__dirname + '/pdf.pdf');
 import parsedPDF from './pdf';

@@ -7,6 +7,10 @@ export { Document };
 import * as Document2 from './document2';
 export { Document2 };
 
+test.skip('Support noop', () => {
+  t.pass();
+})
+
 const video = require('./video.json');
 const document = require('./document/doc.json');
 const documentTags = require('./document/tags.json');
@@ -44,8 +48,3 @@ export {
   documentTags,
   documentAnnotations,
 }
-
-// This is a bit hacky, but ava complains otherwise
-test('support', t => {
-  t.pass();
-});
