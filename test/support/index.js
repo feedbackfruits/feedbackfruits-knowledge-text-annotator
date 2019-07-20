@@ -7,6 +7,9 @@ export { Document };
 import * as Document2 from './document2';
 export { Document2 };
 
+import * as BigPDF from './big-pdf';
+export { BigPDF };
+
 test.skip('Support noop', () => {
   t.pass();
 })

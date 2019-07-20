@@ -108,19 +108,32 @@ export async function parse(pdfStream: NodeJS.ReadableStream): Promise<PDF> {
 export function toText(pdf: PDF): string {
   const pages = pdf.page;
 
-  const text = pages
-    .reduce((memo, page) => {
-      // console.log(`Reducing page: ${JSON.stringify(page)}`);
-      return page.word.reduce((memo, word) => {
-        // console.log(`Reducing word: ${JSON.stringify(word)}`)
-        const str = word["_"];
+  let text = '';
+  for(let i = 0; i < pages.length; i++) {
+    const page = pages[i];
 
-        // Skip unicode SUB char
-        if (str === "\u001a") return memo;
+    for(let j = 0; j < page.word.length; j++) {
+      let word = page.word[j]["_"];
+      if (word === "\u001a") continue;
 
-        return [ ...memo, str ];
-      }, memo);
-  }, []).join(' ');
+      if (i === 0 && j === 0) text = word;
+      else text += ' ' + word;
+    }
+  }
+
+  // const text = pages
+  //   .reduce((memo, page) => {
+  //     // console.log(`Reducing page: ${JSON.stringify(page)}`);
+  //     return page.word.reduce((memo, word) => {
+  //       // console.log(`Reducing word: ${JSON.stringify(word)}`)
+  //       const str = word["_"];
+  //
+  //       // Skip unicode SUB char
+  //       if (str === "\u001a") return memo;
+  //
+  //       return [ ...memo, str ];
+  //     }, memo);
+  // }, []).join(' ');
 
   return text;
 }
