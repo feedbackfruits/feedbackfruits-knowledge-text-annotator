@@ -17,6 +17,7 @@ export declare function hasAnnotations(doc: Engine.Doc): doc is Engine.Doc & {
     ['https://knowledge.express/annotation']: string;
 };
 export declare function isDocument(doc: Engine.Doc): boolean;
+export declare function isWebPageResource(doc: Engine.Doc): boolean;
 export declare function hasMedia(doc: Engine.Doc): doc is Engine.Doc;
 export declare type Caption = {
     "@id": string;
@@ -56,6 +57,7 @@ export declare type DBPediaResource = {
     "@percentageOfSecondRank": string;
 };
 export declare function annotate(text: string, doc: Engine.Doc): Promise<Engine.Doc>;
+export declare function annotateWebPageResource(doc: Engine.Doc): Promise<Engine.Doc>;
 export declare function annotateVideo(doc: Engine.Doc): Promise<Engine.Doc>;
 export declare function annotateDocument(doc: Engine.Doc): Promise<Engine.Doc>;
 export declare function generateId(...strings: Array<string | number>): string;
@@ -63,6 +65,9 @@ export declare type IRResult = {
     concepts: Concept[];
     namedEntities: DBPediaResource[];
 };
-export declare function retrieveInformation(text: string): Promise<IRResult>;
+export declare function retrieveInformation(options: {
+    text?: string;
+    url?: string;
+}): Promise<IRResult>;
 export declare function conceptsToTags(concepts: Array<Concept>, taggableId: string): Array<Tag>;
 export declare function namedEntitiesToAnnotations(namedEntities: Array<DBPediaResource>, taggableId: string): Array<Annotation>;
