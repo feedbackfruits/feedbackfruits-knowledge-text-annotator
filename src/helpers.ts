@@ -6,7 +6,7 @@ import { createIndex } from './create-index';
 import * as PDF from './pdf';
 
 export function isOperableDoc(doc: Engine.Doc): doc is Engine.Doc & ({ ['https://knowledge.express/caption']: Array<Object> } | { ['http://schema.org/text']: string }) {
-  return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc) || (isDocument(doc) && hasMedia(doc)));
+  return (!hasTags(doc) || !hasAnnotations(doc) ) && (hasCaptions(doc) || (isDocument(doc) && hasMedia(doc) || (isWebPageResource(doc) && hasMedia(doc))));
 }
 
 export function hasCaptions(doc: Engine.Doc): doc is Engine.Doc & { ['https://knowledge.express/caption']: string } {
@@ -27,6 +27,10 @@ export function hasAnnotations(doc: Engine.Doc): doc is Engine.Doc & { ['https:/
 
 export function isDocument(doc: Engine.Doc): boolean {
   return [].concat(doc["@type"]).indexOf(Engine.Context.iris.$.Document) != -1;
+}
+
+export function isWebPageResource(doc: Engine.Doc): boolean {
+  return [].concat(doc["@type"]).indexOf(Engine.Context.iris.$.WebPageResource) != -1;
 }
 
 export function hasMedia(doc: Engine.Doc): doc is Engine.Doc {
@@ -80,7 +84,26 @@ export type DBPediaResource =   {
 
 export async function annotate(text: string, doc: Engine.Doc): Promise<Engine.Doc> {
   console.log('Retrieving information for text:', text);
-  const { concepts, namedEntities } = await retrieveInformation(text);
+  const { concepts, namedEntities } = await retrieveInformation({ text });
+  const tags = conceptsToTags(concepts, doc["@id"]);
+  const annotations = namedEntitiesToAnnotations(namedEntities, doc["@id"]);
+
+  const annotated = {
+    ...doc,
+    [Engine.Context.iris.$.tag]: tags,
+    [Engine.Context.iris.$.annotation]: annotations,
+    // [Engine.Context.iris.$.caption]: mappedCaptions
+  };
+
+  const expanded = await Engine.Doc.expand(annotated, Engine.Context.context);
+  console.log('Returning annotated doc:', JSON.stringify(expanded));
+  return expanded[0]; // Expanded returns an array, we are only expecting one doc. This will be fixed in the future by flattening docs
+}
+
+export async function annotateWebPageResource(doc: Engine.Doc): Promise<Engine.Doc> {
+  const url = doc["@id"]
+  console.log('Retrieving information for url:', url);
+  const { concepts, namedEntities } = await retrieveInformation({ url });
   const tags = conceptsToTags(concepts, doc["@id"]);
   const annotations = namedEntitiesToAnnotations(namedEntities, doc["@id"]);
 
@@ -174,16 +197,30 @@ export function generateId(...strings: Array<string | number>): string {
 }
 
 export type IRResult = { concepts: Concept[], namedEntities: DBPediaResource[] };
-export async function retrieveInformation(text: string): Promise<IRResult> {
-  const response = await fetch(`${RETRIEVE_URL}/text?concepts&namedEntities`, {
-    method: 'post',
-    headers: {
-      'Content-type': 'text/plain'
-    },
-    body: text
-  });
+export async function retrieveInformation(options: { text?: string, url?: string }): Promise<IRResult> {
+  let response: Response;
+  if ('text' in options) {
+    response = await fetch(`${RETRIEVE_URL}/text?concepts&namedEntities`, {
+      method: 'post',
+      headers: {
+        'Content-type': 'text/plain'
+      },
+      body: options['text']
+    });
+  }
 
-  const result = await response.json<IRResult>();
+  if ('url' in options) {
+    response = await fetch(`${RETRIEVE_URL}/url?concepts&namedEntities`, {
+      method: 'post',
+      headers: {
+        'Content-type': 'text/plain'
+      },
+      body: options['url']
+    });
+  }
+
+
+  const result: IRResult = await response.json();
   console.log('Received ir:', JSON.stringify(result));
 
   return result;
